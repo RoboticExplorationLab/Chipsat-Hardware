@@ -1,0 +1,46 @@
+Panel,Voltage,Current,Power,Dimen Long,Dimen Short,Datasheet,,Area,Efficacy,,Effective width (compared to max efficacy),,
+,V,mA,mW,mm,mm,,,mm^2,uW/mm^2,,mm,,
+KXOB25-04X3F-TR,1.67,13.2,22.0,22,7,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Adzm/DubuDisk/www/Gen2/KXOB25-04X3F%20DATA%20SHEET%20202007.pdf,,154,143.14,,15,,
+KXOB25-12X1F-TR,0.56,43.9,24.6,22,7,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Adzn/DubuDisk/www/Gen2/KXOB25-12X1F%20DATA%20SHEET%20202007.pdf,,154,159.64,,17,,
+KXOB25-01X8F-TB,4.46,5.5,24.5,22,7,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Adzl/DubuDisk/www/Gen2/KXOB25-01X8F%20DATA%20SHEET%20202007.pdf,,154,159.29,,17,,
+,,,,,,,,,,,,,
+KXOB25-02X8F-TB,4.46,6.3,28.1,23,8,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae06/DubuDisk/www/Gen3/KXOB25-02X8F%20DATA%20SHEET%20202007.pdf,,184,152.71,,17,,
+KXOB25-03X4F-TR,2.23,13.5,30.1,23,8,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18AzRx/DubuDisk/www/Gen3/KXOB25-03X4F%20DATA%20SHEET%2020210127.pdf,,184,163.61,,18,,
+KXOB25-05X3F-TR,1.67,18.4,30.7,23,8,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae07/DubuDisk/www/Gen3/KXOB25-05X3F%20DATA%20SHEET%20202007.pdf,,184,167.00,,18,,
+KXOB25-14X1F-TR,0.56,55,30.8,23,8,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae08/DubuDisk/www/Gen3/KXOB25-14X1F%20DATA%20SHEET%20202007.pdf,,184,167.39,,18,,
+,,,,,,,,,,,,,
+SM340K10L,5.58,13.2,74,34,16,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Adzv/DubuDisk/www/Gen2/SM340K10L%20DATA%20SHEET%20202007.pdf,,544,135.40,,22,,
+SM400K10L,5.58,15.4,86,33,15,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae0I/DubuDisk/www/Gen3/SM400K10L%20DATA%20SHEET%20202007.pdf,,495,173.60,,27,,
+SM111K04L,2.23,43.9,98,43,14,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Adzo/DubuDisk/www/Gen2/SM111K04L%20DATA%20SHEET%20202007.pdf,,602,162.62,,33,,
+,,,,,,,,,,,,,
+KXOB121K04F-TR,2.23,47.2,105,25,23,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18AzS1/DubuDisk/www/Gen3/KXOB121K04F%20DATA%20SHEET%2020210127.pdf,,575,183.05,,22,,
+KXOB061K08F-TR,4.46,23.7,106,25,23,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18AzRy/DubuDisk/www/Gen3/KXOB061K08F%20DATA%20SHEET%2020210127.pdf,,575,183.83,,22,,
+KXOB081K06F-TR,3.35,31.6,106,25,23,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18AzRz/DubuDisk/www/Gen3/KXOB081K06F%20DATA%20SHEET%2020210127.pdf,,575,184.10,,22,,
+,,,,,,,,,,,,,
+SM141K04L,2.23,55.1,123,45,15,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae0B/DubuDisk/www/Gen3/SM141K04LV%20DATA%20SHEET%20202007.pdf,,675,182.03,,39,,
+SM500K12L,6.7,19.8,133,32,24,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae0J/DubuDisk/www/Gen3/SM500K12L%20DATA%20SHEET%20202007.pdf,,768,172.73,,26,,
+SM111K06L,3.35,43.9,147,42,21,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Adzp/DubuDisk/www/Gen2/SM111K06L%20DATA%20SHEET%20202007.pdf,,882,166.74,,33,,Prefix
+SM141K05L,2.79,58.6,163,35,22,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18AoJI/DubuDisk/www/Gen3/SM141K05L%20DATA%20SHEET%20202007.pdf,,770,212.33,,35,,KXOB series: SMT capable series. Fixed form factor.
+SM101K07L,3.91,39.3,154,35,22,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18BEtg/DubuDisk/www/Gen3/SM101K07TF%20DATA%20SHEET%20202105.pdf,,770,199.56,,33,,SM Series: Non-SMT series (hand soldering recommended). Flexible form factor.
+SM700K10L,5.58,27.7,155,36,24,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae0N/DubuDisk/www/Gen3/SM700K10L%20DATA%20SHEET%20202007.pdf,,864,178.90,,30,,
+,,,,,,,,,,,,,Suffix
+KXOB201K04F-TR,2.23,87.8,196,42,23,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Azeg/DubuDisk/www/Gen3/KXOB201K04TF%20DATA%20SHEET%2020210127.pdf,,966,202.69,,40,,L: PC (Polycarbonate) finish.
+KXOB101K08F-TR,4.46,40.2,179,42,23,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18AzS0/DubuDisk/www/Gen3/KXOB101K08F%20DATA%20SHEET%2020210127.pdf,,966,185.60,,37,,F: ETFE (Ethylene Tetrafluoroethylene) finish.
+KXOB141K06F-TR,3.35,55,184,42,23,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18AzS2/DubuDisk/www/Gen3/KXOB141K06F%20DATA%20SHEET%2020210127.pdf,,966,190.73,,38,,T: Thin PCB
+,,,,,,,,,,,,,V: Internal vertical cell array
+SM141K06L,3.35,55.1,185,42,23,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae0C/DubuDisk/www/Gen3/SM141K06L%20DATA%20SHEET%20202007.pdf,,966,191.08,,38,,S: Rear contact pad location
+SM940K09L,5.02,36.6,184,44.5,21.5,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae03/DubuDisk/www/Gen2/SM940K09L%20DATA%20SHEET%20202007.pdf,,957,192.04,,40,,
+SM710K12L,6.7,27.4,184,33,32.5,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18AoJc/DubuDisk/www/Gen2/SM710K12L%20DATA%20SHEET%20202007.pdf,,1073,171.17,,27,,
+SM730K12L,6.7,28.2,189,33,32,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae0O/DubuDisk/www/Gen3/SM730K12L%20DATA%20SHEET%20202007.pdf,,1056,178.92,,28,Maximum efficiency,212.3298701
+SM101K09L,5.02,39.3,197,47,23,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae09/DubuDisk/www/Gen3/SM101K09L%20DATA%20SHEET%20202007.pdf,,1081,182.50,,40,,
+SM111K08L,4.46,43.9,196,87,14,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Adzq/DubuDisk/www/Gen2/SM111K08L%20DATA%20SHEET%20202007.pdf,,1218,160.75,,66,,
+,,,,,,,,,,,,,
+SM141K07L,3.91,55.1,215,50,23,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18AoJK/DubuDisk/www/Gen3/SM141K07L%20DATA%20SHEET%20202007.pdf,,1150,187.34,,44,,
+SM111K09L,5.02,43.9,220,62,21,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Adzr/DubuDisk/www/Gen2/SM111K09L%20DATA%20SHEET%20202007.pdf,,1302,169.26,,49,,
+SM850K12L,6.7,32.9,220,38.5,33,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18AoJd/DubuDisk/www/Gen2/SM850K12L%20DATA%20SHEET%20202007.pdf,,1271,173.50,,31,,
+,,,,,,,,,,,,,
+SM141K08LV,4.46,55.1,246,45,29,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18AoJL/DubuDisk/www/Gen3/SM141K08LV%20DATA%20SHEET%20202007.pdf,,1305,188.31,,40,,
+SM141K10L,5.58,55.1,307,70,23,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18AoJM/DubuDisk/www/Gen3/SM141K10L%20DATA%20SHEET%20202007.pdf,,1610,190.97,,63,,
+SM261K05L,2.79,102.3,285,67,25,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18AzrS/DubuDisk/www/Gen3/SM261K05L%20DATA%20SHEET%2020210127.pdf,,1675,170.40,,54,,
+SM261K10L,5.58,102.3,571,67,45,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18AzrT/DubuDisk/www/Gen3/SM261K10L%20DATA%20SHEET%2020210127.pdf,,3015,189.33,,60,,
+SM351K09L,5.02,138.3,694,64,57,https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae0H/DubuDisk/www/Gen3/SM351K09L%20DATA%20SHEET%20202007.pdf,,3648,190.31,,57,,

@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "9759dfc7-8f47-4c80-97ee-9430a16bdd32")
+	(uuid "0b87f6fe-b5d2-4b42-9d29-c5f3f638f348")
 	(paper "A3" portrait)
 	(title_block
 		(title "ChipSat")
@@ -5961,7 +5961,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "374K"
+		(property "Value" "374k"
 			(at 105.283 318.135 0)
 			(effects
 				(font
@@ -6629,7 +6629,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "24e651cc-5fb6-45d2-95f5-adeecbd959c7")
 		(property "Reference" "R43"
 			(at 171.45 79.883 90)
@@ -6640,7 +6640,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "DNI (0R)"
+		(property "Value" "0R"
 			(at 171.45 82.677 90)
 			(effects
 				(font
@@ -7246,7 +7246,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "41d76704-a1cf-4700-b3d8-cab7ab6502e7")
 		(property "Reference" "R44"
 			(at 189.23 79.883 90)
@@ -7257,7 +7257,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "DNI (0R)"
+		(property "Value" "0R"
 			(at 189.23 82.677 90)
 			(effects
 				(font
@@ -7719,7 +7719,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5eff432f-2286-4d16-8ce1-f9ccdea04ba3")
 		(property "Reference" "R58"
 			(at 184.15 262.763 90)
@@ -7730,7 +7730,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "DNI (0R)"
+		(property "Value" "0R"
 			(at 184.15 265.557 90)
 			(effects
 				(font
@@ -9294,7 +9294,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "374K"
+		(property "Value" "374k"
 			(at 110.363 135.255 0)
 			(effects
 				(font
@@ -9352,7 +9352,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8e701a1f-b261-4410-801c-2fdd07cf370f")
 		(property "Reference" "R69"
 			(at 182.88 340.868 90)
@@ -9362,7 +9362,7 @@
 				)
 			)
 		)
-		(property "Value" "DNI (0R)"
+		(property "Value" "0R"
 			(at 182.88 345.186 90)
 			(effects
 				(font
@@ -10113,7 +10113,7 @@
 		(fields_autoplaced yes)
 		(uuid "addb9846-2d80-493b-ac17-d09eafaf9c9b")
 		(property "Reference" "R60"
-			(at 252.984 287.0199 0)
+			(at 252.73 287.0199 0)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -10121,8 +10121,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNI (0R)"
-			(at 252.984 289.5599 0)
+		(property "Value" "0R"
+			(at 252.73 289.5599 0)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -10798,7 +10798,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c3d14af7-6fb4-4805-8ae0-7848c6599da7")
 		(property "Reference" "R57"
 			(at 166.37 262.763 90)
@@ -10809,7 +10809,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "DNI (0R)"
+		(property "Value" "0R"
 			(at 166.37 265.557 90)
 			(effects
 				(font

@@ -20618,7 +20618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 242.57 251.46 0)
 			(effects
 				(font
@@ -20688,7 +20688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 304.8 49.53 0)
 			(effects
 				(font
@@ -20826,7 +20826,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 306.07 87.63 0)
 			(effects
 				(font
@@ -20893,7 +20893,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 332.74 173.99 0)
 			(effects
 				(font
@@ -21456,7 +21456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.1852 247.65 0)
 			(effects
 				(font
@@ -21594,7 +21594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 242.57 236.22 0)
 			(effects
 				(font
@@ -22354,15 +22354,6 @@
 		)
 		(property "Description" ""
 			(at 260.35 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "2302"
-			(at 260.35 317.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23165,7 +23156,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 332.74 156.21 0)
 			(effects
 				(font
@@ -23767,7 +23758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 147.32 114.3 0)
 			(effects
 				(font
@@ -23827,7 +23818,7 @@
 				)
 			)
 		)
-		(property "Value" "200K"
+		(property "Value" "200k"
 			(at 363.22 265.303 90)
 			(effects
 				(font
@@ -24529,22 +24520,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Or DMP2022LSS-13"
 			(at 287.02 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "DMP2022LSS-13"
-			(at 287.02 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -25345,7 +25326,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 45.72 328.93 0)
 			(effects
 				(font
@@ -25546,7 +25527,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "4.7k"
 			(at 252.73 307.848 90)
 			(effects
 				(font
@@ -26473,7 +26454,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 332.74 158.75 0)
 			(effects
 				(font
@@ -27905,7 +27886,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 80.01 328.93 0)
 			(effects
 				(font
@@ -28037,7 +28018,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 332.74 171.45 0)
 			(effects
 				(font
@@ -28357,7 +28338,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a2ac81ea-536f-4a57-8ba9-8d390c9d7f51")
 		(property "Reference" "R24"
 			(at 329.692 256.794 0)
@@ -28367,7 +28348,7 @@
 				)
 			)
 		)
-		(property "Value" "DNI (0R)"
+		(property "Value" "0R"
 			(at 328.168 258.953 0)
 			(effects
 				(font
@@ -28575,7 +28556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 287.02 58.42 0)
 			(effects
 				(font
@@ -28850,7 +28831,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 115.57 328.93 0)
 			(effects
 				(font
@@ -29342,7 +29323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 31.75 142.24 0)
 			(effects
 				(font
@@ -31349,7 +31330,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 332.74 161.29 0)
 			(effects
 				(font
@@ -32692,7 +32673,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100k"
 			(at 266.954 313.436 0)
 			(effects
 				(font

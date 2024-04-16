@@ -415,7 +415,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -648,6 +648,14 @@
     [
       "84e3b933-815e-427c-8495-a0670a0eaec2",
       "Root"
+    ],
+    [
+      "2cbf8793-1d67-46ce-b784-6f699fd3363b",
+      "Power Supply"
+    ],
+    [
+      "3e719782-6e58-4332-9539-007f3d0bf131",
+      "Solar Panels"
     ]
   ],
   "text_variables": {}

@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "ecd48d83-ea2b-43b4-8b1a-3a77822af5cb")
+	(uuid "9759dfc7-8f47-4c80-97ee-9430a16bdd32")
 	(paper "A3" portrait)
 	(title_block
 		(title "ChipSat")
@@ -5753,7 +5753,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "003e4890-571f-43db-834c-846f2cf24568")
-		(property "Reference" "C37"
+		(property "Reference" "C61"
 			(at 183.134 165.608 0)
 			(effects
 				(font
@@ -5807,7 +5807,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "C37")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -5822,7 +5822,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "012b345b-8389-494b-9034-edc81c6042ec")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR0123"
 			(at 250.19 285.75 0)
 			(effects
 				(font
@@ -5872,7 +5872,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR067")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -5887,7 +5887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01b2fc5b-38fe-430f-b2d0-86072db53151")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR0117"
 			(at 181.61 152.4 0)
 			(effects
 				(font
@@ -5937,7 +5937,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR048")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -5952,7 +5952,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03bd3abb-f720-40cc-bcb4-2a1e40df5533")
-		(property "Reference" "R41"
+		(property "Reference" "R61"
 			(at 104.013 314.706 0)
 			(effects
 				(font
@@ -6006,7 +6006,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R41")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -6021,7 +6021,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0821f94a-67da-4d29-a007-da26a1596ae8")
-		(property "Reference" "R54"
+		(property "Reference" "R56"
 			(at 169.418 166.37 90)
 			(effects
 				(font
@@ -6073,7 +6073,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R54")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -6088,7 +6088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0aa632fe-6c9d-4c79-9327-27827563cb8a")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR0119"
 			(at 171.45 176.53 0)
 			(effects
 				(font
@@ -6138,7 +6138,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR023")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -6153,7 +6153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ae171f6-5292-4c2a-b80c-326bfc321a71")
-		(property "Reference" "D12"
+		(property "Reference" "D10"
 			(at 187.198 58.166 90)
 			(effects
 				(font
@@ -6205,7 +6205,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "D12")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -6220,7 +6220,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ca335f2-26db-4c02-b6e6-3e2d377afeeb")
-		(property "Reference" "C41"
+		(property "Reference" "C52"
 			(at 204.47 95.504 0)
 			(effects
 				(font
@@ -6274,7 +6274,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "C41")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -6289,7 +6289,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19256112-ac80-41ec-a763-f92559e8b3ea")
-		(property "Reference" "R40"
+		(property "Reference" "R52"
 			(at 92.71 150.876 0)
 			(effects
 				(font
@@ -6343,7 +6343,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R40")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -6359,7 +6359,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a1d52d7-8200-4f55-9b80-0eb844a0b62a")
-		(property "Reference" "SC5"
+		(property "Reference" "SC6"
 			(at 165.1 236.474 0)
 			(effects
 				(font
@@ -6411,7 +6411,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "SC5")
+					(reference "SC6")
 					(unit 1)
 				)
 			)
@@ -6426,7 +6426,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a476345-7535-4e4b-87a9-8d278ef3f57f")
-		(property "Reference" "R37"
+		(property "Reference" "R49"
 			(at 92.71 138.176 0)
 			(effects
 				(font
@@ -6480,7 +6480,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R37")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -6495,7 +6495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c0ec31e-8981-4e40-bc75-2c5ff4219137")
-		(property "Reference" "C48"
+		(property "Reference" "C59"
 			(at 258.064 113.284 0)
 			(effects
 				(font
@@ -6549,7 +6549,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "C48")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -6564,7 +6564,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f3374b5-33c9-41d8-a33c-118aabb3ceda")
-		(property "Reference" "D5"
+		(property "Reference" "D12"
 			(at 93.98 223.012 0)
 			(effects
 				(font
@@ -6616,7 +6616,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "D5")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -6631,7 +6631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24e651cc-5fb6-45d2-95f5-adeecbd959c7")
-		(property "Reference" "R53"
+		(property "Reference" "R43"
 			(at 171.45 79.883 90)
 			(effects
 				(font
@@ -6694,7 +6694,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R53")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -6709,7 +6709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25eb7632-423c-427b-95b8-468316376458")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR0129"
 			(at 176.53 335.28 0)
 			(effects
 				(font
@@ -6759,7 +6759,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR031")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -6774,7 +6774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2657de8c-a446-48a3-b9da-b1e625c038e5")
-		(property "Reference" "D11"
+		(property "Reference" "D15"
 			(at 182.118 242.316 90)
 			(effects
 				(font
@@ -6826,7 +6826,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "D11")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -6841,7 +6841,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26e1933b-9dba-42c9-980e-eb622b9b4255")
-		(property "Reference" "R55"
+		(property "Reference" "R59"
 			(at 181.61 277.114 90)
 			(effects
 				(font
@@ -6895,7 +6895,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R55")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -6911,7 +6911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37b367b8-b34d-46e1-bcbb-e3086637c439")
-		(property "Reference" "R64"
+		(property "Reference" "R46"
 			(at 258.064 104.1399 0)
 			(effects
 				(font
@@ -6965,7 +6965,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R64")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -6980,7 +6980,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a703750-7ed0-49d4-ab27-02f6e8ea2ec3")
-		(property "Reference" "C45"
+		(property "Reference" "C53"
 			(at 214.63 95.504 0)
 			(effects
 				(font
@@ -7034,7 +7034,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "C45")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -7049,7 +7049,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d7083b6-d5c5-4d76-ac11-dac0ac6111a9")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR0128"
 			(at 232.41 309.88 0)
 			(effects
 				(font
@@ -7099,7 +7099,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR059")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -7114,7 +7114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4071e49c-dc94-48a4-8685-73344ec5a6df")
-		(property "Reference" "C43"
+		(property "Reference" "C63"
 			(at 209.55 278.384 0)
 			(effects
 				(font
@@ -7168,7 +7168,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "C43")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -7183,7 +7183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4165d112-cdb2-4f3e-a54c-fc5f47b3ef5d")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR0120"
 			(at 180.34 176.53 0)
 			(effects
 				(font
@@ -7233,7 +7233,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR032")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -7248,7 +7248,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41d76704-a1cf-4700-b3d8-cab7ab6502e7")
-		(property "Reference" "R60"
+		(property "Reference" "R44"
 			(at 189.23 79.883 90)
 			(effects
 				(font
@@ -7311,7 +7311,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R60")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -7327,7 +7327,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "433bf80c-449a-49a0-ac0c-260364e5c34c")
-		(property "Reference" "SC4"
+		(property "Reference" "SC2"
 			(at 134.62 52.324 0)
 			(effects
 				(font
@@ -7379,7 +7379,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "SC4")
+					(reference "SC2")
 					(unit 1)
 				)
 			)
@@ -7394,7 +7394,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49f99547-e6e8-4cdc-97c1-9f64dcefdd5b")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR0112"
 			(at 212.09 109.22 0)
 			(effects
 				(font
@@ -7444,7 +7444,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR058")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -7459,7 +7459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b489809-a1e5-4348-a522-f4e9d4bd26fb")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR0130"
 			(at 85.09 351.79 0)
 			(effects
 				(font
@@ -7509,7 +7509,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR016")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -7524,7 +7524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51e73503-c61a-47b5-a629-08393213c8af")
-		(property "Reference" "R59"
+		(property "Reference" "R55"
 			(at 187.96 157.988 90)
 			(effects
 				(font
@@ -7576,7 +7576,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R59")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -7591,7 +7591,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "534d5940-5846-463e-b3df-a98dceb7160a")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR0121"
 			(at 74.93 243.84 0)
 			(effects
 				(font
@@ -7641,7 +7641,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR013")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -7656,7 +7656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c97f4d2-393d-40c3-8553-2f2d8318b214")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR0126"
 			(at 196.85 308.61 0)
 			(effects
 				(font
@@ -7706,7 +7706,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR049")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -7721,7 +7721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5eff432f-2286-4d16-8ce1-f9ccdea04ba3")
-		(property "Reference" "R57"
+		(property "Reference" "R58"
 			(at 184.15 262.763 90)
 			(effects
 				(font
@@ -7784,7 +7784,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R57")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -7799,7 +7799,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f6173ba-f60a-4b6f-9adc-f125d5c6ea71")
-		(property "Reference" "C44"
+		(property "Reference" "C68"
 			(at 209.804 296.164 0)
 			(effects
 				(font
@@ -7853,7 +7853,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "C44")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -7868,7 +7868,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60e6e200-7e74-46ae-a273-3c8348d58784")
-		(property "Reference" "C25"
+		(property "Reference" "C71"
 			(at 178.054 348.488 0)
 			(effects
 				(font
@@ -7922,7 +7922,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "C25")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -7937,7 +7937,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6164605d-629f-4653-ac08-3e9f689c6b78")
-		(property "Reference" "U5"
+		(property "Reference" "U22"
 			(at 152.7556 125.5014 0)
 			(effects
 				(font
@@ -8049,7 +8049,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "U5")
+					(reference "U22")
 					(unit 1)
 				)
 			)
@@ -8064,7 +8064,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6419f50e-6578-4e9c-a125-661011ea5490")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR0116"
 			(at 238.76 127 0)
 			(effects
 				(font
@@ -8114,7 +8114,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR060")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -8129,7 +8129,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66c09ff8-15c0-46f5-9cec-7d83a0489f83")
-		(property "Reference" "R62"
+		(property "Reference" "R48"
 			(at 199.39 132.207 90)
 			(effects
 				(font
@@ -8183,7 +8183,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R62")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -8198,7 +8198,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69683f94-39da-4976-abb2-69577f2c4ede")
-		(property "Reference" "R50"
+		(property "Reference" "R54"
 			(at 124.968 155.956 0)
 			(effects
 				(font
@@ -8252,7 +8252,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R50")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -8267,7 +8267,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b3eadac-9d34-4cdb-953f-06491b5b97d1")
-		(property "Reference" "L1"
+		(property "Reference" "L4"
 			(at 114.046 271.78 90)
 			(effects
 				(font
@@ -8321,7 +8321,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "L1")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -8336,7 +8336,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e9bce68-f0cf-4afe-9af9-22616f322465")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR0110"
 			(at 203.2 88.9 0)
 			(effects
 				(font
@@ -8386,7 +8386,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR056")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -8402,7 +8402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73f2cdc8-d450-4e8b-87ba-4e04e85fb802")
-		(property "Reference" "U6"
+		(property "Reference" "U23"
 			(at 232.41 286.893 0)
 			(effects
 				(font
@@ -8463,7 +8463,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "U6")
+					(reference "U23")
 					(unit 1)
 				)
 			)
@@ -8478,7 +8478,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74932a27-be29-4317-bc12-025140688bca")
-		(property "Reference" "D10"
+		(property "Reference" "D9"
 			(at 170.18 38.862 0)
 			(effects
 				(font
@@ -8530,7 +8530,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "D10")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -8545,7 +8545,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7611bf91-26ca-459d-a8e2-affaf7af02af")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR0113"
 			(at 88.9 116.84 0)
 			(effects
 				(font
@@ -8595,7 +8595,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR017")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -8610,7 +8610,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7622056f-036f-4d8d-948d-1763b5f9fb93")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR0124"
 			(at 207.01 292.1 0)
 			(effects
 				(font
@@ -8660,7 +8660,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR057")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -8675,7 +8675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7891c9b6-8530-4c29-8652-ffca92ae2900")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR0114"
 			(at 201.93 125.73 0)
 			(effects
 				(font
@@ -8725,7 +8725,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR053")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -8741,7 +8741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d8d37ae-0ba6-4844-b45c-a851337ece9e")
-		(property "Reference" "SC1"
+		(property "Reference" "SC4"
 			(at 93.98 236.474 0)
 			(effects
 				(font
@@ -8793,7 +8793,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "SC1")
+					(reference "SC4")
 					(unit 1)
 				)
 			)
@@ -8808,7 +8808,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81d0761a-7ba4-47c3-a814-5f0eabe9425c")
-		(property "Reference" "R12"
+		(property "Reference" "R66"
 			(at 87.63 333.756 0)
 			(effects
 				(font
@@ -8862,7 +8862,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R12")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -8877,7 +8877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81fcc51b-50f8-4391-a024-146c8e1ee19c")
-		(property "Reference" "R47"
+		(property "Reference" "R65"
 			(at 119.888 326.136 0)
 			(effects
 				(font
@@ -8931,7 +8931,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R47")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -8946,7 +8946,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82f51c14-cbe2-4615-9c9a-a975198e7611")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR0125"
 			(at 83.82 299.72 0)
 			(effects
 				(font
@@ -8996,7 +8996,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR015")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -9011,7 +9011,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83e38256-7465-4059-9a64-e09e3ecc6c30")
-		(property "Reference" "D9"
+		(property "Reference" "D14"
 			(at 165.1 223.012 0)
 			(effects
 				(font
@@ -9063,7 +9063,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "D9")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -9078,7 +9078,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b57ed63-ed10-44db-9fbc-63b362d11a09")
-		(property "Reference" "R49"
+		(property "Reference" "R51"
 			(at 124.968 143.256 0)
 			(effects
 				(font
@@ -9132,7 +9132,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R49")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -9147,7 +9147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c34a524-6a33-4c9a-9425-6a47fc7760b1")
-		(property "Reference" "C46"
+		(property "Reference" "C58"
 			(at 214.884 113.284 0)
 			(effects
 				(font
@@ -9201,7 +9201,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "C46")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -9216,7 +9216,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c6fe8c2-6362-456e-a3a2-1aafba905630")
-		(property "Reference" "R61"
+		(property "Reference" "R62"
 			(at 194.31 315.087 90)
 			(effects
 				(font
@@ -9270,7 +9270,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R61")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -9285,7 +9285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d39eff4-45ab-4c1c-95e2-ba86c28184a9")
-		(property "Reference" "R44"
+		(property "Reference" "R47"
 			(at 109.093 131.826 0)
 			(effects
 				(font
@@ -9339,7 +9339,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R44")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -9354,7 +9354,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e701a1f-b261-4410-801c-2fdd07cf370f")
-		(property "Reference" "R56"
+		(property "Reference" "R69"
 			(at 182.88 340.868 90)
 			(effects
 				(font
@@ -9406,7 +9406,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R56")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -9421,7 +9421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93b11469-9aef-48dd-b91c-1d478cffb6b3")
-		(property "Reference" "C7"
+		(property "Reference" "C65"
 			(at 86.36 283.718 0)
 			(effects
 				(font
@@ -9475,7 +9475,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "C7")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -9490,7 +9490,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "959d5f6d-14a9-4323-ab02-813ba93c73e7")
-		(property "Reference" "D2"
+		(property "Reference" "D16"
 			(at 59.817 283.591 90)
 			(effects
 				(font
@@ -9544,7 +9544,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "D2")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -9559,7 +9559,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95b24985-6363-460c-913b-a1df053d5175")
-		(property "Reference" "R42"
+		(property "Reference" "R64"
 			(at 104.14 326.136 0)
 			(effects
 				(font
@@ -9613,7 +9613,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R42")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -9628,7 +9628,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9936fe7b-663b-4951-8601-cca0b710ad27")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR0118"
 			(at 90.17 168.91 0)
 			(effects
 				(font
@@ -9678,7 +9678,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR018")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -9693,7 +9693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b20ae3b-f118-4cdc-9cad-db6572f6bd8f")
-		(property "Reference" "D7"
+		(property "Reference" "D13"
 			(at 129.54 223.012 0)
 			(effects
 				(font
@@ -9745,7 +9745,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "D7")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -9760,7 +9760,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c210e85-e4eb-45cc-9bfb-e93ba461b097")
-		(property "Reference" "C8"
+		(property "Reference" "C55"
 			(at 91.44 100.838 0)
 			(effects
 				(font
@@ -9814,7 +9814,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "C8")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -9829,7 +9829,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cc4b6d2-cb07-4431-b670-6435f099f0a9")
-		(property "Reference" "C4"
+		(property "Reference" "C64"
 			(at 76.2 283.718 0)
 			(effects
 				(font
@@ -9883,7 +9883,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "C4")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -9899,7 +9899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ee6deef-d64a-481f-b008-9da7824611aa")
-		(property "Reference" "U15"
+		(property "Reference" "U21"
 			(at 238.76 104.013 0)
 			(effects
 				(font
@@ -9960,7 +9960,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "U15")
+					(reference "U21")
 					(unit 1)
 				)
 			)
@@ -10042,7 +10042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa924b4f-7263-41c7-b3ad-cc6cfec89f19")
-		(property "Reference" "R45"
+		(property "Reference" "R50"
 			(at 109.22 143.256 0)
 			(effects
 				(font
@@ -10096,7 +10096,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R45")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -10112,7 +10112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "addb9846-2d80-493b-ac17-d09eafaf9c9b")
-		(property "Reference" "R63"
+		(property "Reference" "R60"
 			(at 252.984 287.0199 0)
 			(effects
 				(font
@@ -10175,7 +10175,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R63")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -10190,7 +10190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae95ed19-a7c6-4d79-8d8b-7f238f67e142")
-		(property "Reference" "C24"
+		(property "Reference" "C56"
 			(at 101.6 100.838 0)
 			(effects
 				(font
@@ -10244,7 +10244,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "C24")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -10259,7 +10259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af38b150-249a-47c4-8ed5-d7adcc7064da")
-		(property "Reference" "R43"
+		(property "Reference" "R67"
 			(at 104.267 338.836 0)
 			(effects
 				(font
@@ -10313,7 +10313,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R43")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -10328,7 +10328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b083b05a-58b9-4603-ac6b-467061c781c8")
-		(property "Reference" "C42"
+		(property "Reference" "C57"
 			(at 204.724 113.284 0)
 			(effects
 				(font
@@ -10382,7 +10382,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "C42")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -10397,7 +10397,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5c9e2cb-6e2a-48e1-9222-d14f7e1dda39")
-		(property "Reference" "C47"
+		(property "Reference" "C69"
 			(at 252.984 296.164 0)
 			(effects
 				(font
@@ -10451,7 +10451,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "C47")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -10466,7 +10466,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9810341-0a83-43f1-8056-94f6f194d452")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR0115"
 			(at 255.27 125.73 0)
 			(effects
 				(font
@@ -10516,7 +10516,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR079")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -10531,7 +10531,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be4d5ff9-10ee-41d8-b593-b481bb2ef9fb")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR0122"
 			(at 198.12 271.78 0)
 			(effects
 				(font
@@ -10581,7 +10581,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR052")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -10597,7 +10597,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bec27d1b-de65-4bc4-bcb9-32e8ea37ce28")
-		(property "Reference" "SC3"
+		(property "Reference" "SC5"
 			(at 129.54 236.474 0)
 			(effects
 				(font
@@ -10649,7 +10649,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "SC3")
+					(reference "SC5")
 					(unit 1)
 				)
 			)
@@ -10664,7 +10664,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1572e3d-534a-4b33-8fae-7c5c895c03bf")
-		(property "Reference" "C21"
+		(property "Reference" "C66"
 			(at 96.52 283.718 0)
 			(effects
 				(font
@@ -10718,7 +10718,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "C21")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -10733,7 +10733,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c368c453-3405-4d2e-9218-dcbb32cbcdb7")
-		(property "Reference" "R52"
+		(property "Reference" "R70"
 			(at 165.608 349.25 90)
 			(effects
 				(font
@@ -10785,7 +10785,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R52")
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -10800,7 +10800,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3d14af7-6fb4-4805-8ae0-7848c6599da7")
-		(property "Reference" "R51"
+		(property "Reference" "R57"
 			(at 166.37 262.763 90)
 			(effects
 				(font
@@ -10863,7 +10863,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R51")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -10947,7 +10947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6fc9db0-ee72-44e5-bc6f-16b4be599478")
-		(property "Reference" "L4"
+		(property "Reference" "L3"
 			(at 191.77 104.394 90)
 			(effects
 				(font
@@ -11001,7 +11001,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "L4")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -11016,7 +11016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7069e63-630a-4bae-aead-7e0ebe995ed0")
-		(property "Reference" "L3"
+		(property "Reference" "L5"
 			(at 186.69 287.274 90)
 			(effects
 				(font
@@ -11070,7 +11070,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "L3")
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -11085,7 +11085,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb59edf6-e432-468f-a877-c8ce2a5afe46")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR0127"
 			(at 250.19 308.61 0)
 			(effects
 				(font
@@ -11135,7 +11135,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR068")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -11150,7 +11150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccf99610-9061-4872-a8ff-69e8fdc2006b")
-		(property "Reference" "C6"
+		(property "Reference" "C54"
 			(at 81.28 100.838 0)
 			(effects
 				(font
@@ -11204,7 +11204,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "C6")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -11219,7 +11219,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf1a91b2-8b5c-4187-8ef7-387a7bbcd0f9")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR0111"
 			(at 255.27 102.87 0)
 			(effects
 				(font
@@ -11269,7 +11269,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR078")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -11285,7 +11285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d06801d9-15a6-4247-9c48-06ba0bdc2616")
-		(property "Reference" "SC6"
+		(property "Reference" "SC3"
 			(at 170.18 52.324 0)
 			(effects
 				(font
@@ -11337,7 +11337,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "SC6")
+					(reference "SC3")
 					(unit 1)
 				)
 			)
@@ -11352,7 +11352,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0c0e3a9-cd1b-49bc-a5a8-f56b86ed154c")
-		(property "Reference" "R46"
+		(property "Reference" "R53"
 			(at 109.347 155.956 0)
 			(effects
 				(font
@@ -11406,7 +11406,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R46")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -11421,7 +11421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d40eac06-f3fd-40a9-adac-110b88bb1fe6")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR0109"
 			(at 80.01 59.69 0)
 			(effects
 				(font
@@ -11471,7 +11471,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR014")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -11486,7 +11486,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d88ab4e6-b888-4914-8515-5b9d19179266")
-		(property "Reference" "C39"
+		(property "Reference" "C62"
 			(at 199.39 278.384 0)
 			(effects
 				(font
@@ -11540,7 +11540,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "C39")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -11555,7 +11555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da042ad8-9294-4e15-8365-068a5b968605")
-		(property "Reference" "C38"
+		(property "Reference" "C60"
 			(at 184.404 125.984 0)
 			(effects
 				(font
@@ -11609,7 +11609,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "C38")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -11624,7 +11624,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da6d1d5d-c032-48c1-b234-dc3be20f2ded")
-		(property "Reference" "C31"
+		(property "Reference" "C70"
 			(at 179.324 308.864 0)
 			(effects
 				(font
@@ -11678,7 +11678,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "C31")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -11693,7 +11693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dabb65bc-5440-4691-927a-432796fdcb40")
-		(property "Reference" "R48"
+		(property "Reference" "R68"
 			(at 119.888 338.836 0)
 			(effects
 				(font
@@ -11747,7 +11747,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R48")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -11762,7 +11762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db3e635f-5566-4f58-a121-c66b5d43cfde")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 99.06 38.862 0)
 			(effects
 				(font
@@ -11814,7 +11814,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -11830,7 +11830,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db711fa8-6777-406e-9a03-072643beae95")
-		(property "Reference" "SC2"
+		(property "Reference" "SC1"
 			(at 99.06 52.324 0)
 			(effects
 				(font
@@ -11882,7 +11882,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "SC2")
+					(reference "SC1")
 					(unit 1)
 				)
 			)
@@ -11897,7 +11897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0d96184-ae98-46f5-9c60-945bb5f8a366")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR0131"
 			(at 167.64 359.41 0)
 			(effects
 				(font
@@ -11947,7 +11947,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR019")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -11962,7 +11962,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0f569c8-0e9d-48db-b7f1-7fdf49d7dd13")
-		(property "Reference" "R58"
+		(property "Reference" "R45"
 			(at 186.69 94.234 90)
 			(effects
 				(font
@@ -12016,7 +12016,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R58")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -12031,7 +12031,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e568e7c1-8a72-4ba8-a607-fbfa3e6ede82")
-		(property "Reference" "D3"
+		(property "Reference" "D11"
 			(at 64.897 100.711 90)
 			(effects
 				(font
@@ -12085,7 +12085,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "D3")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -12100,7 +12100,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e91d563e-7d37-4ef8-b5c9-06a288218bf8")
-		(property "Reference" "U4"
+		(property "Reference" "U24"
 			(at 147.6756 308.3814 0)
 			(effects
 				(font
@@ -12213,7 +12213,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "U4")
+					(reference "U24")
 					(unit 1)
 				)
 			)
@@ -12228,7 +12228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f70dae6a-5f36-4e17-8285-7ec605c58348")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR0132"
 			(at 175.26 359.41 0)
 			(effects
 				(font
@@ -12278,7 +12278,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "#PWR024")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -12293,7 +12293,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8fba5f1-068c-4e01-a975-b1fa035536f8")
-		(property "Reference" "R6"
+		(property "Reference" "R63"
 			(at 87.63 321.056 0)
 			(effects
 				(font
@@ -12347,7 +12347,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "R6")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -12362,7 +12362,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f93b3c6a-eba6-49d8-a3ce-2f3421355554")
-		(property "Reference" "C40"
+		(property "Reference" "C67"
 			(at 199.644 296.164 0)
 			(effects
 				(font
@@ -12416,7 +12416,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3e719782-6e58-4332-9539-007f3d0bf131"
-					(reference "C40")
+					(reference "C67")
 					(unit 1)
 				)
 			)

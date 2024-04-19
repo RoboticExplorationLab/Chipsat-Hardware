@@ -16187,17 +16187,6 @@
 		)
 		(uuid "22f2b5e5-cc1c-4d10-aa7e-2438c0da4f75")
 	)
-	(text "Check datasheet for\nsuggested inductor"
-		(exclude_from_sim no)
-		(at 43.18 68.58 0)
-		(effects
-			(font
-				(size 0.6 0.6)
-			)
-			(justify right)
-		)
-		(uuid "2641cd4a-dc95-4c2b-9f5c-c30f3276515d")
-	)
 	(text "WATCH-DOG TIMER"
 		(exclude_from_sim no)
 		(at 323.85 217.17 0)
@@ -16295,17 +16284,6 @@
 			(justify left bottom)
 		)
 		(uuid "9d1ce421-32b7-4464-b72c-c3bda972fcf6")
-	)
-	(text "Check datasheet for\nsuggested capacitor"
-		(exclude_from_sim no)
-		(at 149.86 88.9 0)
-		(effects
-			(font
-				(size 0.6 0.6)
-			)
-			(justify right)
-		)
-		(uuid "9ddeaed3-9dfb-4066-a3ae-6d4f3d236039")
 	)
 	(text "FLASH STORAGE"
 		(exclude_from_sim no)
@@ -19894,6 +19872,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "FTSH-105-01-L-DV-007-K"
+			(at 203.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73b0fa99-f5d0-47cf-a85c-2fc5fe5074d7")
 		)
@@ -19979,6 +19966,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 116.84 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
 			(at 116.84 46.99 0)
 			(effects
 				(font
@@ -20645,6 +20641,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
+			(at 242.57 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2acd7f8e-4c6f-4347-b6cc-e884cdc27863")
 		)
@@ -20707,6 +20712,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 304.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1002V"
 			(at 304.8 49.53 0)
 			(effects
 				(font
@@ -20785,6 +20799,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
+			(at 157.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "370b3f51-bf71-4dd7-aa73-9c8e79883dd2")
 		)
@@ -20853,6 +20876,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1002V"
+			(at 306.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0d3dcac4-4e50-42ac-adfe-b73edab0657e")
 		)
@@ -20885,7 +20917,7 @@
 				)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "47k"
 			(at 328.676 172.974 90)
 			(effects
 				(font
@@ -20912,6 +20944,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 332.74 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEYJ473V"
 			(at 332.74 173.99 0)
 			(effects
 				(font
@@ -20979,6 +21020,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 382.27 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1040310811"
 			(at 382.27 166.37 0)
 			(effects
 				(font
@@ -21148,6 +21198,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
+			(at 96.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f68f2db9-dd95-467a-9a27-b5a6107034be")
 		)
@@ -21209,6 +21268,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 194.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
 			(at 194.31 93.98 0)
 			(effects
 				(font
@@ -21483,6 +21551,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
+			(at 236.22 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a0d43553-a5eb-4432-bc3b-ce4200d737bc")
 		)
@@ -21552,6 +21629,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
+			(at 227.33 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7fb9d5a-dd4d-48b5-83d3-8670bcfffefe")
 		)
@@ -21613,6 +21699,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 242.57 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
 			(at 242.57 236.22 0)
 			(effects
 				(font
@@ -21756,6 +21851,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GRT188R61C106ME13D"
+			(at 167.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "93b1a350-ae26-4fc2-b63e-81b3d8b7b0fb")
 		)
@@ -21817,6 +21921,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 137.16 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
 			(at 137.16 46.99 0)
 			(effects
 				(font
@@ -21951,6 +22064,15 @@
 			)
 		)
 		(property "Description" "Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3"
+			(at 35.56 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCP9701AT-E/TT"
 			(at 35.56 325.12 0)
 			(effects
 				(font
@@ -22116,7 +22238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27bce12c-c0b2-4c28-8aeb-2fef4c328d99")
-		(property "Reference" "D5"
+		(property "Reference" "LED5"
 			(at 290.83 190.5 0)
 			(effects
 				(font
@@ -22159,6 +22281,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "LTST-C190AKT"
+			(at 290.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55a3ac90-2c05-46da-9d02-4319b1055120")
 		)
@@ -22168,7 +22299,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2"
-					(reference "D5")
+					(reference "LED5")
 					(unit 1)
 				)
 			)
@@ -22294,6 +22425,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
+			(at 208.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9f55ea3-6f05-4641-aa60-60aa3d3e19f3")
 		)
@@ -22343,7 +22483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee"
 			(at 260.35 317.5 0)
 			(effects
 				(font
@@ -22363,6 +22503,15 @@
 		)
 		(property "Flight" "IRLML2803"
 			(at 260.35 317.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRLML2803TRPBF"
+			(at 260.35 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22575,6 +22724,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF3302V"
+			(at 284.48 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc5891a8-dac7-465d-8392-51d685d12a76")
 		)
@@ -22636,6 +22794,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 127 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
 			(at 127 46.99 0)
 			(effects
 				(font
@@ -22770,6 +22937,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 127 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA3E2NP01H040C080AA"
 			(at 127 184.15 0)
 			(effects
 				(font
@@ -22914,6 +23090,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
+			(at 184.15 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67484170-6192-4921-bcb1-1b307c93a58c")
 		)
@@ -23049,6 +23234,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CGA3E1X7S1C225K080AE"
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "25257862-0d76-4690-a353-aa7d2c054afd")
 		)
@@ -23116,6 +23310,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
+			(at 334.01 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eea44e0e-37a9-42ee-9092-c48c6c69f648")
 		)
@@ -23148,7 +23351,7 @@
 				)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "47k"
 			(at 328.422 155.194 90)
 			(effects
 				(font
@@ -23175,6 +23378,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 332.74 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEYJ473V"
 			(at 332.74 156.21 0)
 			(effects
 				(font
@@ -23645,6 +23857,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
+			(at 115.57 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f536dc20-8731-4564-99d2-ed40ed691897")
 		)
@@ -23707,6 +23928,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 45.72 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
 			(at 45.72 314.96 0)
 			(effects
 				(font
@@ -23785,6 +24015,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GRM21BR60J107ME15L"
+			(at 147.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f9d3ba83-57f6-4fab-a8c2-b029552975e8")
 		)
@@ -23853,6 +24092,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERA-3AEB204V"
+			(at 363.22 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6de60367-b433-499f-a0d2-4e402bf5072e")
 		)
@@ -23885,7 +24133,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 189.103 247.65 90)
 			(effects
 				(font
@@ -23920,6 +24168,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1002V"
+			(at 186.69 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "17dfa894-0184-48d7-a418-f66a15433aba")
 		)
@@ -23944,7 +24201,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "453db62c-c2c3-4c90-a3f1-5ecfe8bc15de")
-		(property "Reference" "D2"
+		(property "Reference" "LED"
 			(at 252.73 179.07 0)
 			(effects
 				(font
@@ -23987,6 +24244,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "LTST-C190AKT"
+			(at 252.73 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69ae59d7-11f2-41d9-82b2-713b0cc74016")
 		)
@@ -23996,7 +24262,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2"
-					(reference "D2")
+					(reference "LED")
 					(unit 1)
 				)
 			)
@@ -24122,6 +24388,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GRT188R61C106ME13D"
+			(at 220.98 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "da041d8e-4ab3-4caa-bd03-751ffe60a4c2")
 		)
@@ -24221,7 +24496,7 @@
 				)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "47k"
 			(at 48.768 238.252 0)
 			(effects
 				(font
@@ -24248,6 +24523,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 52.07 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEYJ473V"
 			(at 52.07 237.49 0)
 			(effects
 				(font
@@ -24318,6 +24602,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 54.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF6803V"
 			(at 54.61 44.45 0)
 			(effects
 				(font
@@ -24568,6 +24861,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "IRF7404TRPBF"
+			(at 287.02 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b20a4b0-8d35-4ca9-b36a-fdb18e1780d8")
 		)
@@ -24629,7 +24931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 153.67 87.63 0)
 			(effects
 				(font
@@ -24648,6 +24950,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 153.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA4J1X7S1C106K125AE"
 			(at 153.67 87.63 0)
 			(effects
 				(font
@@ -24854,6 +25165,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "MAX706RESA+T"
+			(at 358.14 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc8a24ad-e5a2-4c60-87a6-23f2a785b1a5")
 		)
@@ -24939,6 +25259,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "KMR231NG LFS"
+			(at 295.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ed11229-05c5-4343-b301-fb85d37e0343")
 		)
@@ -24998,6 +25327,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 27.94 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ECS-120-7-36Q-AEY-TR"
 			(at 27.94 80.01 0)
 			(effects
 				(font
@@ -25213,6 +25551,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
+			(at 312.42 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "09b9e37b-9140-4445-a381-3c63094e9484")
 		)
@@ -25275,6 +25622,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 157.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
 			(at 157.48 114.3 0)
 			(effects
 				(font
@@ -25353,6 +25709,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1004V"
+			(at 45.72 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4422307a-27e2-49a7-963d-78a37d8172db")
 		)
@@ -25423,6 +25788,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "LI0805H151R-10"
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6678cb20-8458-4ae5-aa51-9404298e9016")
 		)
@@ -25484,6 +25858,15 @@
 			)
 		)
 		(property "Description" "Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3"
+			(at 69.85 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCP9701AT-E/TT"
 			(at 69.85 325.12 0)
 			(effects
 				(font
@@ -25562,6 +25945,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF4701V"
+			(at 252.73 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd92eb18-9895-4773-8b7c-7a9ad206e188")
 		)
@@ -25631,6 +26023,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
+			(at 106.68 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8e92c04d-d512-4584-bb84-7cb2c1655dee")
 		)
@@ -25692,6 +26093,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 111.76 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
 			(at 111.76 255.27 0)
 			(effects
 				(font
@@ -25770,6 +26180,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CGA3E1X7S1C225K080AE"
+			(at 151.13 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6250e157-4f02-44ce-aaa6-a169031719a1")
 		)
@@ -25839,6 +26258,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "C1206C476M8PAC7800"
+			(at 321.31 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ae22f9c-9b79-4b2d-8350-c3f5ffeb54dd")
 		)
@@ -25900,6 +26328,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 384.81 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
 			(at 384.81 58.42 0)
 			(effects
 				(font
@@ -26170,6 +26607,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "RFM98PW"
+			(at 69.85 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "17"
 			(uuid "55d10538-80bb-4234-b0b7-9f6e84e05a1a")
 		)
@@ -26349,6 +26795,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GRT188R61C106ME13D"
+			(at 199.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a81b3ebb-8b43-4bd7-ab0a-3cbb204e6f7c")
 		)
@@ -26446,7 +26901,7 @@
 				)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "47k"
 			(at 328.422 157.734 90)
 			(effects
 				(font
@@ -26473,6 +26928,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 332.74 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEYJ473V"
 			(at 332.74 158.75 0)
 			(effects
 				(font
@@ -26614,6 +27078,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CGA3E2NP01H040C080AA"
+			(at 22.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a2462798-3f60-4424-8471-12166b4b526a")
 		)
@@ -26684,6 +27157,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
+			(at 80.01 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7aa4256e-4718-498f-b83e-96d51b4999fc")
 		)
@@ -26743,6 +27225,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BLM18SG121TZ1D"
 			(at 203.2 86.36 0)
 			(effects
 				(font
@@ -26840,7 +27331,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7dcd777d-4673-43bc-9040-987b52c13cd5")
 		(property "Reference" "L1"
 			(at 46.99 66.04 90)
@@ -26850,15 +27340,15 @@
 				)
 			)
 		)
-		(property "Value" "2.2uH"
-			(at 46.99 68.58 90)
+		(property "Value" "2.2uH/200mΩ"
+			(at 43.434 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 46.99 71.12 0)
 			(effects
 				(font
@@ -26877,6 +27367,15 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 46.99 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74479875222C"
 			(at 46.99 71.12 0)
 			(effects
 				(font
@@ -26945,6 +27444,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 156.21 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BNO085"
 			(at 156.21 246.38 0)
 			(effects
 				(font
@@ -27098,6 +27606,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "MR25H40DF"
+			(at 378.46 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b35e7c43-3718-4e7a-903b-0bcfe03d896f")
 		)
@@ -27143,7 +27660,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8466ccb8-d187-4752-8d86-6a34b93022f8")
-		(property "Reference" "D4"
+		(property "Reference" "LED4"
 			(at 246.38 190.5 0)
 			(effects
 				(font
@@ -27186,6 +27703,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "LTST-C190AKT"
+			(at 246.38 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2475bdc9-ace9-43f5-a1b7-226be0416f68")
 		)
@@ -27195,7 +27721,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2"
-					(reference "D4")
+					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -27284,7 +27810,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "47k"
 			(at 351.282 68.326 0)
 			(effects
 				(font
@@ -27312,6 +27838,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 353.06 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEYJ473V"
 			(at 353.06 67.31 0)
 			(effects
 				(font
@@ -27913,6 +28448,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1004V"
+			(at 80.01 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c74f35b1-140f-4a05-9f45-106ee2567d82")
 		)
@@ -28010,7 +28554,7 @@
 				)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "47k"
 			(at 328.676 170.434 90)
 			(effects
 				(font
@@ -28037,6 +28581,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 332.74 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEYJ473V"
 			(at 332.74 171.45 0)
 			(effects
 				(font
@@ -28107,6 +28660,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 147.32 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
 			(at 147.32 46.99 0)
 			(effects
 				(font
@@ -28316,6 +28878,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF2403V"
+			(at 54.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b171287a-12f8-4682-b61f-301ef3adc9ec")
 		)
@@ -28375,6 +28946,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 334.01 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
 			(at 334.01 257.81 0)
 			(effects
 				(font
@@ -28583,6 +29163,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1002V"
+			(at 287.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "389c1174-4a05-42cc-adfb-4255b66e8cc5")
 		)
@@ -28739,7 +29328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af7732a5-e94f-45a2-a71b-ce7e5d5e64ed")
-		(property "Reference" "D1"
+		(property "Reference" "LED1"
 			(at 284.48 130.81 0)
 			(effects
 				(font
@@ -28782,6 +29371,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "150141M173100"
+			(at 284.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42103c2c-1d9b-4400-8add-b13f81e550ec")
 		)
@@ -28797,7 +29395,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2"
-					(reference "D1")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -28850,6 +29448,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 115.57 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1004V"
 			(at 115.57 328.93 0)
 			(effects
 				(font
@@ -29059,6 +29666,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "OPT4001DTSR"
+			(at 266.7 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c26bafd-0724-471a-9cd1-64dfb0232e95")
 		)
@@ -29144,6 +29760,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF2702V"
+			(at 240.03 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f562ea24-ac20-4dfe-a2cb-5d50e0957632")
 		)
@@ -29213,6 +29838,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
+			(at 381 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c4645c00-24a0-4fca-a4a3-e19c5e31e96c")
 		)
@@ -29273,6 +29907,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 127 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA3E2NP01H040C080AA"
 			(at 127 179.07 0)
 			(effects
 				(font
@@ -29350,6 +29993,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1004V"
+			(at 31.75 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8f75f5dc-a7fd-458e-8421-f2819eda1b47")
 		)
@@ -29411,6 +30063,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 255.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "5051102491"
 			(at 255.27 63.5 0)
 			(effects
 				(font
@@ -29685,6 +30346,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 351.79 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRLML2803TRPBF"
 			(at 351.79 257.81 0)
 			(effects
 				(font
@@ -30089,6 +30759,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "TC164-JR-07330RL"
+			(at 266.7 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4e6d0437-366d-41a8-b069-63b2e8f67454")
 		)
@@ -30140,7 +30819,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 252.603 315.722 0)
 			(effects
 				(font
@@ -30168,6 +30847,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 247.65 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1002V"
 			(at 247.65 314.96 0)
 			(effects
 				(font
@@ -30237,6 +30925,15 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M33 MCU, 4096KB flash, 2514KB RAM, 79 GPIO, LQFP100"
+			(at 77.47 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "STM32U595VJT6"
 			(at 77.47 127 0)
 			(effects
 				(font
@@ -30737,6 +31434,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1602V"
+			(at 246.38 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e24a5d38-cba1-47ff-b9bc-4be7df6bd1c9")
 		)
@@ -30797,6 +31503,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 175.26 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MAX40200AUK+T"
 			(at 175.26 306.07 0)
 			(effects
 				(font
@@ -30881,6 +31596,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ATB2012-50011-T000"
+			(at 281.94 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df2586b4-6c2c-4758-95a0-61eb6d9c14b9")
 		)
@@ -30946,6 +31670,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 274.32 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF3302V"
 			(at 274.32 181.61 0)
 			(effects
 				(font
@@ -31051,7 +31784,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 127.381 250.063 90)
 			(effects
 				(font
@@ -31078,6 +31811,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 123.19 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1002V"
 			(at 123.19 248.92 0)
 			(effects
 				(font
@@ -31183,7 +31925,7 @@
 				)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "47k"
 			(at 36.068 240.792 0)
 			(effects
 				(font
@@ -31210,6 +31952,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 39.37 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEYJ473V"
 			(at 39.37 240.03 0)
 			(effects
 				(font
@@ -31287,6 +32038,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "MCP9701AT-E/TT"
+			(at 105.41 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7c6a535c-1a35-4a0e-89bd-238e04a20f11")
 		)
@@ -31322,7 +32082,7 @@
 				)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "47k"
 			(at 328.422 160.274 90)
 			(effects
 				(font
@@ -31349,6 +32109,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 332.74 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEYJ473V"
 			(at 332.74 161.29 0)
 			(effects
 				(font
@@ -31580,7 +32349,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd1c7c7b-928d-4073-a945-e34802509e93")
-		(property "Reference" "D3"
+		(property "Reference" "LED3"
 			(at 280.67 179.07 0)
 			(effects
 				(font
@@ -31623,6 +32392,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "LTST-C190AKT"
+			(at 280.67 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f134811-6487-4c63-9787-16683f02d134")
 		)
@@ -31632,7 +32410,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2"
-					(reference "D3")
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -32227,6 +33005,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CGA3E2NP01H040C080AA"
+			(at 22.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab2d3df1-2d70-46e8-8d85-10094f36c033")
 		)
@@ -32287,6 +33074,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 293.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CAS-120TA"
 			(at 293.37 87.63 0)
 			(effects
 				(font
@@ -32358,6 +33154,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 201.93 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188R72A103KA37D"
 			(at 201.93 232.41 0)
 			(effects
 				(font
@@ -32634,6 +33439,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "BM03B-SRSS-TB"
+			(at 175.26 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "26ed9ddf-3caa-4d4d-9035-56a47085d7b8")
 		)
@@ -32701,6 +33515,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 265.43 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1003V"
 			(at 265.43 312.42 0)
 			(effects
 				(font
@@ -32908,6 +33731,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188R72A103KA37D"
+			(at 201.93 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61d3d931-a84c-48e7-8e47-771c20c2d73c")
 		)
@@ -32967,6 +33799,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 304.8 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
 			(at 304.8 58.42 0)
 			(effects
 				(font
@@ -33111,6 +33952,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CC7V-T1A-32.768KHZ-12.5PF-20PPM-TA-QC"
+			(at 196.85 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4830940-2cba-458f-837b-600a2ddcb9a8")
 		)
@@ -33172,6 +34022,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
 			(at 214.63 93.98 0)
 			(effects
 				(font
@@ -33306,6 +34165,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 175.26 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MAX40200AUK+T"
 			(at 175.26 331.47 0)
 			(effects
 				(font

@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "0b87f6fe-b5d2-4b42-9d29-c5f3f638f348")
+	(uuid "6a34f0f8-3567-4afd-bc91-7c3b2c5df6ce")
 	(paper "A3" portrait)
 	(title_block
 		(title "ChipSat")
@@ -5798,6 +5798,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
+			(at 180.34 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43987ec1-b13b-4fab-abea-2e281f733fae")
 		)
@@ -5997,6 +6006,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF3743V"
+			(at 101.6 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3ff1e30d-517f-435f-bfea-b57493f7ca26")
 		)
@@ -6056,6 +6074,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 171.45 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RMCF0603JT15M0"
 			(at 171.45 166.37 0)
 			(effects
 				(font
@@ -6196,6 +6223,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "DFLS130L-7"
+			(at 190.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "abd698ea-8093-4660-be6d-b4b20f5db641")
 		)
@@ -6265,6 +6301,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GRT188R61E475KE13D"
+			(at 201.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16500256-b04b-4522-add8-45c50a769a30")
 		)
@@ -6326,6 +6371,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 90.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06035M62FKEA"
 			(at 90.17 152.4 0)
 			(effects
 				(font
@@ -6471,6 +6525,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CRCW06037M32FKEA"
+			(at 90.17 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0de12e4e-1985-44d3-9557-fa38665a716b")
 		)
@@ -6540,6 +6603,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
+			(at 255.27 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ea51d72-2320-4049-bcbf-80c05788f502")
 		)
@@ -6599,6 +6671,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 93.98 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DFLS130L-7"
 			(at 93.98 227.33 0)
 			(effects
 				(font
@@ -6677,6 +6758,15 @@
 			)
 		)
 		(property "DNI" "DNI"
+			(at 171.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
 			(at 171.45 81.28 0)
 			(effects
 				(font
@@ -6817,6 +6907,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "DFLS130L-7"
+			(at 185.42 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd3409ec-7e9c-47ad-94c1-f5a8071dc739")
 		)
@@ -6878,6 +6977,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 181.61 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
 			(at 181.61 278.13 0)
 			(effects
 				(font
@@ -6956,6 +7064,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
+			(at 255.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7037ac48-ad56-43f7-ae9e-3bb61dd55c6f")
 		)
@@ -7017,6 +7134,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 212.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
 			(at 212.09 96.52 0)
 			(effects
 				(font
@@ -7151,6 +7277,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 207.01 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
 			(at 207.01 279.4 0)
 			(effects
 				(font
@@ -7294,6 +7429,15 @@
 			)
 		)
 		(property "DNI" "DNI"
+			(at 189.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
 			(at 189.23 81.28 0)
 			(effects
 				(font
@@ -7567,6 +7711,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
+			(at 187.96 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7df171f6-3159-45bd-8000-2e8ef5774b28")
 		)
@@ -7775,6 +7928,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
+			(at 184.15 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "431135b1-7ee0-4b1a-8536-f11d9b9ab85f")
 		)
@@ -7836,6 +7998,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 207.01 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
 			(at 207.01 297.18 0)
 			(effects
 				(font
@@ -7913,6 +8084,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
+			(at 175.26 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d4d471f4-3f19-4819-8066-c747deb6e472")
 		)
@@ -7975,6 +8155,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 153.67 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BQ25570RGRR"
 			(at 153.67 118.11 0)
 			(effects
 				(font
@@ -8174,6 +8363,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
+			(at 199.39 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "987397cf-1be2-40ae-826f-d11ccb886c5f")
 		)
@@ -8243,6 +8441,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CRCW06034M75FKEA"
+			(at 121.92 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02fd3361-fbf5-415b-8949-5bce6f6b9d2c")
 		)
@@ -8304,6 +8511,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 113.03 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LPS4018-223MRC"
 			(at 113.03 275.59 0)
 			(effects
 				(font
@@ -8445,6 +8661,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "MAX40200AUK+T"
+			(at 232.41 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c4fa091-1586-4082-8c49-d30640e95ee3")
 		)
@@ -8513,6 +8738,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 170.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DFLS130L-7"
 			(at 170.18 43.18 0)
 			(effects
 				(font
@@ -8853,6 +9087,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CRCW06035M62FKEA"
+			(at 85.09 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27257c8d-ac5d-4273-a33e-3809f8a889c0")
 		)
@@ -8914,6 +9157,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 116.84 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06038M25FKEA"
 			(at 116.84 327.66 0)
 			(effects
 				(font
@@ -9054,6 +9306,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "DFLS130L-7"
+			(at 165.1 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef32ad2e-1923-4b69-b7be-187e2b7af328")
 		)
@@ -9115,6 +9376,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 121.92 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06038M25FKEA"
 			(at 121.92 144.78 0)
 			(effects
 				(font
@@ -9192,6 +9462,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
+			(at 212.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3855b862-bbc0-400c-8d3e-a0dd95a842e7")
 		)
@@ -9253,6 +9532,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 194.31 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
 			(at 194.31 316.23 0)
 			(effects
 				(font
@@ -9330,6 +9618,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF3743V"
+			(at 106.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "329b047d-7f5a-4cad-a4d7-d0d3c620a4d0")
 		)
@@ -9389,6 +9686,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 182.88 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
 			(at 182.88 342.9 0)
 			(effects
 				(font
@@ -9466,6 +9772,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GRT188R61E475KE13D"
+			(at 83.82 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ca4391d-b94d-41db-8989-b5b79023b3fb")
 		)
@@ -9535,6 +9850,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "SZMM5Z5V1T1G"
+			(at 64.77 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "26597283-3ef8-49b6-acf7-61a95f3cd610")
 		)
@@ -9596,6 +9920,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 101.6 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06038M25FKEA"
 			(at 101.6 327.66 0)
 			(effects
 				(font
@@ -9736,6 +10069,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "DFLS130L-7"
+			(at 129.54 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d73a2b31-0f7d-451e-a710-8cc5f2c81155")
 		)
@@ -9797,6 +10139,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRT188R61E475KE13D"
 			(at 88.9 101.6 0)
 			(effects
 				(font
@@ -9874,6 +10225,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
+			(at 73.66 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "549a97bc-676a-4897-a6c7-03d86c5b51ac")
 		)
@@ -9934,6 +10294,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 238.76 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MAX40200AUK+T"
 			(at 238.76 113.03 0)
 			(effects
 				(font
@@ -10018,6 +10387,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "DFLS130L-7"
+			(at 134.62 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ebab97d-5fe7-4b2b-a929-daf72cec4268")
 		)
@@ -10079,6 +10457,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 106.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06038M25FKEA"
 			(at 106.68 144.78 0)
 			(effects
 				(font
@@ -10166,6 +10553,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
+			(at 250.19 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3a7681f-8759-4262-a7b0-1f835690f934")
 		)
@@ -10227,6 +10623,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 99.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188R72A103KA37D"
 			(at 99.06 101.6 0)
 			(effects
 				(font
@@ -10304,6 +10709,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CRCW06034M53FKEA"
+			(at 101.6 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56cf94c6-6c99-47c9-b273-fe0324411db8")
 		)
@@ -10373,6 +10787,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GRT188C80J226ME13D"
+			(at 201.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "039234f2-3227-4d37-b439-bc7af54cff83")
 		)
@@ -10434,6 +10857,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 250.19 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
 			(at 250.19 297.18 0)
 			(effects
 				(font
@@ -10709,6 +11141,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188R72A103KA37D"
+			(at 93.98 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3874c86b-945c-40c5-8caf-972289d533b3")
 		)
@@ -10768,6 +11209,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 167.64 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RMCF0603JT15M0"
 			(at 167.64 349.25 0)
 			(effects
 				(font
@@ -10854,6 +11304,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
+			(at 166.37 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "310a31f8-62f8-4dfe-8aca-d7ee93fefbdf")
 		)
@@ -10915,6 +11374,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 118.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LPS4018-223MRC"
 			(at 118.11 92.71 0)
 			(effects
 				(font
@@ -10992,6 +11460,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "LPS4018-103MRC"
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0bf22829-844a-4dff-8976-2b171d232f3b")
 		)
@@ -11053,6 +11530,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 185.42 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LPS4018-103MRC"
 			(at 185.42 293.37 0)
 			(effects
 				(font
@@ -11187,6 +11673,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 78.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
 			(at 78.74 101.6 0)
 			(effects
 				(font
@@ -11397,6 +11892,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CRCW06034M53FKEA"
+			(at 106.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc61969b-b460-417b-9ebb-866dd0ab8bc3")
 		)
@@ -11531,6 +12035,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GRT188R61E475KE13D"
+			(at 196.85 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac582238-7aa1-43ee-b763-68d0f50a752a")
 		)
@@ -11592,6 +12105,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 181.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM21BR60J107ME15L"
 			(at 181.61 127 0)
 			(effects
 				(font
@@ -11669,6 +12191,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GRM21BR60J107ME15L"
+			(at 176.53 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c0e4683-8d0c-49b8-9307-762b87bb0caa")
 		)
@@ -11738,6 +12269,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CRCW06034M75FKEA"
+			(at 116.84 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37ee9a03-3e4c-47de-a405-d4a90222ec28")
 		)
@@ -11797,6 +12337,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 99.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DFLS130L-7"
 			(at 99.06 43.18 0)
 			(effects
 				(font
@@ -12007,6 +12556,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a39448e6-d90d-45d8-a6eb-bd18800217c0")
 		)
@@ -12068,6 +12626,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SZMM5Z5V1T1G"
 			(at 69.85 101.6 0)
 			(effects
 				(font
@@ -12139,6 +12706,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 148.59 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BQ25570RGRR"
 			(at 148.59 300.99 0)
 			(effects
 				(font
@@ -12338,6 +12914,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CRCW06037M32FKEA"
+			(at 85.09 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2716f33a-324d-4c65-b7f2-57ff88635fc5")
 		)
@@ -12399,6 +12984,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 196.85 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRT188C80J226ME13D"
 			(at 196.85 297.18 0)
 			(effects
 				(font

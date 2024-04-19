@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "157d09e1-7737-4984-b93a-c41606753871")
+	(uuid "3b684bf7-32aa-4332-bfb1-a51144bdd0a9")
 	(paper "A4")
 	(title_block
 		(title "ChipSat")
@@ -5903,6 +5903,16 @@
 		)
 		(uuid "b53d0abd-838e-477f-b24e-ac0018b9a53e")
 	)
+	(text "Alternative MPN: DX07S016JA3R1500"
+		(exclude_from_sim no)
+		(at 123.698 84.328 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "bb1fa8ab-645b-472e-aedf-ac7eadc9ceaa")
+	)
 	(text "Battery Current Draw Sensor"
 		(exclude_from_sim no)
 		(at 217.17 21.59 0)
@@ -6889,6 +6899,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "SQ3495EV-T1_GE3"
+			(at 50.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e094b97-1bbb-40b4-b1a9-2fc713ba7e88")
 		)
@@ -7100,6 +7119,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "INA219BIDR"
+			(at 246.38 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f6628e2-eff1-4d72-a878-bc15ecce07b7")
 		)
@@ -7177,6 +7205,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 250.19 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AP7366-28W5-7"
 			(at 250.19 123.19 0)
 			(effects
 				(font
@@ -7327,6 +7364,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GRM1885C1H472JA01D"
+			(at 113.03 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "addc91e2-18bb-4a1e-a87e-6745c64a9ae0")
 		)
@@ -7386,6 +7432,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 171.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
 			(at 171.45 123.19 0)
 			(effects
 				(font
@@ -7528,6 +7583,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CGA4J1X7S1C106K125AE"
+			(at 227.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d5bd3dd-a2b4-4a8f-8014-7a0fbaeb32f6")
 		)
@@ -7595,6 +7659,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
+			(at 251.46 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a0e853d5-1f20-415c-876b-785696122021")
 		)
@@ -7654,6 +7727,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
 			(at 63.5 52.07 0)
 			(effects
 				(font
@@ -7863,6 +7945,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEYJ474V"
+			(at 67.31 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62b78dee-f109-4151-bff5-9ddbab65bae8")
 		)
@@ -7924,6 +8015,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 50.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTC4412IS6#TRMPBF"
 			(at 50.8 120.65 0)
 			(effects
 				(font
@@ -8068,6 +8168,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 167.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "USBLC6-2SC6"
 			(at 167.64 134.62 0)
 			(effects
 				(font
@@ -8288,6 +8397,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEYJ474V"
+			(at 68.58 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32bcd9d8-1322-422b-9268-bb0a4b3601d3")
 		)
@@ -8481,6 +8599,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 262.89 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
 			(at 262.89 128.27 0)
 			(effects
 				(font
@@ -8755,6 +8882,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CGA4J1X8L1H105K125AE"
+			(at 269.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4e2399b3-e31d-4fbd-b4fd-e9542daae8be")
 		)
@@ -8814,6 +8950,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 53.34 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "D2F-L2-A"
 			(at 53.34 49.53 0)
 			(effects
 				(font
@@ -8959,6 +9104,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CGA4J1X7S1C106K125AE"
+			(at 261.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "507d1f60-d8d2-4a9d-8210-997f0dab3cf7")
 		)
@@ -9028,6 +9182,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
+			(at 229.87 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ded16a37-4f4c-4ca2-8cbd-01d324f3d4ad")
 		)
@@ -9089,6 +9252,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 71.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
 			(at 71.12 105.41 0)
 			(effects
 				(font
@@ -9297,6 +9469,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
+			(at 57.15 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8db739d1-9d9d-4978-a35b-4b8e16987846")
 		)
@@ -9356,6 +9537,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 115.57 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1004V"
 			(at 115.57 135.89 0)
 			(effects
 				(font
@@ -9562,6 +9752,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "AP2112K-3.3TRG1"
+			(at 248.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "171a3f10-e0cd-437d-8e33-26d202a5d701")
 		)
@@ -9706,6 +9905,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1002V"
+			(at 138.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd317bc9-aa24-4b9d-b23b-34e2896ef8a2")
 		)
@@ -9840,6 +10048,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GRT188R61C106ME13D"
+			(at 220.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1406dff5-b2a0-499a-99ea-c6984c7aa0a9")
 		)
@@ -9907,6 +10124,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF22R0V"
+			(at 185.42 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5ce8909-26f5-4e51-bd50-5b005350c787")
 		)
@@ -9966,6 +10192,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 250.19 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLV75515PDBVR"
 			(at 250.19 147.32 0)
 			(effects
 				(font
@@ -10181,6 +10416,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "MBR1020VL-AU_R1_000A1"
+			(at 50.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06851e07-af7f-45cd-b396-3bf70ea385de")
 		)
@@ -10313,6 +10557,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "TYPE-C-31-M-12"
+			(at 123.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "5c74198b-c33b-4351-bcdc-47635b4199af")
 		)
@@ -10419,6 +10672,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 31.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
 			(at 31.75 120.65 0)
 			(effects
 				(font
@@ -10560,6 +10822,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEYJ512V"
+			(at 146.05 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "82d76ab5-a069-4d05-9e54-b0b540b16671")
 		)
@@ -10621,6 +10892,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 220.98 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRT188R61C106ME13D"
 			(at 220.98 128.27 0)
 			(effects
 				(font
@@ -10762,6 +11042,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CAS-120TA"
+			(at 146.05 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "79be395e-c92c-4d4b-aba3-428c05a7321e")
 		)
@@ -10826,6 +11115,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 49.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BM02B-SRSS-TB"
 			(at 49.53 59.69 0)
 			(effects
 				(font
@@ -11031,6 +11329,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF22R0V"
+			(at 149.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a929339-d2aa-4ee7-a42c-1917d8cec13b")
 		)
@@ -11167,6 +11474,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-1TY0R00U"
+			(at 269.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "39502731-c6b9-4df2-9dfe-104c8619bea2")
 		)
@@ -11229,6 +11545,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 261.62 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
 			(at 261.62 152.4 0)
 			(effects
 				(font
@@ -11436,6 +11761,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEYJ512V"
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8cb88a1e-5448-4523-a54d-9d7135b83f88")
 		)
@@ -11568,6 +11902,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "D2F-L2-A1"
+			(at 53.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49d6e958-077a-4e98-b87f-6278cb7f8118")
 		)
@@ -11632,6 +11975,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 229.87 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
 			(at 229.87 152.4 0)
 			(effects
 				(font
@@ -11797,6 +12149,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CRA2512-FZ-R040ELF"
+			(at 228.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f61d2f1-d1de-4b39-8229-a98e93917954")
 		)
@@ -11926,6 +12287,15 @@
 			)
 		)
 		(property "Description" "Single NOR Gate, Low-Voltage CMOS"
+			(at 52.07 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74LVC1G02DCKR"
 			(at 52.07 173.99 0)
 			(effects
 				(font

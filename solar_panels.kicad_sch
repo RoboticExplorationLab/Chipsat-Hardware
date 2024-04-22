@@ -3084,6 +3084,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 62.23) (xy 190.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a9615c3-79a5-460b-b46a-b1c06324e49a")
+	)
+	(wire
+		(pts
 			(xy 73.66 275.59) (xy 73.66 280.67)
 		)
 		(stroke
@@ -4031,6 +4041,16 @@
 			(type default)
 		)
 		(uuid "b10dacbd-d416-480d-9c3e-6740fa0e9f3d")
+	)
+	(wire
+		(pts
+			(xy 185.42 246.38) (xy 185.42 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b255a7cf-3a6a-4554-83ac-bee66d263dbe")
 	)
 	(wire
 		(pts
@@ -5460,7 +5480,7 @@
 	)
 	(global_label "VSOLAR_TOP"
 		(shape bidirectional)
-		(at 190.5 60.96 0)
+		(at 190.5 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5470,7 +5490,7 @@
 		)
 		(uuid "31bb2198-507b-4b3b-9021-38546ce322be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.1475 60.96 0)
+			(at 206.1475 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5548,7 +5568,7 @@
 	)
 	(global_label "VSOLAR_BOTTOM"
 		(shape bidirectional)
-		(at 185.42 245.11 0)
+		(at 185.42 246.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5558,7 +5578,7 @@
 		)
 		(uuid "54e45916-19b4-436a-9b50-f399d9baba41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.817 245.11 0)
+			(at 204.817 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6179,21 +6199,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0ae171f6-5292-4c2a-b80c-326bfc321a71")
 		(property "Reference" "D10"
-			(at 187.198 58.166 90)
+			(at 193.04 56.1974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "DFLS130L-7"
-			(at 182.372 56.134 90)
+			(at 193.04 58.7374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
@@ -6421,7 +6444,7 @@
 				)
 			)
 		)
-		(property "Value" "SolarCell"
+		(property "Value" "SM141K05TF"
 			(at 165.1 238.7854 0)
 			(effects
 				(font
@@ -6429,7 +6452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "solarpanels:KXOB25-05X3F"
+		(property "Footprint" "solarpanels:SM141K05TF"
 			(at 165.1 231.14 0)
 			(effects
 				(font
@@ -6438,7 +6461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18BDYP/DubuDisk/www/Gen3/SM141K05TF%20DATA%20SHEET%20202105.pdf"
 			(at 160.02 237.49 90)
 			(effects
 				(font
@@ -6448,6 +6471,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 165.1 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM141K05TF"
 			(at 165.1 237.49 0)
 			(effects
 				(font
@@ -6863,21 +6895,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "2657de8c-a446-48a3-b9da-b1e625c038e5")
 		(property "Reference" "D15"
-			(at 182.118 242.316 90)
+			(at 187.96 240.3474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "DFLS130L-7"
-			(at 177.292 240.284 90)
+			(at 187.96 242.8874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
@@ -7479,7 +7514,7 @@
 				)
 			)
 		)
-		(property "Value" "SolarCell"
+		(property "Value" "SM141K05TF"
 			(at 134.62 54.6354 0)
 			(effects
 				(font
@@ -7487,7 +7522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "solarpanels:KXOB25-05X3F"
+		(property "Footprint" "solarpanels:SM141K05TF"
 			(at 134.62 46.99 0)
 			(effects
 				(font
@@ -7496,7 +7531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18BDYP/DubuDisk/www/Gen3/SM141K05TF%20DATA%20SHEET%20202105.pdf"
 			(at 129.54 53.34 90)
 			(effects
 				(font
@@ -7506,6 +7541,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 134.62 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM141K05TF"
 			(at 134.62 53.34 0)
 			(effects
 				(font
@@ -8983,7 +9027,7 @@
 				)
 			)
 		)
-		(property "Value" "SolarCell"
+		(property "Value" "SM141K05TF"
 			(at 93.98 238.7854 0)
 			(effects
 				(font
@@ -8991,7 +9035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "solarpanels:KXOB25-05X3F"
+		(property "Footprint" "solarpanels:SM141K05TF"
 			(at 93.98 231.14 0)
 			(effects
 				(font
@@ -9000,7 +9044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18BDYP/DubuDisk/www/Gen3/SM141K05TF%20DATA%20SHEET%20202105.pdf"
 			(at 88.9 237.49 90)
 			(effects
 				(font
@@ -9010,6 +9054,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 93.98 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM141K05TF"
 			(at 93.98 237.49 0)
 			(effects
 				(font
@@ -11037,7 +11090,7 @@
 				)
 			)
 		)
-		(property "Value" "SolarCell"
+		(property "Value" "SM141K05TF"
 			(at 129.54 238.7854 0)
 			(effects
 				(font
@@ -11045,7 +11098,7 @@
 				)
 			)
 		)
-		(property "Footprint" "solarpanels:KXOB25-05X3F"
+		(property "Footprint" "solarpanels:SM141K05TF"
 			(at 129.54 231.14 0)
 			(effects
 				(font
@@ -11054,7 +11107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18BDYP/DubuDisk/www/Gen3/SM141K05TF%20DATA%20SHEET%20202105.pdf"
 			(at 124.46 237.49 90)
 			(effects
 				(font
@@ -11064,6 +11117,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 129.54 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM141K05TF"
 			(at 129.54 237.49 0)
 			(effects
 				(font
@@ -11788,7 +11850,7 @@
 				)
 			)
 		)
-		(property "Value" "SolarCell"
+		(property "Value" "SM141K05TF"
 			(at 170.18 54.6354 0)
 			(effects
 				(font
@@ -11796,7 +11858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "solarpanels:KXOB25-05X3F"
+		(property "Footprint" "solarpanels:SM141K05TF"
 			(at 170.18 46.99 0)
 			(effects
 				(font
@@ -11805,7 +11867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18BDYP/DubuDisk/www/Gen3/SM141K05TF%20DATA%20SHEET%20202105.pdf"
 			(at 165.1 53.34 90)
 			(effects
 				(font
@@ -11815,6 +11877,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 170.18 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM141K05TF"
 			(at 170.18 53.34 0)
 			(effects
 				(font
@@ -12387,7 +12458,7 @@
 				)
 			)
 		)
-		(property "Value" "SolarCell"
+		(property "Value" "SM141K05TF"
 			(at 99.06 54.6354 0)
 			(effects
 				(font
@@ -12395,7 +12466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "solarpanels:KXOB25-05X3F"
+		(property "Footprint" "solarpanels:SM141K05TF"
 			(at 99.06 46.99 0)
 			(effects
 				(font
@@ -12404,7 +12475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18BDYP/DubuDisk/www/Gen3/SM141K05TF%20DATA%20SHEET%20202105.pdf"
 			(at 93.98 53.34 90)
 			(effects
 				(font
@@ -12414,6 +12485,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 99.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM141K05TF"
 			(at 99.06 53.34 0)
 			(effects
 				(font

@@ -24201,7 +24201,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "453db62c-c2c3-4c90-a3f1-5ecfe8bc15de")
-		(property "Reference" "LED"
+		(property "Reference" "LED2"
 			(at 252.73 179.07 0)
 			(effects
 				(font
@@ -24262,7 +24262,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2"
-					(reference "LED")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -24784,7 +24784,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "NDS8434"
+		(property "Value" "IRF7404"
 			(at 282.702 327.66 0)
 			(effects
 				(font
@@ -24793,7 +24793,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "solarpanels:NDS8434"
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
 			(at 287.02 314.96 0)
 			(effects
 				(font
@@ -24803,7 +24803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/irf7404pbf.pdf?fileId=5546d462533600a4015355fa31be1ba0"
 			(at 287.02 314.96 0)
 			(effects
 				(font
@@ -24819,45 +24819,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Flight" "NDS8434"
-			(at 287.02 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "ON Semiconductor"
-			(at 287.02 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Field7" "NDS8434"
-			(at 287.02 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Field8" "SO-8 ON Semiconductor"
-			(at 287.02 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)

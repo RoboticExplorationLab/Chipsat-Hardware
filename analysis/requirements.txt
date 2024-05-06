@@ -1,0 +1,6 @@
+coloredlogs==15.0.1
+ipython==8.24.0
+matplotlib==3.7.1
+pandas==2.0.1
+rectangle_packer==2.0.2
+tqdm==4.63.0

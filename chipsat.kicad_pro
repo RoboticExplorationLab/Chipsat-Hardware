@@ -644,12 +644,20 @@
       "Root"
     ],
     [
-      "2cbf8793-1d67-46ce-b784-6f699fd3363b",
-      "Power Supply"
+      "b3fe610c-dc1f-4101-9d34-84ca2ee760cf",
+      "Sun-Side Hardware"
     ],
     [
-      "3e719782-6e58-4332-9539-007f3d0bf131",
-      "Solar Panels"
+      "d1649b29-05c9-4e26-9cdd-ed86bbb4e492",
+      "Sun-Side Power Supply"
+    ],
+    [
+      "0750e8c0-8a93-40cf-9c98-097cb48d20ee",
+      "Nadir-Side Hardware"
+    ],
+    [
+      "3fade5ae-0d25-4642-b76c-9cf8a5d7223a",
+      "Nadir-Side Battery Management"
     ]
   ],
   "text_variables": {}

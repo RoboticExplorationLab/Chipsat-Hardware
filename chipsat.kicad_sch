@@ -1663,16 +1663,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 78.74) (xy 179.07 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "080baec6-cca0-4ee6-804c-6452a8a97604")
-	)
-	(wire
-		(pts
 			(xy 160.02 63.5) (xy 179.07 63.5)
 		)
 		(stroke
@@ -1703,16 +1693,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 81.28) (xy 116.84 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "114ca353-3370-43b4-981c-61c8d732ab2e")
-	)
-	(wire
-		(pts
 			(xy 76.2 181.61) (xy 76.2 180.34)
 		)
 		(stroke
@@ -1720,16 +1700,6 @@
 			(type default)
 		)
 		(uuid "12034d4a-ded1-4834-9f14-75bc4e89b4c1")
-	)
-	(wire
-		(pts
-			(xy 85.09 83.82) (xy 116.84 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16ab389a-a688-46ed-bb25-2d5fe2f2d1a7")
 	)
 	(wire
 		(pts
@@ -2133,16 +2103,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 83.82) (xy 179.07 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73253961-adb9-47e7-a18f-8954088efc38")
-	)
-	(wire
-		(pts
 			(xy 116.84 119.38) (xy 116.84 121.92)
 		)
 		(stroke
@@ -2250,16 +2210,6 @@
 			(type default)
 		)
 		(uuid "88460e4f-5d10-42f3-a54d-6ed15e890994")
-	)
-	(wire
-		(pts
-			(xy 160.02 86.36) (xy 179.07 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89d696c2-e26e-4114-adca-dd0bcbfdc1f4")
 	)
 	(wire
 		(pts
@@ -2453,16 +2403,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 78.74) (xy 116.84 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9100bb4-b95f-46d9-9d1b-64da69f8cddd")
-	)
-	(wire
-		(pts
 			(xy 52.07 167.64) (xy 52.07 173.99)
 		)
 		(stroke
@@ -2490,16 +2430,6 @@
 			(type default)
 		)
 		(uuid "bf14c984-782b-4b5e-bdaf-1ee65bda7728")
-	)
-	(wire
-		(pts
-			(xy 85.09 86.36) (xy 116.84 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9ed27c9-d25d-4ff4-9551-6260b3b446af")
 	)
 	(wire
 		(pts
@@ -2670,16 +2600,6 @@
 			(type default)
 		)
 		(uuid "f676f41f-87f3-44a7-a18a-dd8dd0ecac9a")
-	)
-	(wire
-		(pts
-			(xy 160.02 81.28) (xy 179.07 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe1db534-c139-4274-a0c4-7b3f18eb0b40")
 	)
 	(wire
 		(pts
@@ -4640,46 +4560,6 @@
 			)
 			(uuid "4cefcc43-29bb-4424-a55d-e067e99123f8")
 		)
-		(pin "IMU_INT" input
-			(at 179.07 83.82 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3bb8293c-53e6-47ae-93d3-01e143da0258")
-		)
-		(pin "IMU_RST" output
-			(at 179.07 86.36 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "81f76cf6-141b-4a00-8c91-23a0b9df27a0")
-		)
-		(pin "USART_IMU_TX" output
-			(at 179.07 78.74 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "4a1b05ed-e81d-40ae-8fd1-1e967c9ac85d")
-		)
-		(pin "USART_IMU_RX" input
-			(at 179.07 81.28 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c4a3824c-d938-408a-a1df-5b778d6262c7")
-		)
 		(pin "HI_POW_STATUS" input
 			(at 179.07 101.6 180)
 			(effects
@@ -4935,46 +4815,6 @@
 				(justify right)
 			)
 			(uuid "a9ba11c9-ff80-41cc-8590-00230dfa68cf")
-		)
-		(pin "USART_IMU_TX" input
-			(at 85.09 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "40134739-979f-406c-9d48-aa0b76efca4d")
-		)
-		(pin "USART_IMU_RX" output
-			(at 85.09 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "298c0165-767f-4b38-90ff-810040236ac3")
-		)
-		(pin "IMU_INT" output
-			(at 85.09 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "02777138-87b5-4ba3-b6a6-ad084ff61cce")
-		)
-		(pin "IMU_RST" input
-			(at 85.09 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "8ec2a6c5-730c-47be-a97c-02582e22e7a8")
 		)
 		(pin "I2C_LIGHT_SDA" bidirectional
 			(at 85.09 93.98 0)

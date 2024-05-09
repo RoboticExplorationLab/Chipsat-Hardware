@@ -4198,7 +4198,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 53.34) (xy 168.91 53.34)
+			(xy 158.75 53.34) (xy 184.15 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5538,16 +5538,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 53.34) (xy 184.15 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5c27b10-ecb4-4fc8-8ce4-992c9b9ad925")
-	)
-	(wire
-		(pts
 			(xy 267.97 162.56) (xy 267.97 160.02)
 		)
 		(stroke
@@ -6252,6 +6242,28 @@
 		)
 		(uuid "20e054b2-e21f-4ec9-a1ee-0179d66c76f7")
 	)
+	(label "BATT_N_SW"
+		(at 49.53 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "36beaa52-f79f-4d89-b451-3d145473f59f")
+	)
+	(label "BATT_N_SW"
+		(at 158.75 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "41628ded-de1e-4351-a7e1-e92b6d664ba2")
+	)
 	(label "GND"
 		(at 156.21 127 0)
 		(fields_autoplaced yes)
@@ -6262,6 +6274,17 @@
 			(justify left bottom)
 		)
 		(uuid "5a762c5e-ea55-467f-8786-c66a27ea6ec8")
+	)
+	(label "BATT_N_SW"
+		(at 49.53 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "784a05bf-be5a-4e3a-911e-f0a9e1e0ae8d")
 	)
 	(label "GND"
 		(at 214.63 127 0)
@@ -6296,6 +6319,17 @@
 		)
 		(uuid "98ceb8f1-0461-4ead-b482-5f103b188800")
 	)
+	(label "BATT_N_SW"
+		(at 49.53 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "98d9b1be-7ae5-4d2e-9a5f-e0fe2568a1d1")
+	)
 	(label "GND"
 		(at 288.29 120.65 0)
 		(fields_autoplaced yes)
@@ -6306,6 +6340,17 @@
 			(justify left bottom)
 		)
 		(uuid "ab0ed4d2-1557-4f0a-9d67-fc0bfb442197")
+	)
+	(label "BATT_N_SW"
+		(at 49.53 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "babda155-a940-4c76-9603-f9348829a251")
 	)
 	(global_label "BATT_P_SENSE"
 		(shape output)
@@ -6417,28 +6462,6 @@
 			)
 		)
 	)
-	(global_label "BATT_N_SW"
-		(shape output)
-		(at 49.53 27.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0f60a3bb-743b-4215-885a-965596acacfc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.9853 28.0194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VSOLAR"
 		(shape bidirectional)
 		(at 129.54 152.4 0)
@@ -6540,50 +6563,6 @@
 		(uuid "4c558dc4-5ab9-497c-bc9a-f0db723aa17f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 29.4258 40.5606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BATT_N_SW"
-		(shape output)
-		(at 49.53 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "610c8204-8172-4d1c-9422-bb34f9828490")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.9853 58.4994 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BATT_N_SW"
-		(shape output)
-		(at 49.53 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7aba21c7-a932-4a53-9e96-27f9ebbe5554")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.9853 38.1794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6725,28 +6704,6 @@
 			)
 		)
 	)
-	(global_label "BATT_N_SW"
-		(shape output)
-		(at 49.53 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ad5847b9-99dc-4f44-b39e-846a57def48c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.9853 48.3394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBAT_NOT_OK"
 		(shape input)
 		(at 39.37 134.62 270)
@@ -6808,28 +6765,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BATT_N_SW"
-		(shape output)
-		(at 158.75 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e4d58ed7-c1c6-4a84-b9b1-9fe452adf691")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.2053 53.4194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7534,82 +7469,6 @@
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/d1649b29-05c9-4e26-9cdd-ed86bbb4e492"
 					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 171.45 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25de6ed5-4e30-4850-b633-7f774e6e8e91")
-		(property "Reference" "R36"
-			(at 171.45 51.308 90)
-			(effects
-				(font
-					(size 1.2 1.2)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 171.45 55.626 90)
-			(effects
-				(font
-					(size 1.2 1.2)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 171.45 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
-			(at 171.45 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e060b951-88bc-4fff-a006-cf23f286a01c")
-		)
-		(pin "2"
-			(uuid "966cc90f-4ba2-4233-a6f7-eeae4654000b")
-		)
-		(instances
-			(project "chipsat"
-				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/d1649b29-05c9-4e26-9cdd-ed86bbb4e492"
-					(reference "R36")
 					(unit 1)
 				)
 			)

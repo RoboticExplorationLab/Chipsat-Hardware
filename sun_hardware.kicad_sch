@@ -430,139 +430,6 @@
 				)
 			)
 		)
-		(symbol "Device:R_Small_US"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small_US"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "r resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_US_1_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -3547,12 +3414,6 @@
 		(uuid "54638dbb-3416-46fd-9ed2-84f1c6605b63")
 	)
 	(junction
-		(at 186.69 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "618f4faf-46d8-43a9-b779-8f72f6f4b74d")
-	)
-	(junction
 		(at 29.21 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3623,6 +3484,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c32eff42-1767-41a8-9c6d-0adf5bfc8932")
+	)
+	(junction
+		(at 193.04 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8c150d7-4c4a-47e6-90f2-fac8fa375a48")
 	)
 	(junction
 		(at 224.79 44.45)
@@ -3850,16 +3717,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 135.89) (xy 193.04 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26b77af9-217f-493e-811c-8a94c8d3ef4b")
-	)
-	(wire
-		(pts
 			(xy 172.72 45.72) (xy 172.72 46.99)
 		)
 		(stroke
@@ -3980,7 +3837,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 137.16) (xy 180.34 147.32)
+			(xy 186.69 137.16) (xy 186.69 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4027,6 +3884,16 @@
 			(type default)
 		)
 		(uuid "692a2515-0da7-44e2-96a8-5fa4f4ffa396")
+	)
+	(wire
+		(pts
+			(xy 193.04 147.32) (xy 186.69 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec9777a-6713-4629-b1be-77d49326a6b9")
 	)
 	(wire
 		(pts
@@ -4110,6 +3977,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 135.89) (xy 193.04 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81de870d-aad0-4244-9896-d42da63f19ea")
+	)
+	(wire
+		(pts
 			(xy 199.39 49.53) (xy 190.5 49.53)
 		)
 		(stroke
@@ -4127,16 +4004,6 @@
 			(type default)
 		)
 		(uuid "82be092c-2f97-4087-98c5-6d7285ce9879")
-	)
-	(wire
-		(pts
-			(xy 186.69 119.38) (xy 180.34 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83785c90-1011-4549-a22a-745cb40ed8a8")
 	)
 	(wire
 		(pts
@@ -4260,16 +4127,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 143.51) (xy 186.69 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7c46fdd-56ee-401e-8c8c-8e0af7f54932")
-	)
-	(wire
-		(pts
 			(xy 125.73 125.73) (xy 121.92 125.73)
 		)
 		(stroke
@@ -4290,7 +4147,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 133.35) (xy 194.31 133.35)
+			(xy 193.04 133.35) (xy 194.31 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4330,16 +4187,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 147.32) (xy 186.69 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0631f30-b054-4438-be7d-d596e01fd02b")
-	)
-	(wire
-		(pts
 			(xy 193.04 119.38) (xy 186.69 119.38)
 		)
 		(stroke
@@ -4370,7 +4217,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 119.38) (xy 180.34 129.54)
+			(xy 186.69 119.38) (xy 186.69 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4400,7 +4247,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 133.35) (xy 186.69 138.43)
+			(xy 193.04 133.35) (xy 193.04 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4427,16 +4274,6 @@
 			(type default)
 		)
 		(uuid "cbf499cb-a08c-4086-b53e-1a53b68e8bf6")
-	)
-	(wire
-		(pts
-			(xy 186.69 128.27) (xy 186.69 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc04b199-f6a0-482c-8fbf-d96305754262")
 	)
 	(wire
 		(pts
@@ -4608,26 +4445,6 @@
 		)
 		(uuid "fa3550de-151c-4e59-a60a-5b4975050e39")
 	)
-	(wire
-		(pts
-			(xy 193.04 147.32) (xy 186.69 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb9dc296-c9ef-4160-945b-ebe7729e5605")
-	)
-	(wire
-		(pts
-			(xy 186.69 119.38) (xy 186.69 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe610853-7994-416b-aea8-1cb9d6d3a442")
-	)
 	(text "Light Sensor\n"
 		(exclude_from_sim no)
 		(at 186.69 110.49 0)
@@ -4693,6 +4510,28 @@
 			(justify right bottom)
 		)
 		(uuid "64d42fa2-a2df-4ddb-a63f-e646f4913d9f")
+	)
+	(label "ANT_1"
+		(at 214.63 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69dcc40c-f1cf-4675-abca-5cd02fccb47b")
+	)
+	(label "ANT_2"
+		(at 214.63 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c23f872-27ce-43a1-81c3-33055890dffe")
 	)
 	(global_label "HI_POW"
 		(shape bidirectional)
@@ -5377,84 +5216,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 186.69 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3814e902-9d4a-4fe8-b1c9-8b5fe652832c")
-		(property "Reference" "R17"
-			(at 188.341 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 188.341 126.873 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 186.69 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
-			(at 186.69 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "773528da-7103-4d4e-b038-d75b103cf7f2")
-		)
-		(pin "2"
-			(uuid "3a981c49-84a7-46d6-84bb-6868ef4cb111")
-		)
-		(instances
-			(project "chipsat"
-				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 177.8 36.83 270)
 		(unit 1)
@@ -5620,7 +5381,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 180.34 133.35 0)
+		(at 186.69 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5628,7 +5389,7 @@
 		(dnp no)
 		(uuid "53c55db9-0924-41d8-a05d-676150b1d527")
 		(property "Reference" "C32"
-			(at 175.133 132.461 0)
+			(at 181.483 132.461 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5637,7 +5398,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 172.339 134.239 0)
+			(at 178.689 134.239 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5646,7 +5407,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 181.3052 137.16 0)
+			(at 187.6552 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5655,7 +5416,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 133.35 0)
+			(at 186.69 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5664,7 +5425,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 133.35 0)
+			(at 186.69 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5673,7 +5434,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
-			(at 180.34 133.35 0)
+			(at 186.69 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6109,84 +5870,6 @@
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 186.69 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d0fbf59-ad7a-49f0-bc84-474c3e0320c8")
-		(property "Reference" "R23"
-			(at 188.341 140.208 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 188.341 142.113 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 186.69 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
-			(at 186.69 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ca910f6-fa71-49f4-a6c8-535f76592e64")
-		)
-		(pin "2"
-			(uuid "76def7dc-10eb-48b4-b11e-99ee2db94cc0")
-		)
-		(instances
-			(project "chipsat"
-				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
-					(reference "R23")
 					(unit 1)
 				)
 			)

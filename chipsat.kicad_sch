@@ -1164,6 +1164,126 @@
 				)
 			)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_names
@@ -1436,6 +1556,12 @@
 		(uuid "58588930-abe6-4789-8f4a-9e9d678181bd")
 	)
 	(junction
+		(at 45.72 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "766f8eb7-dbef-4453-b601-19a998b4a47e")
+	)
+	(junction
 		(at 168.91 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1476,6 +1602,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d060c7eb-8b48-4ae1-891e-2a0049e3703f")
+	)
+	(junction
+		(at 52.07 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d48cabfa-e252-4c30-8a06-6fe66d5a1041")
 	)
 	(junction
 		(at 161.29 106.68)
@@ -1825,6 +1957,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 148.59) (xy 52.07 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac873c9-88fa-4403-b1ea-e5d134be9ec6")
+	)
+	(wire
+		(pts
 			(xy 52.07 173.99) (xy 52.07 180.34)
 		)
 		(stroke
@@ -1915,7 +2057,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 148.59) (xy 57.15 148.59)
+			(xy 41.91 148.59) (xy 45.72 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2475,6 +2617,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 148.59) (xy 58.42 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e43889d2-e1a9-4115-98fd-6c9c50a31aef")
+	)
+	(wire
+		(pts
 			(xy 161.29 116.84) (xy 161.29 114.3)
 		)
 		(stroke
@@ -2590,7 +2742,7 @@
 	)
 	(global_label "3V3"
 		(shape passive)
-		(at 53.34 148.59 180)
+		(at 41.91 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2600,7 +2752,7 @@
 		)
 		(uuid "1c7f62c7-b6d8-4f3a-a064-2b859f5af785")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.9585 148.59 0)
+			(at 36.5285 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +2874,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 57.15 148.59 0)
+		(at 45.72 148.59 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2731,7 +2883,7 @@
 		(dnp no)
 		(uuid "00a02114-faaf-45ac-b26e-9a41817a4604")
 		(property "Reference" "#PWR081"
-			(at 57.15 152.4 0)
+			(at 45.72 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,7 +2892,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 57.15 145.034 0)
+			(at 45.72 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,7 +2900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 148.59 0)
+			(at 45.72 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,7 +2909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 148.59 0)
+			(at 45.72 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2766,7 +2918,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 148.59 0)
+			(at 45.72 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3175,6 +3327,137 @@
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 52.07 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3cb192d9-94aa-45fe-bc6f-05b0130beb53")
+		(property "Reference" "#PWR0111"
+			(at 52.07 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 52.07 144.653 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7116ced5-5e5b-4391-9fd1-ffb16a20e26d")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 58.42 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55c99212-13b2-451e-a100-3c68bf7b2af0")
+		(property "Reference" "#PWR0112"
+			(at 58.42 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 58.42 145.0142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "212f8aac-9a95-47c2-a968-6f9f0471c448")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)

@@ -1508,6 +1508,12 @@
 		(uuid "03889226-8b21-4a4a-81bc-5eb52025c084")
 	)
 	(junction
+		(at 58.42 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "168d5592-d990-483c-a5c7-0ddd9be3ed00")
+	)
+	(junction
 		(at 113.03 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2577,6 +2583,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 148.59) (xy 62.23 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d946676f-0360-471e-9a51-9cf5e3e93267")
+	)
+	(wire
+		(pts
 			(xy 85.09 71.12) (xy 116.84 71.12)
 		)
 		(stroke
@@ -2780,6 +2796,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDDSMPS"
+		(shape passive)
+		(at 62.23 148.59 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92cdf4d7-9402-4185-a603-216aa979bdac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 137.9471 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

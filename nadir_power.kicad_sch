@@ -7104,7 +7104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "batteryboard:R_2512_CurrentSense"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 269.24 34.29 0)
 			(effects
 				(font
@@ -7131,7 +7131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ-1TY0R00U"
+		(property "Manufacturer_Part_Number" ""
 			(at 269.24 34.29 0)
 			(effects
 				(font

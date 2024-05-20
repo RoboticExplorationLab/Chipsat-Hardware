@@ -2476,16 +2476,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 38.1) (xy 72.39 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22050b06-b59d-4855-9721-561e4f77463f")
-	)
-	(wire
-		(pts
 			(xy 172.72 45.72) (xy 172.72 46.99)
 		)
 		(stroke
@@ -3008,7 +2998,7 @@
 	)
 	(global_label "HI_POW"
 		(shape input)
-		(at 72.39 38.1 90)
+		(at 72.39 36.83 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3018,7 +3008,7 @@
 		)
 		(uuid "fe30f6e3-8708-4d7d-b5d5-bdb98734bb1a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.3106 28.821 90)
+			(at 72.3106 27.551 90)
 			(effects
 				(font
 					(size 1.27 1.27)

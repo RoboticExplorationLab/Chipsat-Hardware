@@ -14193,6 +14193,17 @@
 		)
 		(uuid "734d05c0-4189-4718-87a2-d9a9f8faab01")
 	)
+	(text "Using internal STM32 pull-up\nresistors for I2C"
+		(exclude_from_sim no)
+		(at 126.492 136.906 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7bd584f5-0c17-49f9-b553-e511302536f4")
+	)
 	(text "Datasheet: https://www.st.com/resource/en/datasheet/dm00768509.pdf\n(See pg. 179 for power supply instructions)"
 		(exclude_from_sim no)
 		(at 24.13 29.21 0)

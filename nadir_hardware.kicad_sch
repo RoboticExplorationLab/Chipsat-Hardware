@@ -12503,7 +12503,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 57.15) (xy 316.23 57.15)
+			(xy 303.53 57.15) (xy 312.42 57.15)
 		)
 		(stroke
 			(width 0)
@@ -14281,17 +14281,6 @@
 		)
 		(uuid "fbc243e8-0264-497b-b491-72f7e35d513f")
 	)
-	(label "NRST"
-		(at 316.23 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7935bce3-8831-41c1-b0e2-f18efa22364a")
-	)
 	(label "DP"
 		(at 168.91 266.7 180)
 		(fields_autoplaced yes)
@@ -15445,6 +15434,28 @@
 		(uuid "6dd84109-90d8-46a6-895d-6a113727948e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 405.6962 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{RESET}"
+		(shape bidirectional)
+		(at 312.42 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "707d4af1-2d3b-4336-8d73-039dcff8bd1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 322.2616 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)

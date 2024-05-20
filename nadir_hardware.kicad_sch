@@ -10953,7 +10953,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 266.7) (xy 156.21 266.7)
+			(xy 166.37 266.7) (xy 168.91 266.7)
 		)
 		(stroke
 			(width 0)
@@ -11713,7 +11713,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 271.78) (xy 168.91 271.78)
+			(xy 166.37 271.78) (xy 168.91 271.78)
 		)
 		(stroke
 			(width 0)
@@ -11823,7 +11823,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 266.7) (xy 189.23 266.7)
+			(xy 189.23 266.7) (xy 191.77 266.7)
 		)
 		(stroke
 			(width 0)
@@ -12133,16 +12133,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 266.7) (xy 165.1 266.7)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "72e26eac-ae06-4a7f-a2ad-f7cd6ce243c3")
-	)
-	(wire
-		(pts
 			(xy 242.57 195.58) (xy 243.84 195.58)
 		)
 		(stroke
@@ -12443,7 +12433,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 271.78) (xy 190.5 271.78)
+			(xy 189.23 271.78) (xy 191.77 271.78)
 		)
 		(stroke
 			(width 0)
@@ -12860,16 +12850,6 @@
 			(type default)
 		)
 		(uuid "a646ec78-f64c-4d70-bb42-31df51ddb0f0")
-	)
-	(wire
-		(pts
-			(xy 201.93 266.7) (xy 200.66 266.7)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "a690aff0-b4b2-4f65-9106-51d5f085c847")
 	)
 	(wire
 		(pts
@@ -14053,16 +14033,6 @@
 		)
 		(uuid "197980fb-deae-4c18-bb64-c7eea0bab65c")
 	)
-	(text "Alternative MPN: DX07S016JA3R1500"
-		(exclude_from_sim no)
-		(at 135.128 218.948 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "26130474-babb-4a86-a16d-abfa2360d7e5")
-	)
 	(text "SD Card"
 		(exclude_from_sim no)
 		(at 344.17 132.08 0)
@@ -14237,6 +14207,17 @@
 		)
 		(uuid "b1ad1c5f-c500-4e76-a76c-67991a60d956")
 	)
+	(text "See https://www.st.com/resource/en/application_note/an5612-esd-protection-of-stm32-mcus-and-mpus-stmicroelectronics.pdf,\np. 22"
+		(exclude_from_sim no)
+		(at 107.95 217.932 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "b6cc9e53-3b39-4c58-b13b-ac5c1857a84f")
+	)
 	(text "Shield"
 		(exclude_from_sim no)
 		(at 116.84 274.32 90)
@@ -14304,7 +14285,7 @@
 		(uuid "9ceefbac-a899-437f-814a-5090bb178ae0")
 	)
 	(label "DN"
-		(at 193.04 266.7 180)
+		(at 191.77 266.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14514,7 +14495,7 @@
 	)
 	(global_label "DBus+"
 		(shape bidirectional)
-		(at 156.21 266.7 180)
+		(at 166.37 266.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14524,7 +14505,7 @@
 		)
 		(uuid "13365aa6-5cbf-4001-b15b-764344936c9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.145 480.695 0)
+			(at 281.305 480.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14841,7 +14822,7 @@
 	)
 	(global_label "DBus-"
 		(shape bidirectional)
-		(at 201.93 266.7 0)
+		(at 191.77 266.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14851,7 +14832,7 @@
 		)
 		(uuid "44e863a2-b2f7-4ca0-b0bc-4d4cbdbcf1c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 288.925 480.695 0)
+			(at 278.765 480.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15016,7 +14997,7 @@
 	)
 	(global_label "USB_D+"
 		(shape bidirectional)
-		(at 167.64 271.78 180)
+		(at 166.37 271.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15026,7 +15007,7 @@
 		)
 		(uuid "4ced69c9-1260-41c1-8f09-a09fcc4d70b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.6958 271.8594 0)
+			(at 156.4258 271.8594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16533,7 +16514,7 @@
 	)
 	(global_label "USB_D-"
 		(shape bidirectional)
-		(at 190.5 271.78 0)
+		(at 191.77 271.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16543,7 +16524,7 @@
 		)
 		(uuid "d8600475-8cd6-4535-87df-2084c5d39b8e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.4442 271.8594 0)
+			(at 201.7142 271.8594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17903,82 +17884,6 @@
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 196.85 266.7 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12d5da52-a062-4809-8341-14ce367dfd59")
-		(property "Reference" "R43"
-			(at 196.85 263.017 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 196.85 264.668 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 196.596 267.716 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJ-3EKF22R0V"
-			(at 196.85 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14452388-c5c7-4bfa-bbec-4213b41fd7de")
-		)
-		(pin "2"
-			(uuid "0a4a8a6e-689b-48e7-933d-992d38b133ec")
-		)
-		(instances
-			(project "chipsat"
-				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
-					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -25254,7 +25159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TYPE-C-31-M-12"
+		(property "Manufacturer_Part_Number" "USB4105-GF-A"
 			(at 134.62 242.57 0)
 			(effects
 				(font
@@ -26084,82 +25989,6 @@
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 161.29 266.7 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dab91e73-499f-4f09-a92d-9193de608f9c")
-		(property "Reference" "R42"
-			(at 161.29 263.017 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 161.29 264.795 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 161.036 267.716 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 161.29 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJ-3EKF22R0V"
-			(at 161.29 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e4c341b-e8fc-4a9d-b79f-932aeb2f9e05")
-		)
-		(pin "2"
-			(uuid "2596a97e-1ec3-4a5b-ba28-a73a8771d2bc")
-		)
-		(instances
-			(project "chipsat"
-				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
-					(reference "R42")
 					(unit 1)
 				)
 			)

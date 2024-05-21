@@ -2864,14 +2864,14 @@
 		)
 		(uuid "f0ba6dda-d764-447a-b4f1-41e5d26471ea")
 	)
-	(text "Light Sensor\n"
+	(text "Zenith Light Sensor\n"
 		(exclude_from_sim no)
-		(at 186.69 110.49 0)
+		(at 209.042 106.68 0)
 		(effects
 			(font
 				(size 3.9878 3.9878)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 		(uuid "1139ebfd-620d-4a44-99b8-20e7d28796bd")
 	)

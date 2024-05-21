@@ -15119,6 +15119,28 @@
 			)
 		)
 	)
+	(global_label "HI_POW"
+		(shape input)
+		(at 198.12 181.61 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18f8ef50-14b2-41e8-b89d-63bd45a56f43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.12 191.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DBG_SWCLK"
 		(shape bidirectional)
 		(at 104.14 104.14 0)
@@ -17459,6 +17481,18 @@
 		)
 		(uuid "0ee852f4-4476-4ef7-a02c-1e2a691dbe1f")
 	)
+	(hierarchical_label "VSOLAR_BOTTOM"
+		(shape input)
+		(at 204.47 181.61 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11f32a11-4b1f-4992-931f-a54174b9225c")
+	)
 	(hierarchical_label "SPI_RF_NSS"
 		(shape output)
 		(at 104.14 111.76 0)
@@ -17470,18 +17504,6 @@
 			(justify left)
 		)
 		(uuid "1f39fbfc-28ee-47de-9ab2-a02387c443da")
-	)
-	(hierarchical_label "VSOLAR_BOTTOM"
-		(shape input)
-		(at 189.23 181.61 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "23ac5124-46a5-4850-99f4-62ab43b5a513")
 	)
 	(hierarchical_label "SPI_RF_MOSI"
 		(shape output)
@@ -17506,6 +17528,18 @@
 			(justify left)
 		)
 		(uuid "508c31c5-8b2f-40c9-988a-43145f945f6a")
+	)
+	(hierarchical_label "VUSB"
+		(shape input)
+		(at 191.77 181.61 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ac4ee29-83ea-4bc3-809a-5e9ef0716727")
 	)
 	(hierarchical_label "I2C_LIGHT_SDA"
 		(shape bidirectional)
@@ -17814,73 +17848,6 @@
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 189.23 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "02b6d69b-0aed-4cd4-9b58-a16f1c8bf482")
-		(property "Reference" "TP1"
-			(at 187.452 176.403 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP"
-			(at 190.7032 180.9242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 194.31 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fa0a3f5-84bf-47c3-bd87-54c099fb6bc3")
-		)
-		(instances
-			(project "chipsat"
-				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -18901,6 +18868,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 204.47 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "22887678-d272-4527-9206-4f5f788b5780")
+		(property "Reference" "TP8"
+			(at 202.692 176.403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP"
+			(at 205.9432 180.9242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 209.55 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b061298f-abed-4f22-9932-4e325081f526")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 232.41 100.33 0)
 		(unit 1)
@@ -19168,72 +19202,6 @@
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
 					(reference "#PWR098")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 201.93 181.61 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2b4cebf8-b13d-40e0-91d7-81521b98bb71")
-		(property "Reference" "#PWR034"
-			(at 201.93 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 201.93 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5284229-ec8c-4e58-bf22-a6a1d83b1002")
-		)
-		(instances
-			(project "chipsat"
-				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -20724,6 +20692,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 210.82 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4df85e84-aac1-4d73-8dec-4c3db503e9b6")
+		(property "Reference" "TP9"
+			(at 209.042 176.403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP"
+			(at 212.2932 180.9242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 215.9 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c007db93-a139-42f3-8e78-56a7e460941d")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 297.18 223.52 90)
 		(unit 1)
@@ -22199,73 +22234,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ddf09ce-f151-4594-8e8e-c180757ee4b0")
-		(property "Reference" "TP3"
-			(at 200.152 176.403 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP"
-			(at 203.4032 180.9242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 207.01 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.01 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2e48f8d-6f66-4754-9274-6752cf124673")
-		)
-		(instances
-			(project "chipsat"
-				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 152.4 87.63 0)
 		(unit 1)
@@ -22548,6 +22516,71 @@
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d42dc9c-2516-4085-a281-4eed004f36fb")
+		(property "Reference" "#PWR033"
+			(at 210.82 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe6dd868-3acf-4ca1-82e6-94e7eeb63033")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -24130,6 +24163,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 191.77 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ca15d43-09c3-4d90-b9fa-f062ec1864db")
+		(property "Reference" "TP6"
+			(at 189.992 176.403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP"
+			(at 193.2432 180.9242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 196.85 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1488f315-bd0f-4a82-974d-0df0729e6b48")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 314.96 229.87 270)
 		(mirror x)
@@ -24510,6 +24610,73 @@
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 198.12 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3017954-5330-4b23-a2be-8b89922dfa4b")
+		(property "Reference" "TP7"
+			(at 196.342 176.403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP"
+			(at 199.5932 180.9242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 203.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b4db3be-e5ff-49af-804a-cc7e5ca14697")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -25589,73 +25756,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 195.58 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "bad5b6e3-aa1b-4688-8373-b10a1afcf857")
-		(property "Reference" "TP2"
-			(at 193.802 176.403 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP"
-			(at 197.0532 180.9242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 200.66 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc1de3bd-a0e0-4a09-b860-4eb08bce8586")
-		)
-		(instances
-			(project "chipsat"
-				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 198.12 96.52 0)
 		(unit 1)
@@ -25734,16 +25834,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 195.58 181.61 0)
+		(lib_id "power:+3V3")
+		(at 217.17 181.61 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c2fc995b-c8bb-4952-a7c9-b56295276630")
-		(property "Reference" "#PWR033"
-			(at 195.58 187.96 0)
+		(uuid "c495df70-3645-4c4e-88ae-dc29e0b197dd")
+		(property "Reference" "#PWR034"
+			(at 217.17 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25751,8 +25852,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 195.58 185.42 0)
+		(property "Value" "+3V3"
+			(at 217.17 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25760,7 +25861,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 181.61 0)
+			(at 217.17 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25769,7 +25870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 181.61 0)
+			(at 217.17 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25778,7 +25879,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 181.61 0)
+			(at 217.17 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25787,12 +25888,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "86303952-caf7-4f4b-b7de-13e8fbf23e1b")
+			(uuid "6c9a1d35-cea3-46e5-8089-8426d5d3bb8b")
 		)
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -27823,6 +27924,73 @@
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 217.17 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e74bf154-8412-4be1-ae44-925ce5787ed8")
+		(property "Reference" "TP10"
+			(at 215.392 176.403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP"
+			(at 218.6432 180.9242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 222.25 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91797793-39ca-41d4-ad61-362f1793bb61")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
+					(reference "TP10")
 					(unit 1)
 				)
 			)

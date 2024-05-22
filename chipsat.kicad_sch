@@ -2601,6 +2601,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 85.09) (xy 215.9 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c97db1fa-bbee-4522-be2b-47d3f4448091")
+	)
+	(wire
+		(pts
 			(xy 114.3 114.3) (xy 116.84 114.3)
 		)
 		(stroke
@@ -2678,6 +2688,16 @@
 			(type default)
 		)
 		(uuid "d5b5619f-30dc-4e1d-9010-76a0cc873e23")
+	)
+	(wire
+		(pts
+			(xy 205.74 82.55) (xy 215.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66667b2-6e1e-4f6c-817d-8aea0a90434e")
 	)
 	(wire
 		(pts
@@ -2829,16 +2849,6 @@
 			(justify left)
 		)
 		(uuid "20e7f142-a3ce-4469-87b7-bef2b1af73c2")
-	)
-	(text "TODO:\nUpdate footprints for \nSAMTEC TFM-115-12-L-D-A\nSAMTEC SFM-115-02-L-D-A"
-		(exclude_from_sim no)
-		(at 72.898 25.908 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "79706863-d9f3-417f-a733-4dc1b9ff4410")
 	)
 	(label "VSOLAR_BOTTOM"
 		(at 179.07 133.35 180)
@@ -3655,7 +3665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x15_P1.27mm_Vertical_SMD"
+		(property "Footprint" "mainboard:SAMTEC-SFM-115-02-X-D-A"
 			(at 154.94 83.82 0)
 			(effects
 				(font
@@ -4073,7 +4083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x15_P1.27mm_Vertical_SMD"
+		(property "Footprint" "mainboard:SAMTEC_TFM-115-12-L-D-A"
 			(at 121.92 83.82 0)
 			(effects
 				(font
@@ -4847,6 +4857,84 @@
 				(justify right)
 			)
 			(uuid "52a69444-9242-477c-9418-7f33f6ec76de")
+		)
+		(pin "USART_IFACE_RX" input
+			(at 205.74 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "96d76eff-c22f-4fc4-bc62-b8f861db5473")
+		)
+		(pin "USART_IFACE_TX" input
+			(at 205.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9cb797d2-b9f9-41a4-bce8-79d2e705fe76")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 80.01)
+		(size 26.67 8.89)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "19573c0c-5324-410e-b6b4-763c77cc35c4")
+		(property "Sheetname" "Nadir-Side Camera"
+			(at 215.9 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nadir_camera.kicad_sch"
+			(at 215.9 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USART_IFACE_RX" input
+			(at 215.9 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "715e0e0a-0f91-4b97-b702-a006692df4cc")
+		)
+		(pin "USART_IFACE_TX" output
+			(at 215.9 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "41edbc00-1fce-4c71-85f3-8d5d63ba391c")
 		)
 		(instances
 			(project "chipsat"

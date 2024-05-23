@@ -1761,6 +1761,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 73.66) (xy 179.07 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13cc3d5b-cf7f-4616-a492-43497d100bdd")
+	)
+	(wire
+		(pts
 			(xy 160.02 81.28) (xy 162.56 81.28)
 		)
 		(stroke
@@ -2271,13 +2281,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 71.12) (xy 179.07 71.12)
+			(xy 85.09 73.66) (xy 118.11 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73e6af0c-ab39-4e80-9a3f-939278b02913")
+		(uuid "77fff0f3-4f8b-40f7-8ac3-0821ffd8537b")
 	)
 	(wire
 		(pts
@@ -2318,16 +2328,6 @@
 			(type default)
 		)
 		(uuid "829f926d-132e-44dd-b70a-95367a00960b")
-	)
-	(wire
-		(pts
-			(xy 160.02 73.66) (xy 179.07 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8436eca3-61d6-449e-86d0-ef8468209bea")
 	)
 	(wire
 		(pts
@@ -2508,16 +2508,6 @@
 			(type default)
 		)
 		(uuid "aa8d5743-31b1-4053-b585-b5204eb632da")
-	)
-	(wire
-		(pts
-			(xy 85.09 73.66) (xy 118.11 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad2de49c-48a7-4d01-94bb-51eb69aba463")
 	)
 	(wire
 		(pts
@@ -2741,16 +2731,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 71.12) (xy 118.11 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de60e6d2-3ccb-460f-8241-71a965028c3f")
-	)
-	(wire
-		(pts
 			(xy 76.2 161.29) (xy 76.2 167.64)
 		)
 		(stroke
@@ -2788,6 +2768,16 @@
 			(type default)
 		)
 		(uuid "e3341ef0-b999-4f73-861f-0a6166a2a948")
+	)
+	(wire
+		(pts
+			(xy 85.09 71.12) (xy 118.11 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e362c47d-7299-478d-b608-4d79ba62b89f")
 	)
 	(wire
 		(pts
@@ -2838,6 +2828,16 @@
 			(type default)
 		)
 		(uuid "f676f41f-87f3-44a7-a18a-dd8dd0ecac9a")
+	)
+	(wire
+		(pts
+			(xy 160.02 71.12) (xy 179.07 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b0c089-b1bf-4af5-98f2-dbd17470a585")
 	)
 	(wire
 		(pts
@@ -4728,7 +4728,7 @@
 			(uuid "012dc12b-0908-4db4-b005-e1f0dfd48eee")
 		)
 		(pin "RF_IO1" bidirectional
-			(at 179.07 73.66 180)
+			(at 179.07 71.12 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,7 +4758,7 @@
 			(uuid "4d78eedd-9dfa-46da-837e-89cadd720cda")
 		)
 		(pin "RF_IO0" bidirectional
-			(at 179.07 71.12 180)
+			(at 179.07 73.66 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5092,7 +5092,7 @@
 			(uuid "cd88353d-1a8b-4e71-bc82-f1fe51fcff63")
 		)
 		(pin "RF_IO0" bidirectional
-			(at 85.09 71.12 0)
+			(at 85.09 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,7 +5112,7 @@
 			(uuid "d869ad22-679c-4a08-b777-20a3e4c261a3")
 		)
 		(pin "RF_IO1" bidirectional
-			(at 85.09 73.66 0)
+			(at 85.09 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)

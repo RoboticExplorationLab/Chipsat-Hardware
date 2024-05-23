@@ -6257,9 +6257,9 @@
 	(footprint "solarpanels:Antenna Mount"
 		(layer "F.Cu")
 		(uuid "3ee138ec-cf13-411b-bddc-4bf3735c3c2f")
-		(at 103.632 50.8 -90)
+		(at 100.3855 56.134)
 		(property "Reference" "H1"
-			(at 8.3 0 -90)
+			(at 8.3 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -6272,7 +6272,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 4.572 -5.08 -90)
+			(at 4.572 -5.08 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "6c69c221-039e-4fea-a99f-847ac2ffbdf1")
@@ -6284,7 +6284,7 @@
 			)
 		)
 		(property "Footprint" "solarpanels:Antenna Mount"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6296,7 +6296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6308,7 +6308,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6325,16 +6325,6 @@
 		(sheetfile "sun_hardware.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 12.319 4)
-			(end -1 4)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d7f85f3f-c573-4add-909d-b16f2a68331c")
-		)
-		(fp_line
 			(start -1 -4)
 			(end 12.319 -4)
 			(stroke
@@ -6344,15 +6334,25 @@
 			(layer "F.SilkS")
 			(uuid "00bab46b-36ae-48d0-b58b-30848c6daf38")
 		)
+		(fp_line
+			(start 12.319 4)
+			(end -1 4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d7f85f3f-c573-4add-909d-b16f2a68331c")
+		)
 		(pad "" np_thru_hole circle
-			(at 7.4168 0 270)
+			(at 7.4168 0)
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "F&B.Cu" "*.Mask")
 			(uuid "c06ffba3-c10d-44b7-a1e7-3c0f085cb90a")
 		)
 		(pad "1" smd rect
-			(at 0 0 270)
+			(at 0 0)
 			(size 2 7.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 204 "/Sun-Side Hardware/ANT_1")
@@ -53298,9 +53298,9 @@
 	(footprint "solarpanels:Burn-Wire"
 		(layer "B.Cu")
 		(uuid "aac1f8c4-cf0a-4462-8d38-dfc9680eb2be")
-		(at 103.886 48.006 -90)
+		(at 98.2265 56.134)
 		(property "Reference" "JP2"
-			(at 0 -4.42 90)
+			(at 0 -4.42 360)
 			(layer "F.SilkS")
 			(uuid "ec0eb76f-4647-4a38-b1d1-3ecdcbf85689")
 			(effects
@@ -53311,7 +53311,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 0 -4.826 90)
+			(at 0 -4.826 360)
 			(layer "B.Fab")
 			(uuid "e11913f2-2b54-478a-b33c-6fee35432de9")
 			(effects
@@ -53323,7 +53323,7 @@
 			)
 		)
 		(property "Footprint" "solarpanels:Burn-Wire"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -53335,7 +53335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -53347,7 +53347,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -53364,7 +53364,7 @@
 		(sheetfile "sun_hardware.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
-			(at 0 2.413 270)
+			(at 0 2.413)
 			(size 1.016 1.016)
 			(drill 0.6)
 			(layers "*.Cu" "*.Mask")
@@ -53375,7 +53375,7 @@
 			(uuid "c0d6d500-8b5d-4b8a-881f-8cbd8756b54b")
 		)
 		(pad "1" thru_hole circle
-			(at 0 3.429 270)
+			(at 0 3.429)
 			(size 1.016 1.016)
 			(drill 0.6)
 			(layers "*.Cu" "*.Mask")
@@ -53386,7 +53386,7 @@
 			(uuid "2c306a65-98f0-4604-982a-488b7f38e3c2")
 		)
 		(pad "2" thru_hole circle
-			(at 0 -3.429 270)
+			(at 0 -3.429)
 			(size 1.016 1.016)
 			(drill 0.6)
 			(layers "*.Cu" "*.Mask")
@@ -53397,7 +53397,7 @@
 			(uuid "0c02707e-1cac-4dfb-88a9-60ba46ddcc50")
 		)
 		(pad "2" thru_hole circle
-			(at 0 -2.413 270)
+			(at 0 -2.413)
 			(size 1.016 1.016)
 			(drill 0.6)
 			(layers "*.Cu" "*.Mask")
@@ -80805,20 +80805,20 @@
 		(uuid "45f29ecb-a451-40d2-a34d-982335202ad5")
 	)
 	(segment
-		(start 91.694 56.769)
+		(start 92.71 59.436)
 		(end 91.694 60.452)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 180)
-		(uuid "8c6c62de-0e70-439f-a870-d43de02a75f5")
+		(uuid "99a0d815-d744-490b-a525-f8807904189e")
 	)
 	(segment
-		(start 100.457 48.006)
-		(end 91.694 56.769)
+		(start 98.2265 59.436)
+		(end 92.71 59.436)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 180)
-		(uuid "bc9a72da-b2ed-4e82-aa42-56239aca753a")
+		(uuid "e51a8a12-6bb9-4e52-af45-6febcef1c6b7")
 	)
 	(segment
 		(start 138.24 81.884385)
@@ -82446,28 +82446,27 @@
 	)
 	(segment
 		(start 97.4615 54.905)
+		(end 97.155 54.905)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 204)
+		(uuid "376dfcb6-bd8a-4dae-87bf-5b89428d1fa7")
+	)
+	(segment
+		(start 97.155 54.905)
+		(end 101 54.905)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 204)
+		(uuid "8f433aaa-c295-4009-8a34-f80ede52cd3e")
+	)
+	(segment
+		(start 97.155 54.905)
 		(end 95.396 54.905)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 204)
-		(uuid "684ef912-78d1-4438-bfc5-ba3e5e8a3435")
-	)
-	(segment
-		(start 100.987529 53.44447)
-		(end 103.632 50.8)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 204)
-		(uuid "e4e477c1-8e37-4d7d-b6fb-147887ce4069")
-	)
-	(arc
-		(start 100.987529 53.44447)
-		(mid 99.369773 54.52542)
-		(end 97.4615 54.905)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 204)
-		(uuid "44f8da3f-40dc-4cc5-acf7-87bb3d5fd6f0")
+		(uuid "e6b0786b-11ed-4bc3-89ae-5f8039dd9108")
 	)
 	(segment
 		(start 88.893479 56.39452)

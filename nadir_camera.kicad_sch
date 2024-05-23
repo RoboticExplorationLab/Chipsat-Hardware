@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "b6816af2-cfa6-4096-b7dc-7f401edc2524")
+	(uuid "e77d65a5-5114-485a-8417-a4a0fbf4c57d")
 	(paper "A3")
 	(title_block
 		(title "ChipSat")
@@ -10880,7 +10880,7 @@
 	)
 	(text "MCU (STM32H743VITx)"
 		(exclude_from_sim no)
-		(at 45.72 25.4 0)
+		(at 56.388 23.876 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -10888,6 +10888,17 @@
 			(justify left bottom)
 		)
 		(uuid "b260030b-8fd9-430d-8726-18d629cd1e4e")
+	)
+	(text "Datasheet: https://www.st.com/resource/en/datasheet/stm32h743vi.pdf\n(See pg. 209 for power supply instructions)"
+		(exclude_from_sim no)
+		(at 19.558 27.686 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3cfd6e7-2003-4025-86dc-64f3773ca7bb")
 	)
 	(text "Check Xtal Datasheet\nThis value assumes 7pF \ncrystal bulk capacitance"
 		(exclude_from_sim no)

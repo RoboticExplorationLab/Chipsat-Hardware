@@ -9619,6 +9619,12 @@
 		(uuid "1dcadddc-88f5-4a7f-be57-751903e028ef")
 	)
 	(junction
+		(at 350.52 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "211b206f-cb6c-44b2-9999-a87c23c6c25f")
+	)
+	(junction
 		(at 135.89 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9767,12 +9773,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fea365f-91fe-4d7f-b6ad-cfaec51b7cd6")
-	)
-	(junction
-		(at 350.52 232.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91c2d052-82d3-4dde-a271-baeec6b6154c")
 	)
 	(junction
 		(at 187.96 152.4)
@@ -10109,16 +10109,8 @@
 		(uuid "40334c56-b32e-41bd-82bd-40d3228d3035")
 	)
 	(no_connect
-		(at 48.26 162.56)
-		(uuid "45251edd-37b8-43f7-98c1-114894a23847")
-	)
-	(no_connect
 		(at 48.26 139.7)
 		(uuid "4ee25b46-95dc-40e3-8a1b-2254410ebc6b")
-	)
-	(no_connect
-		(at 48.26 165.1)
-		(uuid "5450b884-bb61-4bc1-b5cf-a17ca925b3af")
 	)
 	(no_connect
 		(at 149.86 257.81)
@@ -11250,16 +11242,6 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 232.41) (xy 350.52 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52a07b6c-424a-4233-b467-523ba82f83d1")
-	)
-	(wire
-		(pts
 			(xy 344.17 226.06) (xy 344.17 224.79)
 		)
 		(stroke
@@ -11597,6 +11579,16 @@
 			(type default)
 		)
 		(uuid "6de8bbeb-5181-4033-a6b4-c412c09dad4c")
+	)
+	(wire
+		(pts
+			(xy 350.52 234.95) (xy 350.52 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df01f85-c70b-4d2f-a798-3489539903dc")
 	)
 	(wire
 		(pts
@@ -14470,6 +14462,28 @@
 			)
 		)
 	)
+	(global_label "I2C_LIGHT2_SCL"
+		(shape output)
+		(at 48.26 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69ffa64c-69ef-4125-9d2f-672164b65e31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.3372 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI_FLASH_MOSI"
 		(shape input)
 		(at 387.35 74.93 0)
@@ -14769,6 +14783,28 @@
 		(uuid "92b2e72e-a89e-490c-bfb2-2027cd7001f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 118.3359 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_LIGHT2_SCL"
+		(shape input)
+		(at 386.08 237.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "930740a1-3ca1-4b08-84af-7fb4e4e69803")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 404.0028 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15129,6 +15165,28 @@
 			)
 		)
 	)
+	(global_label "I2C_LIGHT2_SDA"
+		(shape bidirectional)
+		(at 386.08 232.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb3bd424-7093-4272-aaeb-1f24526c3b35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 405.1746 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IMU_RST"
 		(shape input)
 		(at 303.53 250.19 0)
@@ -15147,6 +15205,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_LIGHT2_SDA"
+		(shape bidirectional)
+		(at 48.26 165.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd069bb1-d5b6-48d1-96e2-5a85f24263b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.1654 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -15631,18 +15711,6 @@
 		)
 		(uuid "5ac4ee29-83ea-4bc3-809a-5e9ef0716727")
 	)
-	(hierarchical_label "I2C_LIGHT_SDA"
-		(shape bidirectional)
-		(at 386.08 232.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6beafeaf-ffea-4ea5-b402-bffd02c237fd")
-	)
 	(hierarchical_label "USART_IFACE_RX"
 		(shape input)
 		(at 48.26 154.94 180)
@@ -15786,18 +15854,6 @@
 			(justify left)
 		)
 		(uuid "e91b1667-c09f-4645-abda-22bc4e804a74")
-	)
-	(hierarchical_label "I2C_LIGHT_SCL"
-		(shape input)
-		(at 386.08 237.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f33a8f3a-b7ec-4477-a585-f2ed5cc1d21f")
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")

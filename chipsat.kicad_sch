@@ -1508,6 +1508,12 @@
 		(uuid "03889226-8b21-4a4a-81bc-5eb52025c084")
 	)
 	(junction
+		(at 92.71 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08567b8a-426d-4832-95a5-2f03e9ebae5e")
+	)
+	(junction
 		(at 58.42 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1572,6 +1578,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cd260bc-e5c8-4500-9d21-b8158c5248d7")
+	)
+	(junction
+		(at 90.17 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e4290b4-6646-4a96-a3cf-bdd668c0f511")
 	)
 	(junction
 		(at 76.2 167.64)
@@ -1681,6 +1693,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 85.09) (xy 92.71 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01673159-d314-463c-be2e-e725d168efcb")
+	)
+	(wire
+		(pts
 			(xy 107.95 53.34) (xy 107.95 41.91)
 		)
 		(stroke
@@ -1708,6 +1730,16 @@
 			(type default)
 		)
 		(uuid "07cf81b6-91fd-4d2e-958f-a70a31397a6a")
+	)
+	(wire
+		(pts
+			(xy 92.71 111.76) (xy 110.49 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "097ec77c-8d09-4cf2-a868-7e3a2df54e76")
 	)
 	(wire
 		(pts
@@ -1881,6 +1913,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 82.55) (xy 90.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26fe15cb-8c90-41c4-bb8a-112b9e0a7b9a")
+	)
+	(wire
+		(pts
 			(xy 52.07 161.29) (xy 52.07 167.64)
 		)
 		(stroke
@@ -1971,7 +2013,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 109.22) (xy 109.22 109.22)
+			(xy 85.09 109.22) (xy 90.17 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2028,6 +2070,16 @@
 			(type default)
 		)
 		(uuid "35814cc4-4ac2-400e-8f9a-d837bd1298a5")
+	)
+	(wire
+		(pts
+			(xy 92.71 85.09) (xy 92.71 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39778cba-f711-460b-bf82-ebcfcc52ef26")
 	)
 	(wire
 		(pts
@@ -2611,6 +2663,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 82.55) (xy 90.17 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c99bae00-0316-451f-ba0c-87f37f2aac23")
+	)
+	(wire
+		(pts
 			(xy 114.3 114.3) (xy 118.11 114.3)
 		)
 		(stroke
@@ -2671,7 +2733,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 111.76) (xy 110.49 111.76)
+			(xy 85.09 111.76) (xy 92.71 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2858,6 +2920,16 @@
 			(type default)
 		)
 		(uuid "fe91cfa1-a1c8-4ca1-bc21-9126efbc6672")
+	)
+	(wire
+		(pts
+			(xy 90.17 109.22) (xy 109.22 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff889ed8-2516-4a80-ae8a-2beaa6ea4bb0")
 	)
 	(text "Top-Bottom Interface"
 		(exclude_from_sim no)
@@ -5150,6 +5222,26 @@
 				(justify right)
 			)
 			(uuid "41dec65c-61b9-4cfd-b458-60a7c036504c")
+		)
+		(pin "VUSB" input
+			(at 85.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "882df9f8-1d87-46e2-8f79-e495c8dfc3a2")
+		)
+		(pin "HI_POW_STATUS" input
+			(at 85.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b5634bdc-df40-4dfe-a1fb-991a96e5fedd")
 		)
 		(instances
 			(project "chipsat"

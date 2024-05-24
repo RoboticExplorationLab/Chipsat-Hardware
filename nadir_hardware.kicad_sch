@@ -15747,7 +15747,7 @@
 		)
 		(uuid "8c1981ab-97f1-4c4d-95b9-bb56d5590c82")
 	)
-	(hierarchical_label "RF_IO1"
+	(hierarchical_label "RF_IO0"
 		(shape bidirectional)
 		(at 48.26 116.84 180)
 		(fields_autoplaced yes)
@@ -15819,7 +15819,7 @@
 		)
 		(uuid "c75b51a7-dc2c-4d00-bf86-f986e8f21b52")
 	)
-	(hierarchical_label "RF_IO0"
+	(hierarchical_label "RF_IO1"
 		(shape bidirectional)
 		(at 48.26 119.38 180)
 		(fields_autoplaced yes)

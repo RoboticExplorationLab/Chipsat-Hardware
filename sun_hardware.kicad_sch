@@ -3504,8 +3504,8 @@
 		)
 		(uuid "6c23f872-27ce-43a1-81c3-33055890dffe")
 	)
-	(global_label "HI_POW"
-		(shape bidirectional)
+	(global_label "BATT_P"
+		(shape input)
 		(at 186.69 27.94 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3516,7 +3516,7 @@
 		)
 		(uuid "0989912d-3275-4fab-916b-e1daac275f3f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.6387 27.94 0)
+			(at 177.1734 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)

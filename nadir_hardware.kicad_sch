@@ -10069,10 +10069,6 @@
 		(uuid "0af59ea1-59a8-4109-8089-9bd4990d1bc0")
 	)
 	(no_connect
-		(at 104.14 116.84)
-		(uuid "144a98e9-0760-4bed-b1cb-cefd46cf8830")
-	)
-	(no_connect
 		(at 104.14 142.24)
 		(uuid "1ae97197-be6e-4af5-b379-3cbb7858b335")
 	)
@@ -10952,6 +10948,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 195.58) (xy 251.46 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "362e7ecd-c6f1-487f-8cde-94a4ddd20409")
+	)
+	(wire
+		(pts
 			(xy 289.56 57.15) (xy 285.75 57.15)
 		)
 		(stroke
@@ -10969,6 +10975,16 @@
 			(type default)
 		)
 		(uuid "3803f760-5009-4fe7-82c6-bbb9fcf26090")
+	)
+	(wire
+		(pts
+			(xy 245.11 195.58) (xy 246.38 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3833d887-68a5-4773-9c38-b3a62b3317cf")
 	)
 	(wire
 		(pts
@@ -11132,7 +11148,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 195.58) (xy 284.48 195.58)
+			(xy 293.37 195.58) (xy 290.83 195.58)
 		)
 		(stroke
 			(width 0)
@@ -12032,7 +12048,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 195.58) (xy 278.13 195.58)
+			(xy 285.75 195.58) (xy 284.48 195.58)
 		)
 		(stroke
 			(width 0)
@@ -12082,7 +12098,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 195.58) (xy 273.05 195.58)
+			(xy 278.13 195.58) (xy 279.4 195.58)
 		)
 		(stroke
 			(width 0)
@@ -12912,7 +12928,7 @@
 	)
 	(polyline
 		(pts
-			(xy 217.17 284.48) (xy 217.17 205.74)
+			(xy 214.63 284.48) (xy 214.63 205.74)
 		)
 		(stroke
 			(width 0)
@@ -12949,6 +12965,16 @@
 			(type default)
 		)
 		(uuid "dbe53a71-13f0-47bd-8937-27fc0ae7323c")
+	)
+	(wire
+		(pts
+			(xy 260.35 195.58) (xy 257.81 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd0766c5-395f-4bfa-91d4-6cebb4a5d342")
 	)
 	(wire
 		(pts
@@ -13843,7 +13869,7 @@
 	)
 	(global_label "HI_POW"
 		(shape input)
-		(at 198.12 181.61 270)
+		(at 194.31 181.61 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13853,7 +13879,7 @@
 		)
 		(uuid "18f8ef50-14b2-41e8-b89d-63bd45a56f43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.12 191.55 90)
+			(at 194.31 191.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14269,6 +14295,28 @@
 		(uuid "4e641903-2842-4506-b57b-6fc9afcaa102")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 118.7365 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3CAM_EN"
+		(shape output)
+		(at 104.14 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5373433f-c7c3-4234-99b5-fdc629046963")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.8899 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14698,7 +14746,7 @@
 	)
 	(global_label "HI_POW"
 		(shape input)
-		(at 271.78 195.58 180)
+		(at 278.13 195.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14708,7 +14756,7 @@
 		)
 		(uuid "8fb27913-e366-42b8-9231-dcdfdde86416")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.84 195.58 0)
+			(at 268.19 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14846,6 +14894,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3CAM"
+		(shape input)
+		(at 219.71 181.61 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0d6565b-5866-43e8-b0f8-ca21ea188d3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 191.9128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -15509,6 +15579,28 @@
 			)
 		)
 	)
+	(global_label "3V3CAM"
+		(shape input)
+		(at 245.11 195.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa73b857-57ae-4ff1-bec8-193042548707")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.8072 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDMMC_CK"
 		(shape bidirectional)
 		(at 48.26 147.32 180)
@@ -15567,7 +15659,7 @@
 	)
 	(hierarchical_label "VSOLAR_BOTTOM"
 		(shape input)
-		(at 204.47 181.61 270)
+		(at 200.66 181.61 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15627,7 +15719,7 @@
 	)
 	(hierarchical_label "VUSB"
 		(shape input)
-		(at 191.77 181.61 270)
+		(at 187.96 181.61 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16653,7 +16745,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 204.47 181.61 0)
+		(at 200.66 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -16661,7 +16753,7 @@
 		(dnp no)
 		(uuid "22887678-d272-4527-9206-4f5f788b5780")
 		(property "Reference" "TP8"
-			(at 202.692 176.403 0)
+			(at 198.882 176.403 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16670,7 +16762,7 @@
 			)
 		)
 		(property "Value" "TP"
-			(at 205.9432 180.9242 0)
+			(at 202.1332 180.9242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16680,7 +16772,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 209.55 181.61 0)
+			(at 205.74 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16689,7 +16781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 181.61 0)
+			(at 205.74 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16698,7 +16790,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 181.61 0)
+			(at 200.66 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17539,7 +17631,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 281.94 195.58 90)
+		(at 288.29 195.58 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17549,7 +17641,7 @@
 		(fields_autoplaced yes)
 		(uuid "41c78feb-c2f4-447d-b2a4-b5afc3a3b729")
 		(property "Reference" "R16"
-			(at 281.94 199.39 90)
+			(at 288.29 199.39 90)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -17557,7 +17649,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 281.94 201.93 90)
+			(at 288.29 201.93 90)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -17565,7 +17657,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 281.94 195.58 0)
+			(at 288.29 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17574,7 +17666,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 281.94 195.58 0)
+			(at 288.29 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17583,7 +17675,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 281.94 195.58 0)
+			(at 288.29 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17592,7 +17684,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-3EKF3302V"
-			(at 281.94 195.58 0)
+			(at 288.29 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17991,7 +18083,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 210.82 181.61 0)
+		(at 207.01 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -17999,7 +18091,7 @@
 		(dnp no)
 		(uuid "4df85e84-aac1-4d73-8dec-4c3db503e9b6")
 		(property "Reference" "TP9"
-			(at 209.042 176.403 0)
+			(at 205.232 176.403 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18008,7 +18100,7 @@
 			)
 		)
 		(property "Value" "TP"
-			(at 212.2932 180.9242 0)
+			(at 208.4832 180.9242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18018,7 +18110,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 215.9 181.61 0)
+			(at 212.09 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18027,7 +18119,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 181.61 0)
+			(at 212.09 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18036,7 +18128,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 181.61 0)
+			(at 207.01 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18485,8 +18577,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 260.35 195.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60259479-2d15-475d-bbf2-44d7ff6b2169")
+		(property "Reference" "#PWR041"
+			(at 260.35 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.35 199.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac16f8e1-53e6-4196-a7ce-a2406d42e388")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Small")
-		(at 275.59 195.58 0)
+		(at 281.94 195.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18496,7 +18654,7 @@
 		(fields_autoplaced yes)
 		(uuid "60bf5092-c89b-492d-a86b-b962f15bb476")
 		(property "Reference" "LED5"
-			(at 275.5265 189.23 0)
+			(at 281.8765 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18504,7 +18662,7 @@
 			)
 		)
 		(property "Value" "LTST-C190AKT"
-			(at 275.5265 191.77 0)
+			(at 281.8765 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18512,7 +18670,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 275.59 195.58 90)
+			(at 281.94 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18521,7 +18679,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 195.58 90)
+			(at 281.94 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18530,7 +18688,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 275.59 195.58 0)
+			(at 281.94 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18539,7 +18697,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LTST-C190AKT"
-			(at 275.59 195.58 0)
+			(at 281.94 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19533,7 +19691,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 287.02 195.58 0)
+		(at 293.37 195.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19542,7 +19700,7 @@
 		(dnp no)
 		(uuid "75965644-c8f7-4168-b910-3fde626b9485")
 		(property "Reference" "#PWR0142"
-			(at 287.02 201.93 0)
+			(at 293.37 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19551,7 +19709,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 287.02 199.136 0)
+			(at 293.37 199.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19559,7 +19717,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 287.02 195.58 0)
+			(at 293.37 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19568,7 +19726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 195.58 0)
+			(at 293.37 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19577,7 +19735,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 195.58 0)
+			(at 293.37 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19677,7 +19835,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 181.61 0)
+		(at 207.01 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19685,7 +19843,7 @@
 		(dnp no)
 		(uuid "7d42dc9c-2516-4085-a281-4eed004f36fb")
 		(property "Reference" "#PWR033"
-			(at 210.82 187.96 0)
+			(at 207.01 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19694,7 +19852,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 185.42 0)
+			(at 207.01 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19702,7 +19860,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 181.61 0)
+			(at 207.01 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19711,7 +19869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 181.61 0)
+			(at 207.01 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19720,7 +19878,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 181.61 0)
+			(at 207.01 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21096,6 +21254,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small")
+		(at 248.92 195.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b91b360-ad9b-4f27-aba4-60947d8aa8ec")
+		(property "Reference" "LED4"
+			(at 248.8565 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C190AKT"
+			(at 248.8565 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 248.92 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 248.92 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C190AKT"
+			(at 248.92 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad48fad5-bbd0-4184-9e41-ea1a9f9d72fb")
+		)
+		(pin "2"
+			(uuid "f72cc990-2f27-4ac0-8538-1e75640614c8")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 314.96 234.95 90)
 		(mirror x)
@@ -21174,7 +21410,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 191.77 181.61 0)
+		(at 187.96 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -21182,7 +21418,7 @@
 		(dnp no)
 		(uuid "9ca15d43-09c3-4d90-b9fa-f062ec1864db")
 		(property "Reference" "TP6"
-			(at 189.992 176.403 0)
+			(at 186.182 176.403 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21191,7 +21427,7 @@
 			)
 		)
 		(property "Value" "TP"
-			(at 193.2432 180.9242 0)
+			(at 189.4332 180.9242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21201,7 +21437,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 196.85 181.61 0)
+			(at 193.04 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21210,7 +21446,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 181.61 0)
+			(at 193.04 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21219,7 +21455,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 181.61 0)
+			(at 187.96 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21627,7 +21863,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 198.12 181.61 0)
+		(at 194.31 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -21635,7 +21871,7 @@
 		(dnp no)
 		(uuid "a3017954-5330-4b23-a2be-8b89922dfa4b")
 		(property "Reference" "TP7"
-			(at 196.342 176.403 0)
+			(at 192.532 176.403 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21644,7 +21880,7 @@
 			)
 		)
 		(property "Value" "TP"
-			(at 199.5932 180.9242 0)
+			(at 195.7832 180.9242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21654,7 +21890,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 203.2 181.61 0)
+			(at 199.39 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21663,7 +21899,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 181.61 0)
+			(at 199.39 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21672,7 +21908,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 181.61 0)
+			(at 194.31 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22189,6 +22425,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 219.71 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b23c9a5d-6e0f-4970-94a3-a5d1a94ad41f")
+		(property "Reference" "TP12"
+			(at 217.932 176.403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP"
+			(at 221.1832 180.9242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 224.79 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b14216e3-6952-4d1b-9732-f5e9a9266110")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 152.4 90.17 0)
 		(unit 1)
@@ -22545,6 +22848,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 255.27 195.58 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8ee1f89-1e7b-4789-8e6d-3df0cd01d1d4")
+		(property "Reference" "R78"
+			(at 255.27 190.754 90)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+			)
+		)
+		(property "Value" "16k"
+			(at 255.27 193.294 90)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 255.27 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1602V"
+			(at 255.27 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d96deb97-b849-45ea-820f-1a0d43a20ceb")
+		)
+		(pin "2"
+			(uuid "4f025dfb-b7cb-4a33-84a2-6b1fddd8ae16")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
+					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Small")
 		(at 246.38 180.34 0)
 		(mirror y)
@@ -22689,7 +23069,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 217.17 181.61 0)
+		(at 213.36 181.61 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22698,7 +23078,7 @@
 		(dnp no)
 		(uuid "c495df70-3645-4c4e-88ae-dc29e0b197dd")
 		(property "Reference" "#PWR034"
-			(at 217.17 177.8 0)
+			(at 213.36 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22707,7 +23087,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 217.17 185.42 0)
+			(at 213.36 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22715,7 +23095,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 181.61 0)
+			(at 213.36 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22724,7 +23104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 181.61 0)
+			(at 213.36 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22733,7 +23113,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 181.61 0)
+			(at 213.36 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24643,7 +25023,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 217.17 181.61 0)
+		(at 213.36 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -24651,7 +25031,7 @@
 		(dnp no)
 		(uuid "e74bf154-8412-4be1-ae44-925ce5787ed8")
 		(property "Reference" "TP10"
-			(at 215.392 176.403 0)
+			(at 211.582 176.403 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24660,7 +25040,7 @@
 			)
 		)
 		(property "Value" "TP"
-			(at 218.6432 180.9242 0)
+			(at 214.8332 180.9242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24670,7 +25050,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 222.25 181.61 0)
+			(at 218.44 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24679,7 +25059,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 181.61 0)
+			(at 218.44 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24688,7 +25068,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 181.61 0)
+			(at 213.36 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)

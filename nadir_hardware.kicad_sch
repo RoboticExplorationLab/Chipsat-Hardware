@@ -7596,6 +7596,10 @@
 		(uuid "46196f09-5246-4de3-a43e-a4f3e625a63b")
 	)
 	(no_connect
+		(at 88.9 121.92)
+		(uuid "48db97cc-15c1-4dfe-8bd0-befc30e79c37")
+	)
+	(no_connect
 		(at 256.54 146.05)
 		(uuid "50aa6f4a-beec-4224-8e77-eaa164b9a213")
 	)
@@ -7626,6 +7630,10 @@
 	(no_connect
 		(at 358.14 158.75)
 		(uuid "7fa0474c-7622-4b26-bba0-bd09dda68573")
+	)
+	(no_connect
+		(at 88.9 124.46)
+		(uuid "b5638056-33e3-4367-80b7-e130f7814f06")
 	)
 	(no_connect
 		(at 358.14 176.53)
@@ -12291,7 +12299,7 @@
 			)
 		)
 	)
-	(global_label "HEATER1_EN"
+	(global_label "HEATER0_EN"
 		(shape output)
 		(at 129.54 121.92 0)
 		(fields_autoplaced yes)
@@ -12511,7 +12519,7 @@
 			)
 		)
 	)
-	(global_label "HEATER0_EN"
+	(global_label "HEATER1_EN"
 		(shape output)
 		(at 129.54 96.52 0)
 		(fields_autoplaced yes)
@@ -12832,18 +12840,6 @@
 		)
 		(uuid "2223d87d-41aa-4c9f-9086-867ba69a1d6a")
 	)
-	(hierarchical_label "BURN0_EN"
-		(shape output)
-		(at 88.9 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4424d182-98e7-4a3b-b450-6a84de89e091")
-	)
 	(hierarchical_label "VUSB"
 		(shape input)
 		(at 187.96 181.61 270)
@@ -13035,18 +13031,6 @@
 			(justify right)
 		)
 		(uuid "c75b51a7-dc2c-4d00-bf86-f986e8f21b52")
-	)
-	(hierarchical_label "BURN1_EN"
-		(shape output)
-		(at 88.9 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d2d3d5c1-9807-4f77-9f97-b471d0e19b58")
 	)
 	(hierarchical_label "SPI_RF_SCK"
 		(shape output)

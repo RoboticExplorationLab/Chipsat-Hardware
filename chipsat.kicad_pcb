@@ -7,6 +7,16 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "ChipSat")
+		(date "2024-05-30")
+		(rev "0.2")
+		(company "RExLab Carnegie Mellon University")
+		(comment 1 "Z.Manchester")
+		(comment 2 "N.Khera")
+		(comment 3 "M.Holliday")
+		(comment 4 "K.Kanavouras")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(1 "In1.Cu" signal)
@@ -7714,7 +7724,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "553908b0-967b-4c6f-86a9-6969a39a7ebc")
 			(effects
@@ -7879,7 +7889,7 @@
 			(uuid "0e5aabd7-dfc8-4be6-882c-48e3afc20dad")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "9e3b59ba-58f2-426a-ae55-02c4bd087777")
 			(effects
@@ -20157,7 +20167,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "d7da98ad-6102-4f21-ab93-8ac9ed836471")
 			(effects
@@ -20322,7 +20332,7 @@
 			(uuid "f3ee0417-184f-4189-859b-0e94c604d96e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "09be604d-2e2b-4e58-8836-683cb5463939")
 			(effects
@@ -26489,7 +26499,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "dd7ce236-881f-4d22-941c-3c72a9560890")
 			(effects
@@ -26654,7 +26664,7 @@
 			(uuid "96cfad20-e06a-4233-8905-ddfeda9febbc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "3544ec5d-db73-4436-b857-5330fc26c233")
 			(effects
@@ -42931,7 +42941,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R78"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "4f38a218-dbba-41ea-906f-3ba6ad548432")
@@ -42944,7 +42954,7 @@
 			)
 		)
 		(property "Value" "16k"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "5af4801b-582a-4c4b-a24b-08d8977b9536")
 			(effects
@@ -43114,7 +43124,7 @@
 			(uuid "cb31a4cf-2ee9-48f4-bc2f-99dadc9b1330")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "0ac3b473-a0fa-47eb-86e9-7e2609439e35")
 			(effects
@@ -57221,7 +57231,7 @@
 			)
 		)
 		(property "Value" "LTST-C190AKT"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "aa4b837a-899f-4021-9ca7-99915e319c29")
 			(effects
@@ -57411,7 +57421,7 @@
 			(uuid "b4a97c96-e22c-4cd8-bf28-f05ca55d5e2c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "ee07b7fd-0e3c-4742-b769-a43728c99694")
 			(effects
@@ -100849,8 +100859,8 @@
 		)
 		(polygon
 			(pts
-				(xy 48.26 101.219) (xy 52.959 101.219) (xy 52.959 101.219) (xy 64.77 101.219) (xy 64.77 106.553)
-				(xy 49.784 106.553) (xy 49.784 117.221) (xy 48.26 117.221)
+				(xy 48.26 101.219) (xy 52.959 101.219) (xy 64.77 101.219) (xy 64.77 106.553) (xy 49.784 106.553)
+				(xy 49.784 117.221) (xy 48.26 117.221)
 			)
 		)
 		(filled_polygon

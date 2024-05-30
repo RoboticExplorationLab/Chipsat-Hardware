@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "ChipSat")
-		(date "2024-04-16")
-		(rev "1")
+		(date "2024-05-30")
+		(rev "0.2")
 		(company "RExLab Carnegie Mellon University")
 		(comment 1 "Z.Manchester")
 		(comment 2 "N.Khera")

@@ -8102,7 +8102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca298a45-b082-4925-96ec-a3f10a5bd853")
-		(property "Reference" "SW4"
+		(property "Reference" "JP5"
 			(at 139.7 148.59 0)
 			(effects
 				(font
@@ -8110,7 +8110,7 @@
 				)
 			)
 		)
-		(property "Value" "CAS-120TA"
+		(property "Value" "Jumper_3_Open"
 			(at 139.7 151.13 0)
 			(effects
 				(font
@@ -8145,7 +8145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CAS-120TA"
+		(property "Manufacturer_Part_Number" "68002-103HLF"
 			(at 139.7 144.78 0)
 			(effects
 				(font
@@ -8166,7 +8166,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3fade5ae-0d25-4642-b76c-9cf8a5d7223a"
-					(reference "SW4")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -9216,7 +9216,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BM03B-SRSS-TB"
+		(property "Value" "SM03B-SRSS-TB"
 			(at 51.435 160.0169 0)
 			(effects
 				(font
@@ -9225,7 +9225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 49.53 157.48 0)
 			(effects
 				(font
@@ -9252,7 +9252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "BM03B-SRSS-TB"
+		(property "Manufacturer_Part_Number" "SM03B-SRSS-TB"
 			(at 49.53 157.48 0)
 			(effects
 				(font

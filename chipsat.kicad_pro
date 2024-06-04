@@ -579,18 +579,6 @@
         },
         {
           "group_by": false,
-          "label": "DNI",
-          "name": "DNI",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Flight",
-          "name": "Flight",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Manufacturer_Part_Number",
           "name": "Manufacturer_Part_Number",
           "show": true
@@ -600,31 +588,13 @@
           "label": "Description",
           "name": "Description",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Field4",
-          "name": "Field4",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Field7",
-          "name": "Field7",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Field8",
-          "name": "Field8",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

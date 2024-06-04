@@ -8358,7 +8358,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BM02B-SRSS-TB"
+		(property "Value" "SM02B-SRSS-TB"
 			(at 42.545 53.3369 0)
 			(effects
 				(font
@@ -8367,7 +8367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 40.64 50.8 0)
 			(effects
 				(font
@@ -8394,7 +8394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "BM02B-SRSS-TB"
+		(property "Manufacturer_Part_Number" "SM02B-SRSS-TB"
 			(at 40.64 50.8 0)
 			(effects
 				(font
@@ -9795,7 +9795,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BM02B-SRSS-TB"
+		(property "Value" "SM02B-SRSS-TB"
 			(at 89.535 34.2869 0)
 			(effects
 				(font
@@ -9804,7 +9804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 87.63 31.75 0)
 			(effects
 				(font
@@ -9831,7 +9831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "BM02B-SRSS-TB"
+		(property "Manufacturer_Part_Number" "SM02B-SRSS-TB"
 			(at 87.63 31.75 0)
 			(effects
 				(font
@@ -12974,7 +12974,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BM02B-SRSS-TB"
+		(property "Value" "SM02B-SRSS-TB"
 			(at 42.545 34.2869 0)
 			(effects
 				(font
@@ -12983,7 +12983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 40.64 31.75 0)
 			(effects
 				(font
@@ -13010,7 +13010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "BM02B-SRSS-TB"
+		(property "Manufacturer_Part_Number" "SM02B-SRSS-TB"
 			(at 40.64 31.75 0)
 			(effects
 				(font
@@ -13833,7 +13833,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BM02B-SRSS-TB"
+		(property "Value" "SM02B-SRSS-TB"
 			(at 89.535 53.3369 0)
 			(effects
 				(font
@@ -13842,7 +13842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 87.63 50.8 0)
 			(effects
 				(font
@@ -13869,7 +13869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "BM02B-SRSS-TB"
+		(property "Manufacturer_Part_Number" "SM02B-SRSS-TB"
 			(at 87.63 50.8 0)
 			(effects
 				(font

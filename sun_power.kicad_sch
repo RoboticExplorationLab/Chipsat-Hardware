@@ -8316,6 +8316,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
+			(at 78.74 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea75ff75-f1c8-40c7-bdf6-1f26e11cc4e3")
 		)
@@ -8885,15 +8894,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 275.59 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNI" "DNI"
 			(at 275.59 100.33 0)
 			(effects
 				(font
@@ -11253,15 +11253,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" "DNI"
-			(at 257.81 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
 			(at 257.81 100.33 0)
 			(effects
@@ -11591,7 +11582,7 @@
 		(at 205.74 40.64 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11998,6 +11989,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 31.75 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
 			(at 31.75 53.34 0)
 			(effects
 				(font
@@ -12421,15 +12421,6 @@
 		)
 		(property "Description" ""
 			(at 341.63 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNI" "(0R)"
-			(at 345.694 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12865,6 +12856,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
+			(at 31.75 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ee9767f8-8ad6-40ac-952d-ab4b64804b99")
 		)
@@ -12924,6 +12924,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 78.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEY0R00V"
 			(at 78.74 53.34 0)
 			(effects
 				(font

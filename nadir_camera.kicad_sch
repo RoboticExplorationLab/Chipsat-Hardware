@@ -11923,6 +11923,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
+			(at 143.51 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84a7bf16-2631-41e7-8e38-c604976395f8")
 		)
@@ -12058,6 +12067,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 35.56 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
 			(at 35.56 41.91 0)
 			(effects
 				(font
@@ -12516,6 +12534,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 50.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188R70J225KE22D"
 			(at 50.8 69.85 0)
 			(effects
 				(font
@@ -13429,6 +13456,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1004V"
+			(at 252.73 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "51ef11d9-7546-4492-afc4-34db69edbf2c")
 		)
@@ -14092,6 +14128,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "C1206C476M8PAC7800"
+			(at 26.67 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "312e282e-2f40-4a4e-b662-884466a511b7")
 		)
@@ -14282,6 +14327,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 85.09 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
 			(at 85.09 41.91 0)
 			(effects
 				(font
@@ -14488,6 +14542,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CGA3E2C0G1H040C080AA"
+			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c8c27af-5c5a-4986-86a3-e0d741873cd7")
 		)
@@ -14557,7 +14620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRT188R61C106ME13D"
+		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
 			(at 340.36 102.87 0)
 			(effects
 				(font
@@ -14690,6 +14753,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 74.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
 			(at 74.93 41.91 0)
 			(effects
 				(font
@@ -15272,7 +15344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRT188R61C106ME13D"
+		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
 			(at 318.77 102.87 0)
 			(effects
 				(font
@@ -15826,6 +15898,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
+			(at 125.73 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41d894a9-df67-472b-a392-c52205cadf93")
 		)
@@ -15894,6 +15975,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188R72A103KA37D"
+			(at 115.57 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c26650f5-6cf3-4142-a047-371e1fb85aec")
 		)
@@ -15928,7 +16018,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 149.86 113.03 0)
 			(effects
 				(font
@@ -15956,6 +16046,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 147.32 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1002V"
 			(at 147.32 111.76 0)
 			(effects
 				(font
@@ -16107,6 +16206,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
+			(at 55.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d905da88-a87c-4f34-b767-3ce14be41e08")
 		)
@@ -16242,6 +16350,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 66.04 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
 			(at 66.04 41.91 0)
 			(effects
 				(font
@@ -16393,6 +16510,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
+			(at 45.72 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8479215f-fd9e-4eb8-8b26-484a1ac76f69")
 		)
@@ -16452,6 +16578,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA3E2C0G1H040C080AA"
 			(at 50.8 85.09 0)
 			(effects
 				(font
@@ -17062,6 +17197,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "STM32H743VIT6"
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b0581dd-0e61-4f1e-8f6b-2a421f655dd3")
 		)
@@ -17481,6 +17625,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 133.35 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BLM18SG121TZ1D"
 			(at 133.35 36.83 0)
 			(effects
 				(font
@@ -18073,6 +18226,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "GCM188R70J225KE22D"
+			(at 55.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed04caf4-f394-4649-9667-aadafb563c3c")
 		)
@@ -18172,7 +18334,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 142.24 113.03 0)
 			(effects
 				(font
@@ -18200,6 +18362,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 139.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1002V"
 			(at 139.7 111.76 0)
 			(effects
 				(font
@@ -18275,6 +18446,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ECS-120-7-36Q-AEY-TR "
+			(at 57.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c75dc1c0-77f1-4dab-a450-d2ba3425e49c")
 		)
@@ -18315,7 +18495,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 43.18 153.67 0)
 			(effects
 				(font
@@ -18343,6 +18523,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1002V"
 			(at 40.64 152.4 0)
 			(effects
 				(font

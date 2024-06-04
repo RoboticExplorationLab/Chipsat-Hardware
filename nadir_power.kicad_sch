@@ -4303,6 +4303,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "68002-102HLF"
+			(at 140.97 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2538d141-40f7-4737-a8ea-1da1908fba10")
 		)
@@ -4595,7 +4604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRT188R61C106ME13D"
+		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
 			(at 220.98 73.66 0)
 			(effects
 				(font
@@ -5526,7 +5535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRT188R61C106ME13D"
+		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
 			(at 220.98 97.79 0)
 			(effects
 				(font
@@ -7134,7 +7143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "ERJ-6GEY0R00V"
 			(at 270.51 127 0)
 			(effects
 				(font
@@ -8590,7 +8599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "ERJ-6GEY0R00V"
 			(at 269.24 34.29 0)
 			(effects
 				(font
@@ -8881,6 +8890,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 248.92 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEYJ473V"
 			(at 248.92 162.56 0)
 			(effects
 				(font

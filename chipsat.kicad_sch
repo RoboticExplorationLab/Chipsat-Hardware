@@ -3783,6 +3783,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "SFM-115-02-X-D-A"
+			(at 154.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d7403a6e-48a3-433d-ad03-6b0b8914e855")
 		)
@@ -4193,6 +4202,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x30, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 123.19 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TFM-115-12-L-D-A"
 			(at 123.19 86.36 0)
 			(effects
 				(font

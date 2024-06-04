@@ -3829,7 +3829,7 @@
 		(at 222.25 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "19070b64-e212-4724-a9c5-a25310bfd5f9")
@@ -4451,15 +4451,6 @@
 		)
 		(property "Description" ""
 			(at 185.42 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Flight" "IRLML2803"
-			(at 185.42 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,7 +5409,7 @@
 		(at 222.25 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8b96b603-53d4-468b-95cb-52b42be0433e")
@@ -5820,7 +5811,7 @@
 		(at 245.11 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b6865f16-af52-473f-94a7-845562567f6a")
@@ -5955,7 +5946,7 @@
 		(at 233.68 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d348a14b-feb2-4905-9b74-044a899af67a")

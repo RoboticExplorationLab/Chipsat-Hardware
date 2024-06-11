@@ -4604,7 +4604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
+		(property "Manufacturer_Part_Number" "GRT188R61A106KE13D"
 			(at 220.98 73.66 0)
 			(effects
 				(font
@@ -5535,7 +5535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
+		(property "Manufacturer_Part_Number" "GRT188R61A106KE13D"
 			(at 220.98 97.79 0)
 			(effects
 				(font

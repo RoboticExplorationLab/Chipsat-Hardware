@@ -13972,7 +13972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ-3EKF1002V"
+		(property "Manufacturer_Part_Number" "ESR03EZPF1000"
 			(at 218.44 165.1 0)
 			(effects
 				(font
@@ -14620,7 +14620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
+		(property "Manufacturer_Part_Number" "GRT188R61A106KE13D"
 			(at 340.36 102.87 0)
 			(effects
 				(font
@@ -15344,7 +15344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GCM188R71E105KA64D"
+		(property "Manufacturer_Part_Number" "GRT188R61A106KE13D"
 			(at 318.77 102.87 0)
 			(effects
 				(font

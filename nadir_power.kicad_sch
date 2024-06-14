@@ -3729,28 +3729,6 @@
 			)
 		)
 	)
-	(global_label "3V3CAM"
-		(shape output)
-		(at 254 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "534e159f-6ae0-4112-b859-3b7dcf833570")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.3028 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HEATER1_POWER"
 		(shape input)
 		(at 59.69 135.89 0)
@@ -3857,6 +3835,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HI_POW"
+		(shape input)
+		(at 254 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74ec8d20-e91d-4094-9fcc-7c698235135a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 263.94 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

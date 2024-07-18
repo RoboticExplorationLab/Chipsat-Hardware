@@ -20,7 +20,8 @@ Follow the [instructions on the OpenMV repository](https://github.com/openmv/ope
 The bootloader and firmware are tightly coupled. You will need to upload `bootloader.elf` and `firmware.elf` separately, or just use `openmv.bin` which contains both.
 
 #### OpenMV patch
-Due to a design error in rev. 0, you will need to disable USB VBUS detection with the following patch:
+Due to a design error in rev. 0, you will need to disable USB VBUS detection and give power to the camera
+with the following patch:
 ```patch
 diff --git a/src/bootloader/src/usbd_conf.c b/src/bootloader/src/usbd_conf.c
 index a52186f..d3e4961 100644
@@ -48,6 +49,20 @@ index f0b4122..cf5e9f1 100644
    /* Link The driver to the stack */
    hpcd.pData = pdev;
    pdev->pData = &hpcd;
+diff --git a/src/omv/ports/stm32/sensor.c b/src/omv/ports/stm32/sensor.c
+index d25ef79..1c0c66d 100644
+--- a/src/omv/ports/stm32/sensor.c
++++ b/src/omv/ports/stm32/sensor.c
+@@ -96,6 +96,9 @@ void sensor_init0() {
+     DCMI_MDMA_Handle1.Instance = MDMA_CHAN_TO_INSTANCE(OMV_MDMA_CHANNEL_DCMI_1);
+     #endif
+
++    omv_gpio_config(&omv_pin_D12_GPIO, OMV_GPIO_MODE_OUTPUT, OMV_GPIO_PULL_NONE, OMV_GPIO_SPEED_LOW, 0);
++    omv_gpio_write(&omv_pin_D12_GPIO, 1);
++
+     sensor_abort(true, false);
+
+     // Re-init i2c bus to reset the bus state after soft reset, which
 ```
 
 ## Debugging

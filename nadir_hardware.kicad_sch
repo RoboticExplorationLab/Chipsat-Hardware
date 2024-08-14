@@ -11977,12 +11977,6 @@
 		(uuid "9f1649f9-b2fa-43ae-98d3-688777fb799e")
 	)
 	(junction
-		(at 219.71 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a387fcb7-71a5-4e58-a3e5-bddda20a4a57")
-	)
-	(junction
 		(at 252.73 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13367,16 +13361,6 @@
 			(type default)
 		)
 		(uuid "423d76dc-f33a-4920-9178-c881182bbe80")
-	)
-	(wire
-		(pts
-			(xy 219.71 81.28) (xy 223.52 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42610785-8b75-4c77-b9db-5dc27d8b7efe")
 	)
 	(wire
 		(pts
@@ -18377,28 +18361,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VSSSMPS"
-		(shape passive)
-		(at 223.52 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5e3243fa-dd80-4862-a58d-21b305720457")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.0419 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)

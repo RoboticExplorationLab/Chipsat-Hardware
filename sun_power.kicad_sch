@@ -5121,7 +5121,7 @@
 		)
 		(uuid "6c13bfb8-b08a-4d98-ad71-f7e741d59493")
 	)
-	(text "Sets of resistor dividers should = 13MOhm"
+	(text "Sets of resistor dividers should = 1.3MOhm"
 		(exclude_from_sim no)
 		(at 168.91 140.97 0)
 		(effects

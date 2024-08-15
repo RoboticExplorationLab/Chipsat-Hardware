@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ChipSat")
-		(date "2024-05-30")
-		(rev "0.2")
+		(date "2024-08-14")
+		(rev "1.0")
 		(company "RExLab Carnegie Mellon University")
 		(comment 1 "Z.Manchester")
 		(comment 2 "N.Khera")
@@ -4101,7 +4101,7 @@
 			)
 		)
 	)
-	(global_label "VUSB_IN"
+	(global_label "USB1_VBUS"
 		(shape input)
 		(at 134.62 144.78 180)
 		(fields_autoplaced yes)
@@ -4113,7 +4113,7 @@
 		)
 		(uuid "db096453-3f86-42cf-a142-d5bc58657234")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.8333 144.78 0)
+			(at 120.7491 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ChipSat")
-		(date "2024-05-30")
-		(rev "0.2")
+		(date "2024-08-14")
+		(rev "1.0")
 		(company "RExLab Carnegie Mellon University")
 		(comment 1 "Z.Manchester")
 		(comment 2 "N.Khera")
@@ -2950,6 +2950,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 170.18) (xy 80.01 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc521f3-180c-409b-8a30-aad8b7056c17")
+	)
+	(wire
+		(pts
 			(xy 224.79 44.45) (xy 224.79 49.53)
 		)
 		(stroke
@@ -2957,6 +2967,16 @@
 			(type default)
 		)
 		(uuid "3f2cc024-6a52-4e31-bf39-f508ccdfc517")
+	)
+	(wire
+		(pts
+			(xy 44.45 170.18) (xy 45.72 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa6cd94-5f5c-45b7-95e9-2f3dc341ca8e")
 	)
 	(wire
 		(pts
@@ -3160,6 +3180,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 170.18) (xy 57.15 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5569e71-4e22-4bcd-9517-5d7cdbfdb841")
+	)
+	(wire
+		(pts
 			(xy 45.72 133.35) (xy 46.99 133.35)
 		)
 		(stroke
@@ -3207,6 +3237,16 @@
 			(type default)
 		)
 		(uuid "b2d7c3db-1de3-4ed7-8125-6a640a1c631b")
+	)
+	(wire
+		(pts
+			(xy 52.07 170.18) (xy 50.8 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba0943ed-a2cd-4613-8689-f84fd6fb840e")
 	)
 	(wire
 		(pts
@@ -3418,6 +3458,26 @@
 		)
 		(uuid "f0ba6dda-d764-447a-b4f1-41e5d26471ea")
 	)
+	(wire
+		(pts
+			(xy 86.36 170.18) (xy 85.09 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f302a935-a57a-49e7-8b57-54dadff65de9")
+	)
+	(wire
+		(pts
+			(xy 93.98 170.18) (xy 91.44 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9585d2a-4368-400b-8f0a-9620b422e60d")
+	)
 	(text "Zenith Light Sensor\n"
 		(exclude_from_sim no)
 		(at 209.042 106.68 0)
@@ -3526,6 +3586,28 @@
 			)
 		)
 	)
+	(global_label "~{CHG_STATUS}"
+		(shape input)
+		(at 93.98 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c3d016e-40d0-423d-8938-a01c5e2ff658")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.5766 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ANT"
 		(shape bidirectional)
 		(at 87.63 44.45 0)
@@ -3561,6 +3643,28 @@
 		(uuid "85235f50-24a8-4acb-a8f8-4381e103bfa0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 194.4468 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BATT_P"
+		(shape input)
+		(at 78.74 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97e85cfb-4a79-4418-a750-7b6d56f5306a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.2234 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3637,6 +3741,18 @@
 			(justify right)
 		)
 		(uuid "38f088cb-8fa1-4fc9-acd1-3e95587ae23f")
+	)
+	(hierarchical_label "VCHARGE"
+		(shape input)
+		(at 44.45 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "715f37f3-87ce-4796-8f47-2d50e7416f99")
 	)
 	(hierarchical_label "SPI_RF_MISO"
 		(shape output)
@@ -3819,6 +3935,84 @@
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
 					(reference "#PWR0179")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 82.55 170.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10e8743c-1d8e-4c05-bb42-7740393cfb56")
+		(property "Reference" "LED12"
+			(at 82.4865 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C190AKT"
+			(at 82.4865 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 82.55 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 82.55 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C190AKT"
+			(at 82.55 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5710ed2b-1c5e-4cd6-93db-5b57cf23bced")
+		)
+		(pin "2"
+			(uuid "72c9cfef-2386-47bd-a815-78c8bdb8ac30")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
+					(reference "LED12")
 					(unit 1)
 				)
 			)
@@ -5472,6 +5666,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 88.9 170.18 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e554b15-fb33-4500-a9b5-fe852d7f2da6")
+		(property "Reference" "R63"
+			(at 88.9 173.99 90)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+			)
+		)
+		(property "Value" "27k"
+			(at 88.9 176.53 90)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF3302V"
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a776582-5da4-4a75-a39e-54aee9d118ea")
+		)
+		(pin "2"
+			(uuid "cbc584ec-f827-41b4-bb59-8b2ac796b653")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 190.5 39.37 180)
 		(unit 1)
@@ -5648,6 +5919,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 54.61 170.18 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9fc07bd-945e-472e-8fb5-16e836bfa2b5")
+		(property "Reference" "R62"
+			(at 54.61 173.99 90)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+			)
+		)
+		(property "Value" "33k"
+			(at 54.61 176.53 90)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 54.61 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF3302V"
+			(at 54.61 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33d6a761-2af8-41af-bbf7-3027365d0742")
+		)
+		(pin "2"
+			(uuid "fd5acb02-30a8-4a0b-a8a8-93198e8a6d46")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "solarpanels:OPT4001")
 		(at 210.82 133.35 0)
 		(unit 1)
@@ -5801,6 +6149,84 @@
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 48.26 170.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b412d82a-d61b-4180-9b32-27a2a12ba72e")
+		(property "Reference" "LED6"
+			(at 48.1965 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C190AKT"
+			(at 48.1965 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 48.26 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 48.26 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C190AKT"
+			(at 48.26 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac47ec35-12f4-4628-beb9-9fedf7d59c61")
+		)
+		(pin "2"
+			(uuid "81841447-329e-4fac-a5c6-e23c59013e2a")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
+					(reference "LED6")
 					(unit 1)
 				)
 			)
@@ -6005,6 +6431,72 @@
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 170.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9af0088-9ac3-4c3a-9aeb-2d64e3d5392c")
+		(property "Reference" "#PWR0160"
+			(at 59.69 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 173.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c815067a-9152-4218-a9c1-1c64fc821843")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)

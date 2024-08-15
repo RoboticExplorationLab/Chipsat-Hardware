@@ -2233,7 +2233,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 83.82) (xy 179.07 83.82)
+			(xy 162.56 83.82) (xy 166.37 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2370,6 +2370,16 @@
 			(type default)
 		)
 		(uuid "909f05e7-0ba9-49de-b812-0913e85e8420")
+	)
+	(wire
+		(pts
+			(xy 179.07 135.89) (xy 166.37 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9443f3bc-905f-4cfe-91fe-07843cffb489")
 	)
 	(wire
 		(pts
@@ -2813,6 +2823,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 135.89) (xy 166.37 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ee3c1c-51cb-415c-a772-069c13e522a1")
+	)
+	(wire
+		(pts
 			(xy 85.09 116.84) (xy 113.03 116.84)
 		)
 		(stroke
@@ -2867,7 +2887,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.63 0.63)
 			)
 			(justify right bottom)
 		)
@@ -2878,7 +2898,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.63 0.63)
 			)
 			(justify right bottom)
 		)
@@ -4875,16 +4895,6 @@
 			)
 			(uuid "526002c9-1a12-4721-bbdd-83b34d98dfc1")
 		)
-		(pin "VCHARGE" output
-			(at 179.07 83.82 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "14d3dc86-9bb3-4dc5-9ab5-0da772be7ea4")
-		)
 		(pin "HEATER1_EN" output
 			(at 179.07 81.28 180)
 			(effects
@@ -4904,44 +4914,6 @@
 				(justify left)
 			)
 			(uuid "79134c2d-52ac-4b5d-a090-ca267cfd2797")
-		)
-		(instances
-			(project "chipsat"
-				(path "/84e3b933-815e-427c-8495-a0670a0eaec2"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 215.9 80.01)
-		(size 26.67 7.62)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "19573c0c-5324-410e-b6b4-763c77cc35c4")
-		(property "Sheetname" "Nadir-Side Sensors"
-			(at 215.9 79.2984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "nadir_camera.kicad_sch"
-			(at 215.9 88.2146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
 		)
 		(instances
 			(project "chipsat"
@@ -5000,6 +4972,16 @@
 				(justify left)
 			)
 			(uuid "f78fa9b6-84ce-4f8a-897a-1650d44f9adc")
+		)
+		(pin "VCHARGE" output
+			(at 179.07 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1c4dd8f9-da38-41f3-82a7-fb713dcfae1d")
 		)
 		(instances
 			(project "chipsat"

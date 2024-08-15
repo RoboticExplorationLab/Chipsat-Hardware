@@ -6306,6 +6306,17 @@
 		)
 		(uuid "ac3b08d3-cee6-4787-8b74-3c3c7db068f3")
 	)
+	(label "VSTOR"
+		(at 265.43 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.64 0.64)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6c088e5-8486-4928-9d8b-ad6f18310275")
+	)
 	(global_label "BATT_P"
 		(shape output)
 		(at 293.37 152.4 0)
@@ -7268,7 +7279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq25570.pdf"
 			(at 240.03 137.16 0)
 			(effects
 				(font
@@ -10028,7 +10039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 289.2552 137.16 0)
 			(effects
 				(font
@@ -10055,7 +10066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRT188C80J226ME13D"
+		(property "Manufacturer_Part_Number" ""
 			(at 288.29 133.35 0)
 			(effects
 				(font

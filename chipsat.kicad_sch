@@ -3197,7 +3197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "070b5b54-cb98-4971-90bf-807a9d97c08d")
-		(property "Reference" "H8"
+		(property "Reference" "H7"
 			(at 83.312 172.974 90)
 			(effects
 				(font
@@ -3215,7 +3215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "solarpanels:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 78.74 173.99 0)
 			(effects
 				(font
@@ -3248,7 +3248,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2"
-					(reference "H8")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -3263,7 +3263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08cc7c8c-6336-48ec-93b5-2ba5fe642232")
-		(property "Reference" "H3"
+		(property "Reference" "H1"
 			(at 59.182 160.274 90)
 			(effects
 				(font
@@ -3281,7 +3281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "solarpanels:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 54.61 161.29 0)
 			(effects
 				(font
@@ -3314,7 +3314,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2"
-					(reference "H3")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -3394,7 +3394,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b4a2000-caaf-4ac4-8e3e-3d39d38f0e5b")
-		(property "Reference" "H9"
+		(property "Reference" "H4"
 			(at 59.182 179.451 90)
 			(effects
 				(font
@@ -3412,7 +3412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "solarpanels:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 54.61 180.34 0)
 			(effects
 				(font
@@ -3445,7 +3445,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2"
-					(reference "H9")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -3460,7 +3460,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "361e9c57-706c-4dd1-81dd-9b8914ffe688")
-		(property "Reference" "H4"
+		(property "Reference" "H5"
 			(at 83.312 160.274 90)
 			(effects
 				(font
@@ -3478,7 +3478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "solarpanels:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 78.74 161.29 0)
 			(effects
 				(font
@@ -3511,7 +3511,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2"
-					(reference "H4")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -3836,7 +3836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "solarpanels:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 78.74 167.64 0)
 			(effects
 				(font
@@ -3949,7 +3949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "930e38a4-6519-49c1-a089-54287f3f1e7c")
-		(property "Reference" "H7"
+		(property "Reference" "H3"
 			(at 59.182 172.974 90)
 			(effects
 				(font
@@ -3967,7 +3967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "solarpanels:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 54.61 173.99 0)
 			(effects
 				(font
@@ -4000,7 +4000,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2"
-					(reference "H7")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -4245,7 +4245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a054f95b-89a1-403b-808f-34eaaf0f9d2b")
-		(property "Reference" "H10"
+		(property "Reference" "H8"
 			(at 83.312 179.451 90)
 			(effects
 				(font
@@ -4263,7 +4263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "solarpanels:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 78.74 180.34 0)
 			(effects
 				(font
@@ -4296,7 +4296,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2"
-					(reference "H10")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -4638,7 +4638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f475816a-4e28-48d4-88ce-2637090cc060")
-		(property "Reference" "H5"
+		(property "Reference" "H2"
 			(at 59.182 166.624 90)
 			(effects
 				(font
@@ -4656,7 +4656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "solarpanels:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 54.61 167.64 0)
 			(effects
 				(font
@@ -4689,7 +4689,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2"
-					(reference "H5")
+					(reference "H2")
 					(unit 1)
 				)
 			)

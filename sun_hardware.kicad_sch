@@ -5284,9 +5284,10 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "19070b64-e212-4724-a9c5-a25310bfd5f9")
-		(property "Reference" "H1"
-			(at 223.4946 71.12 0)
+		(property "Reference" "H9"
+			(at 226.06 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +5338,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
-					(reference "H1")
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -7306,9 +7307,10 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "8b96b603-53d4-468b-95cb-52b42be0433e")
-		(property "Reference" "H2"
-			(at 223.4946 81.28 0)
+		(property "Reference" "H10"
+			(at 226.06 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7359,7 +7361,7 @@
 		(instances
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
-					(reference "H2")
+					(reference "H10")
 					(unit 1)
 				)
 			)

@@ -15,6 +15,178 @@
 		(comment 4 "K.Kanavouras")
 	)
 	(lib_symbols
+		(symbol "Device:Battery_Cell"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -3545,12 +3717,28 @@
 		(uuid "47635f98-80fb-49af-bacb-1e88923ac98c")
 	)
 	(no_connect
+		(at 41.91 52.07)
+		(uuid "695e8971-f52a-4ad9-b8b4-348436d51c25")
+	)
+	(no_connect
+		(at 41.91 35.56)
+		(uuid "77248bba-31b9-44b5-9b84-eeab6d30f2d2")
+	)
+	(no_connect
 		(at 38.1 165.1)
 		(uuid "8eab5ba9-d899-49e9-9a94-871c8460b89d")
 	)
 	(no_connect
+		(at 41.91 44.45)
+		(uuid "a275f7d2-1234-40b4-b83d-c4f76489a1e9")
+	)
+	(no_connect
 		(at 38.1 167.64)
 		(uuid "cb28f67f-afe0-4b78-846b-16dfe47f97ff")
+	)
+	(no_connect
+		(at 41.91 27.94)
+		(uuid "e6ebabb9-5d1f-4a2a-ae86-2d55febd17d2")
 	)
 	(no_connect
 		(at 68.58 152.4)
@@ -4646,6 +4834,16 @@
 		)
 		(uuid "d0087c10-3602-4698-8c7f-390a00fde807")
 	)
+	(polyline
+		(pts
+			(xy 86.36 12.7) (xy 86.36 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f51f81-7c37-4b99-a929-3b6bc1ce8b15")
+	)
 	(wire
 		(pts
 			(xy 257.81 66.04) (xy 262.89 66.04)
@@ -4990,7 +5188,7 @@
 	)
 	(text "Solar Power Bottom"
 		(exclude_from_sim no)
-		(at 25.4 29.21 0)
+		(at 106.172 24.638 0)
 		(effects
 			(font
 				(size 5 5)
@@ -6063,6 +6261,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 41.91 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2537521e-b4b1-4f50-b421-b331fe1e4f58")
+		(property "Reference" "BT4"
+			(at 45.72 46.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 45.72 48.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mainboard:Adafruit LiPo 2750"
+			(at 41.91 48.006 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 48.006 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "354f623a-0dc1-4813-92fd-ade4684fe141")
+		)
+		(pin "2"
+			(uuid "04dda978-49c7-4f7e-b613-3e320c0433e1")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3fade5ae-0d25-4642-b76c-9cf8a5d7223a"
+					(reference "BT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 262.89 137.16 0)
 		(unit 1)
@@ -6373,7 +6641,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cameraboard:CAS-120TA"
 			(at 69.85 106.68 0)
 			(effects
 				(font
@@ -6400,7 +6668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "68002-103HLF"
+		(property "Manufacturer_Part_Number" "CAS-120TA"
 			(at 69.85 106.68 0)
 			(effects
 				(font
@@ -9157,6 +9425,76 @@
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3fade5ae-0d25-4642-b76c-9cf8a5d7223a"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 41.91 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fed4283-af20-4ea8-b98a-393f3432b0ec")
+		(property "Reference" "BT3"
+			(at 45.72 29.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 45.72 32.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mainboard:Adafruit LiPo 2750"
+			(at 41.91 31.496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 31.496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 41.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c864acc-55f3-4afd-8aef-b474cfd3133b")
+		)
+		(pin "2"
+			(uuid "34874a63-e19a-4152-9805-5e3ee921bd54")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/3fade5ae-0d25-4642-b76c-9cf8a5d7223a"
+					(reference "BT3")
 					(unit 1)
 				)
 			)

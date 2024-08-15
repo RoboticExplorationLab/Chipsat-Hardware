@@ -18553,28 +18553,6 @@
 			)
 		)
 	)
-	(global_label "HEATER1_EN"
-		(shape output)
-		(at 247.65 213.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1825103f-8015-4426-a9b5-0e64dc7c93c9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.0535 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HI_POW"
 		(shape input)
 		(at 402.59 232.41 270)
@@ -21810,28 +21788,6 @@
 			)
 		)
 	)
-	(global_label "HEATER0_EN"
-		(shape output)
-		(at 247.65 210.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b610b029-741c-4403-9cfa-299dbb50105b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.0535 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C_LIGHT2_SCL"
 		(shape input)
 		(at 144.78 288.29 0)
@@ -23274,6 +23230,18 @@
 		)
 		(uuid "a2a7972d-22c9-48c4-84bb-995d138753b0")
 	)
+	(hierarchical_label "HEATER0_EN"
+		(shape output)
+		(at 247.65 210.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af2b05e5-b4b9-493e-955b-b99f767d4ba1")
+	)
 	(hierarchical_label "BURN1_EN"
 		(shape output)
 		(at 236.22 205.74 0)
@@ -23357,6 +23325,18 @@
 			(justify left)
 		)
 		(uuid "ec6d724f-e272-4454-a5c7-9a08a84a7a12")
+	)
+	(hierarchical_label "HEATER1_EN"
+		(shape output)
+		(at 247.65 213.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f25f3176-b4a4-406a-94fa-921272c37b6a")
 	)
 	(hierarchical_label "BATT_P_MEASURE"
 		(shape input)

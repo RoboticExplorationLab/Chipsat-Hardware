@@ -10585,8 +10585,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 6.35 0)
+			(property "Reference" "SW4"
+				(at 0 9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10594,14 +10594,14 @@
 				)
 			)
 			(property "Value" "SW_DIP_x03"
-				(at 0 -6.35 0)
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_Copal_CVS-03xB_W5.9mm_P1mm"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -10865,6 +10865,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -16300,6 +16318,16 @@
 			(type default)
 		)
 		(uuid "7408aa98-0338-438c-96c2-9f629c61d801")
+	)
+	(wire
+		(pts
+			(xy 312.42 93.98) (xy 312.42 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74813935-69c9-4c23-aa63-4946e53553cf")
 	)
 	(wire
 		(pts
@@ -33771,7 +33799,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a27c526-ec08-46c6-a902-53286f68b008")
 		(property "Reference" "SW4"
-			(at 312.42 93.98 0)
+			(at 312.42 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33779,14 +33807,14 @@
 			)
 		)
 		(property "Value" "SW_DIP_x03"
-			(at 312.42 96.52 0)
+			(at 312.42 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W6.73mm_P2.54mm_LowProfile_JPin"
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_Copal_CVS-03xB_W5.9mm_P1mm"
 			(at 312.42 88.9 0)
 			(effects
 				(font
@@ -33830,6 +33858,9 @@
 		)
 		(pin "3"
 			(uuid "d0377922-5d54-4ef1-9d1a-6953c94712f3")
+		)
+		(pin "7"
+			(uuid "6b4bb536-b6f1-4302-9a0c-629f79d04a8d")
 		)
 		(instances
 			(project ""
@@ -35006,6 +35037,72 @@
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 312.42 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae0dea7d-37b4-4f4d-9281-b7b26524ae98")
+		(property "Reference" "#PWR0187"
+			(at 312.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 312.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 312.42 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b0b6c0d-2018-4fc2-b06a-3e265bd6872c")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)

@@ -3576,6 +3576,12 @@
 		(uuid "3e30edea-9ec3-4e96-997f-6097d6876e8c")
 	)
 	(junction
+		(at 35.56 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43abb5ab-66aa-4744-9ecd-63770d70b9d3")
+	)
+	(junction
 		(at 165.1 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4305,6 +4311,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 121.92) (xy 35.56 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49be6c07-1bce-413f-80cf-a69856edc1f8")
+	)
+	(wire
+		(pts
 			(xy 193.04 179.07) (xy 193.04 181.61)
 		)
 		(stroke
@@ -4315,7 +4331,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 127) (xy 40.64 127)
+			(xy 31.75 127) (xy 40.64 127)
 		)
 		(stroke
 			(width 0)
@@ -4975,7 +4991,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 121.92) (xy 45.72 121.92)
+			(xy 31.75 121.92) (xy 35.56 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5022,6 +5038,16 @@
 			(type default)
 		)
 		(uuid "96097441-6b2e-43e1-894c-f59787434c80")
+	)
+	(wire
+		(pts
+			(xy 35.56 133.35) (xy 35.56 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a96188b-a67a-484f-8a51-8d2d8fad7596")
 	)
 	(wire
 		(pts
@@ -5332,6 +5358,16 @@
 			(type default)
 		)
 		(uuid "b90fe418-d870-47b5-ab6a-cc6271588b30")
+	)
+	(wire
+		(pts
+			(xy 35.56 121.92) (xy 45.72 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99c444e-8836-48e4-9a6b-5141ccb3a1fa")
 	)
 	(wire
 		(pts
@@ -6306,6 +6342,17 @@
 		)
 		(uuid "ac3b08d3-cee6-4787-8b74-3c3c7db068f3")
 	)
+	(label "VOUT"
+		(at 288.29 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.64 0.64)
+			)
+			(justify left bottom)
+		)
+		(uuid "c38d951e-4d46-4fc1-b32e-89b82556c509")
+	)
 	(label "VSTOR"
 		(at 265.43 119.38 0)
 		(fields_autoplaced yes)
@@ -6517,7 +6564,7 @@
 	)
 	(global_label "VBAT_OK_BOTTOM"
 		(shape input)
-		(at 38.1 127 180)
+		(at 31.75 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6527,7 +6574,7 @@
 		)
 		(uuid "79ca7fe1-21a9-4be4-a231-5ef50a6dff92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.8467 127 0)
+			(at 12.4967 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8892,6 +8939,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "595f75f8-86fe-4ba2-927f-6ba4a340e103")
+		(property "Reference" "C68"
+			(at 33.02 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 33.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 35.56 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 35.56 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa3878ea-6656-47d3-b6d8-18be6e4848e3")
+		)
+		(pin "2"
+			(uuid "006717c3-6218-4182-b088-c984e0b4f8f5")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/d1649b29-05c9-4e26-9cdd-ed86bbb4e492"
+					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 58.42 185.42 0)
 		(unit 1)
@@ -9085,6 +9210,71 @@
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/d1649b29-05c9-4e26-9cdd-ed86bbb4e492"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "672b10bf-ffde-41bd-bf32-ee12db5e3cbc")
+		(property "Reference" "#PWR0183"
+			(at 35.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17aadb00-f7e8-435e-94e9-caed9acd5066")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/d1649b29-05c9-4e26-9cdd-ed86bbb4e492"
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)

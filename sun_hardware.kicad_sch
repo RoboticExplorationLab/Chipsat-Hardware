@@ -3586,7 +3586,17 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 133.35) (xy 72.39 133.35)
+			(xy 48.26 156.21) (xy 45.72 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a58544a-53bd-458e-a6f9-1acaff059fd6")
+	)
+	(wire
+		(pts
+			(xy 74.93 125.73) (xy 72.39 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3656,6 +3666,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 187.96) (xy 44.45 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f3b9abb-aadc-4dca-b727-15f7350ff880")
+	)
+	(wire
+		(pts
 			(xy 190.5 34.29) (xy 199.39 34.29)
 		)
 		(stroke
@@ -3686,7 +3706,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 151.13) (xy 41.91 151.13)
+			(xy 44.45 143.51) (xy 41.91 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3726,7 +3746,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 151.13) (xy 30.48 151.13)
+			(xy 29.21 143.51) (xy 30.48 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3736,7 +3756,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 170.18) (xy 66.04 170.18)
+			(xy 64.77 171.45) (xy 66.04 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3756,13 +3776,23 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 170.18) (xy 31.75 170.18)
+			(xy 30.48 171.45) (xy 31.75 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3fa6cd94-5f5c-45b7-95e9-2f3dc341ca8e")
+	)
+	(wire
+		(pts
+			(xy 54.61 156.21) (xy 53.34 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f8318b-a327-4b16-8762-dfc1b7aa48bc")
 	)
 	(wire
 		(pts
@@ -3806,7 +3836,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 151.13) (xy 88.9 151.13)
+			(xy 83.82 143.51) (xy 88.9 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3866,7 +3896,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 132.08) (xy 31.75 133.35)
+			(xy 31.75 124.46) (xy 31.75 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3926,13 +3956,23 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 151.13) (xy 77.47 151.13)
+			(xy 78.74 143.51) (xy 77.47 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8b8014b7-fb28-436f-9201-fd319db49dd6")
+	)
+	(wire
+		(pts
+			(xy 59.69 156.21) (xy 62.23 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd6fbf4-cc96-4f1d-853b-8c85ff5353c4")
 	)
 	(wire
 		(pts
@@ -3946,7 +3986,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 133.35) (xy 60.96 133.35)
+			(xy 59.69 125.73) (xy 60.96 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3966,7 +4006,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 133.35) (xy 44.45 133.35)
+			(xy 46.99 125.73) (xy 44.45 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3976,7 +4016,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 170.18) (xy 43.18 170.18)
+			(xy 45.72 171.45) (xy 43.18 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3986,7 +4026,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 133.35) (xy 33.02 133.35)
+			(xy 31.75 125.73) (xy 33.02 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3996,7 +4036,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 151.13) (xy 72.39 151.13)
+			(xy 68.58 143.51) (xy 72.39 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4056,7 +4096,17 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 170.18) (xy 36.83 170.18)
+			(xy 59.69 187.96) (xy 63.5 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6cef2dd-4801-4f35-945f-03465f4a4524")
+	)
+	(wire
+		(pts
+			(xy 38.1 171.45) (xy 36.83 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4206,7 +4256,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 133.35) (xy 38.1 133.35)
+			(xy 39.37 125.73) (xy 38.1 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4216,7 +4266,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 151.13) (xy 35.56 151.13)
+			(xy 36.83 143.51) (xy 35.56 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4276,6 +4326,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 187.96) (xy 54.61 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5daa70e-22dc-478e-b40f-14f69392dde0")
+	)
+	(wire
+		(pts
 			(xy 39.37 48.26) (xy 39.37 49.53)
 		)
 		(stroke
@@ -4306,7 +4366,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 133.35) (xy 66.04 133.35)
+			(xy 67.31 125.73) (xy 66.04 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4326,7 +4386,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 170.18) (xy 71.12 170.18)
+			(xy 72.39 171.45) (xy 71.12 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4356,7 +4416,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 170.18) (xy 77.47 170.18)
+			(xy 80.01 171.45) (xy 77.47 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4408,7 +4468,7 @@
 	)
 	(text "For LED I=0.1mA, V=1.7V"
 		(exclude_from_sim no)
-		(at 55.88 121.92 0)
+		(at 55.88 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4539,7 +4599,7 @@
 	)
 	(global_label "~{CHG_STATUS}"
 		(shape input)
-		(at 80.01 170.18 0)
+		(at 80.01 171.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4549,7 +4609,7 @@
 		)
 		(uuid "0c3d016e-40d0-423d-8938-a01c5e2ff658")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.6066 170.18 0)
+			(at 94.6066 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4693,7 +4753,7 @@
 	)
 	(global_label "BATT_P"
 		(shape input)
-		(at 64.77 170.18 180)
+		(at 64.77 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4703,7 +4763,7 @@
 		)
 		(uuid "97e85cfb-4a79-4418-a750-7b6d56f5306a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.2534 170.18 0)
+			(at 55.2534 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,7 +4819,7 @@
 	)
 	(global_label "BATT_P"
 		(shape input)
-		(at 29.21 151.13 180)
+		(at 29.21 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4769,7 +4829,29 @@
 		)
 		(uuid "b54fbe81-9115-44af-a630-e85be8043032")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.6934 151.13 0)
+			(at 19.6934 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HI_POW"
+		(shape input)
+		(at 45.72 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db165aa8-0a61-46d3-9298-c243ad47dab4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.78 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,9 +4907,21 @@
 		)
 		(uuid "38f088cb-8fa1-4fc9-acd1-3e95587ae23f")
 	)
+	(hierarchical_label "RF_IO0"
+		(shape bidirectional)
+		(at 44.45 187.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b2e87d2-0bff-4ea9-b3df-e8bf08c48c40")
+	)
 	(hierarchical_label "VCHARGE"
 		(shape input)
-		(at 30.48 170.18 180)
+		(at 30.48 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4851,7 +4945,7 @@
 	)
 	(hierarchical_label "HI_POW_STATUS"
 		(shape input)
-		(at 68.58 151.13 180)
+		(at 68.58 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4863,7 +4957,7 @@
 	)
 	(hierarchical_label "VUSB"
 		(shape input)
-		(at 59.69 133.35 180)
+		(at 59.69 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4983,7 +5077,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 151.13 0)
+		(at 44.45 143.51 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4992,7 +5086,7 @@
 		(dnp no)
 		(uuid "0d4b20b7-e6ed-4bb9-924c-2f414b6af704")
 		(property "Reference" "#PWR0179"
-			(at 44.45 157.48 0)
+			(at 44.45 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5001,7 +5095,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 154.686 0)
+			(at 44.45 147.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5009,7 +5103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 151.13 0)
+			(at 44.45 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5018,7 +5112,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 151.13 0)
+			(at 44.45 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5027,7 +5121,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 151.13 0)
+			(at 44.45 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +5143,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 68.58 170.18 0)
+		(at 68.58 171.45 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5059,14 +5153,6 @@
 		(fields_autoplaced yes)
 		(uuid "10e8743c-1d8e-4c05-bb42-7740393cfb56")
 		(property "Reference" "LED12"
-			(at 68.5165 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTST-C190AKT"
 			(at 68.5165 166.37 0)
 			(effects
 				(font
@@ -5074,8 +5160,16 @@
 				)
 			)
 		)
+		(property "Value" "~"
+			(at 68.5165 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 68.58 170.18 90)
+			(at 68.58 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5084,7 +5178,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 170.18 90)
+			(at 68.58 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5093,7 +5187,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 68.58 170.18 0)
+			(at 68.58 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,8 +5195,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LTST-C190AKT"
-			(at 68.58 170.18 0)
+		(property "Manufacturer_Part_Number" ""
+			(at 68.58 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5346,7 +5440,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 41.91 133.35 90)
+		(at 41.91 125.73 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5355,7 +5449,7 @@
 		(dnp no)
 		(uuid "1c950cc5-dd84-4e01-95c2-469a466c4358")
 		(property "Reference" "R73"
-			(at 41.91 128.524 90)
+			(at 41.91 120.904 90)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -5363,7 +5457,7 @@
 			)
 		)
 		(property "Value" "16k"
-			(at 41.91 131.064 90)
+			(at 41.91 123.444 90)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -5371,7 +5465,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 41.91 133.35 0)
+			(at 41.91 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,7 +5474,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 133.35 0)
+			(at 41.91 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5389,7 +5483,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 133.35 0)
+			(at 41.91 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5398,7 +5492,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-3EKF1602V"
-			(at 41.91 133.35 0)
+			(at 41.91 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5632,7 +5726,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 63.5 133.35 0)
+		(at 63.5 125.73 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5642,7 +5736,7 @@
 		(fields_autoplaced yes)
 		(uuid "23d4f9ec-2d20-4ef3-86eb-9ca26b16900f")
 		(property "Reference" "LED9"
-			(at 63.4365 127 0)
+			(at 63.4365 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5650,7 +5744,7 @@
 			)
 		)
 		(property "Value" "LTST-C190AKT"
-			(at 63.4365 129.54 0)
+			(at 63.4365 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5658,7 +5752,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 63.5 133.35 90)
+			(at 63.5 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5667,7 +5761,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 133.35 90)
+			(at 63.5 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5676,7 +5770,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 63.5 133.35 0)
+			(at 63.5 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5685,7 +5779,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LTST-C190AKT"
-			(at 63.5 133.35 0)
+			(at 63.5 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5854,7 +5948,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 81.28 151.13 90)
+		(at 81.28 143.51 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5864,7 +5958,7 @@
 		(fields_autoplaced yes)
 		(uuid "332c51bd-a2bf-446e-9747-564b37c3f5cc")
 		(property "Reference" "R76"
-			(at 81.28 154.94 90)
+			(at 81.28 147.32 90)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -5872,7 +5966,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 81.28 157.48 90)
+			(at 81.28 149.86 90)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -5880,7 +5974,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 81.28 151.13 0)
+			(at 81.28 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5889,7 +5983,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 151.13 0)
+			(at 81.28 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,7 +5992,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 151.13 0)
+			(at 81.28 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5907,7 +6001,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-3EKF3302V"
-			(at 81.28 151.13 0)
+			(at 81.28 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5990,6 +6084,72 @@
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
 					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3814630e-cfb1-4082-889d-c6fa06044f1b")
+		(property "Reference" "#PWR0184"
+			(at 62.23 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 159.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b74f94ae-04d9-4de0-8268-6f3f2d348557")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
+					(reference "#PWR0184")
 					(unit 1)
 				)
 			)
@@ -6217,7 +6377,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 33.02 151.13 0)
+		(at 33.02 143.51 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6227,7 +6387,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b78fe61-86c5-4186-a936-704cdec2ce0c")
 		(property "Reference" "LED10"
-			(at 32.9565 154.94 0)
+			(at 32.9565 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6235,7 +6395,7 @@
 			)
 		)
 		(property "Value" "LTST-C190AKT"
-			(at 32.9565 157.48 0)
+			(at 32.9565 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6243,7 +6403,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 33.02 151.13 90)
+			(at 33.02 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,7 +6412,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 151.13 90)
+			(at 33.02 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6261,7 +6421,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 33.02 151.13 0)
+			(at 33.02 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6270,7 +6430,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LTST-C190AKT"
-			(at 33.02 151.13 0)
+			(at 33.02 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6374,6 +6534,84 @@
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 57.15 156.21 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5221ad45-dd77-4bfe-9f58-3970621b68ae")
+		(property "Reference" "R69"
+			(at 57.15 151.384 90)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+			)
+		)
+		(property "Value" "27k"
+			(at 57.15 153.924 90)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 57.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF2702V"
+			(at 57.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "647bb37c-c619-4c25-bcf5-d75b44a23b69")
+		)
+		(pin "2"
+			(uuid "9cabdcd1-934a-49ef-9ad8-80e99e233a54")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -6580,7 +6818,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 69.85 133.35 90)
+		(at 69.85 125.73 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6589,7 +6827,7 @@
 		(dnp no)
 		(uuid "5ea12048-ce71-42a2-86c8-85bad2dc9d77")
 		(property "Reference" "R74"
-			(at 69.85 137.16 90)
+			(at 69.85 129.54 90)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -6597,7 +6835,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 69.85 139.7 90)
+			(at 69.85 132.08 90)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -6605,7 +6843,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 69.85 133.35 0)
+			(at 69.85 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6614,7 +6852,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 133.35 0)
+			(at 69.85 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6623,7 +6861,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 133.35 0)
+			(at 69.85 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6632,7 +6870,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-3EKF3302V"
-			(at 69.85 133.35 0)
+			(at 69.85 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6722,7 +6960,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 151.13 0)
+		(at 88.9 143.51 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6731,7 +6969,7 @@
 		(dnp no)
 		(uuid "6f5cac13-fd2a-4190-b144-d80bf9628d7b")
 		(property "Reference" "#PWR0147"
-			(at 88.9 157.48 0)
+			(at 88.9 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,7 +6978,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 154.686 0)
+			(at 88.9 147.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6748,7 +6986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 151.13 0)
+			(at 88.9 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6757,7 +6995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 151.13 0)
+			(at 88.9 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6766,7 +7004,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 151.13 0)
+			(at 88.9 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6788,7 +7026,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 35.56 133.35 0)
+		(at 35.56 125.73 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6798,7 +7036,7 @@
 		(fields_autoplaced yes)
 		(uuid "74f4f35b-0818-4dbd-9eea-92d9fb53564c")
 		(property "Reference" "LED8"
-			(at 35.4965 137.16 0)
+			(at 35.4965 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6806,7 +7044,7 @@
 			)
 		)
 		(property "Value" "LTST-C190AKT"
-			(at 35.4965 139.7 0)
+			(at 35.4965 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6814,7 +7052,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 35.56 133.35 90)
+			(at 35.56 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6823,7 +7061,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 133.35 90)
+			(at 35.56 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6832,7 +7070,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 35.56 133.35 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6841,7 +7079,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LTST-C190AKT"
-			(at 35.56 133.35 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6866,7 +7104,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 133.35 0)
+		(at 74.93 125.73 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6875,7 +7113,7 @@
 		(dnp no)
 		(uuid "775c37f7-c20d-4436-bf38-b8fdb3e59a73")
 		(property "Reference" "#PWR0178"
-			(at 74.93 139.7 0)
+			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6884,7 +7122,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 136.906 0)
+			(at 74.93 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6892,7 +7130,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 133.35 0)
+			(at 74.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6901,7 +7139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 133.35 0)
+			(at 74.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6910,7 +7148,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 133.35 0)
+			(at 74.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7093,7 +7331,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 74.93 151.13 0)
+		(at 74.93 143.51 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7103,7 +7341,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e37fb16-9dc3-46e0-8c6d-a6d172cfee51")
 		(property "Reference" "LED11"
-			(at 74.8665 144.78 0)
+			(at 74.8665 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7111,7 +7349,7 @@
 			)
 		)
 		(property "Value" "LTST-C190AKT"
-			(at 74.8665 147.32 0)
+			(at 74.8665 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7119,7 +7357,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 74.93 151.13 90)
+			(at 74.93 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7128,7 +7366,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 151.13 90)
+			(at 74.93 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7137,7 +7375,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 74.93 151.13 0)
+			(at 74.93 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7146,7 +7384,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LTST-C190AKT"
-			(at 74.93 151.13 0)
+			(at 74.93 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7164,6 +7402,84 @@
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
 					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 50.8 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e83849b-7baa-48dd-886d-4fadf8c0ce0a")
+		(property "Reference" "LED13"
+			(at 50.7365 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C190AKT"
+			(at 50.7365 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 50.8 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 50.8 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C190AKT"
+			(at 50.8 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da6a55e8-804e-4372-b99a-f8387b779e9b")
+		)
+		(pin "2"
+			(uuid "e65d7797-839c-41df-b8a0-287ff56aac8c")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
+					(reference "LED13")
 					(unit 1)
 				)
 			)
@@ -7570,7 +7886,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 74.93 170.18 90)
+		(at 74.93 171.45 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7579,7 +7895,7 @@
 		(dnp no)
 		(uuid "9e554b15-fb33-4500-a9b5-fe852d7f2da6")
 		(property "Reference" "R63"
-			(at 74.93 173.99 90)
+			(at 74.93 175.26 90)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -7587,7 +7903,7 @@
 			)
 		)
 		(property "Value" "27k"
-			(at 74.93 176.53 90)
+			(at 74.93 177.8 90)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -7595,7 +7911,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 74.93 170.18 0)
+			(at 74.93 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7604,7 +7920,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 170.18 0)
+			(at 74.93 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7613,7 +7929,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 170.18 0)
+			(at 74.93 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7622,7 +7938,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-3EKF2702V"
-			(at 74.93 170.18 0)
+			(at 74.93 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7888,24 +8204,24 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 40.64 170.18 90)
+		(at 57.15 187.96 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a9fc07bd-945e-472e-8fb5-16e836bfa2b5")
-		(property "Reference" "R62"
-			(at 40.64 173.99 90)
+		(uuid "a8284a69-a994-4262-b06b-d9c66d9ba796")
+		(property "Reference" "R70"
+			(at 57.15 183.134 90)
 			(effects
 				(font
 					(size 1.2 1.2)
 				)
 			)
 		)
-		(property "Value" "33k"
-			(at 40.64 176.53 90)
+		(property "Value" "16k"
+			(at 57.15 185.674 90)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -7913,7 +8229,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 40.64 170.18 0)
+			(at 57.15 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,7 +8238,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 170.18 0)
+			(at 57.15 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7931,7 +8247,84 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 170.18 0)
+			(at 57.15 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1602V"
+			(at 57.15 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56685287-f753-4ad2-8414-90e07638526d")
+		)
+		(pin "2"
+			(uuid "7a8735a2-a478-4421-ae3b-a3c1ac3e67eb")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 40.64 171.45 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9fc07bd-945e-472e-8fb5-16e836bfa2b5")
+		(property "Reference" "R62"
+			(at 40.64 175.26 90)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+			)
+		)
+		(property "Value" "33k"
+			(at 40.64 177.8 90)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 40.64 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7940,7 +8333,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-3EKF3302V"
-			(at 40.64 170.18 0)
+			(at 40.64 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,7 +8517,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 34.29 170.18 0)
+		(at 34.29 171.45 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8134,14 +8527,6 @@
 		(fields_autoplaced yes)
 		(uuid "b412d82a-d61b-4180-9b32-27a2a12ba72e")
 		(property "Reference" "LED6"
-			(at 34.2265 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTST-C190AKT"
 			(at 34.2265 166.37 0)
 			(effects
 				(font
@@ -8149,8 +8534,16 @@
 				)
 			)
 		)
+		(property "Value" "~"
+			(at 34.2265 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 34.29 170.18 90)
+			(at 34.29 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8159,7 +8552,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 170.18 90)
+			(at 34.29 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8168,7 +8561,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 34.29 170.18 0)
+			(at 34.29 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8177,7 +8570,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LTST-C190AKT"
-			(at 34.29 170.18 0)
+			(at 34.29 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8539,16 +8932,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 170.18 0)
+		(at 63.5 187.96 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d9af0088-9ac3-4c3a-9aeb-2d64e3d5392c")
-		(property "Reference" "#PWR0160"
-			(at 45.72 176.53 0)
+		(uuid "d575c786-0355-4aa1-aa08-224b9f4e5624")
+		(property "Reference" "#PWR0185"
+			(at 63.5 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8557,7 +8950,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 173.736 0)
+			(at 63.5 191.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8565,7 +8958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 170.18 0)
+			(at 63.5 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8574,7 +8967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 170.18 0)
+			(at 63.5 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8583,7 +8976,73 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 170.18 0)
+			(at 63.5 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "183e931d-de53-40ea-aa93-1f3e514e9dd1")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 171.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9af0088-9ac3-4c3a-9aeb-2d64e3d5392c")
+		(property "Reference" "#PWR0160"
+			(at 45.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8897,7 +9356,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 31.75 132.08 0)
+		(at 31.75 124.46 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8907,7 +9366,7 @@
 		(fields_autoplaced yes)
 		(uuid "e68b2ce4-c1f9-4eac-8e0e-4b520c16d512")
 		(property "Reference" "#PWR0176"
-			(at 31.75 135.89 0)
+			(at 31.75 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8916,7 +9375,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 31.75 128.5042 0)
+			(at 31.75 120.8842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8924,7 +9383,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 132.08 0)
+			(at 31.75 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8933,7 +9392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 132.08 0)
+			(at 31.75 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8942,7 +9401,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 132.08 0)
+			(at 31.75 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8964,7 +9423,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 133.35 0)
+		(at 46.99 125.73 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8973,7 +9432,7 @@
 		(dnp no)
 		(uuid "e9e6e683-8b72-4207-9fd7-19d431f57af0")
 		(property "Reference" "#PWR0177"
-			(at 46.99 139.7 0)
+			(at 46.99 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8982,7 +9441,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 136.906 0)
+			(at 46.99 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8990,7 +9449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 133.35 0)
+			(at 46.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8999,7 +9458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 133.35 0)
+			(at 46.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9008,7 +9467,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 133.35 0)
+			(at 46.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9105,6 +9564,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small")
+		(at 49.53 187.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebbe812a-f67e-4bed-bfc3-1a13edf6cf2a")
+		(property "Reference" "LED14"
+			(at 49.4665 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C190AKT"
+			(at 49.4665 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 49.53 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 49.53 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C190AKT"
+			(at 49.53 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16424392-43c7-4915-be71-fcd4145a88db")
+		)
+		(pin "2"
+			(uuid "db8a25a6-4750-45e7-88da-0f4d50caa89e")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/b3fe610c-dc1f-4101-9d34-84ca2ee760cf"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 245.11 54.61 0)
 		(unit 1)
@@ -9171,7 +9708,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 39.37 151.13 90)
+		(at 39.37 143.51 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9181,7 +9718,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc8e6681-ba3d-4b83-bfd7-257601272c19")
 		(property "Reference" "R75"
-			(at 39.37 146.304 90)
+			(at 39.37 138.684 90)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -9189,7 +9726,7 @@
 			)
 		)
 		(property "Value" "27k"
-			(at 39.37 148.844 90)
+			(at 39.37 141.224 90)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -9197,7 +9734,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 39.37 151.13 0)
+			(at 39.37 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9206,7 +9743,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 151.13 0)
+			(at 39.37 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9215,7 +9752,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 151.13 0)
+			(at 39.37 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9224,7 +9761,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-3EKF2702V"
-			(at 39.37 151.13 0)
+			(at 39.37 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)

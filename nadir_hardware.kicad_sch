@@ -13884,6 +13884,12 @@
 		(uuid "cdcae053-3c57-4938-a438-bd0bfebadfc2")
 	)
 	(junction
+		(at 548.64 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce000650-e522-428a-acea-8cbd4deeb0d6")
+	)
+	(junction
 		(at 521.97 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13966,6 +13972,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4fb6d96-094a-4a94-b9cd-47500251d3e7")
+	)
+	(junction
+		(at 548.64 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4fd5f8d-e589-416d-85a4-32372ed40235")
 	)
 	(junction
 		(at 486.41 153.67)
@@ -17747,6 +17759,16 @@
 	)
 	(wire
 		(pts
+			(xy 548.64 29.21) (xy 553.72 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfb5574f-fb49-475a-9c8b-9b6d3a1f07fe")
+	)
+	(wire
+		(pts
 			(xy 312.42 138.43) (xy 313.69 138.43)
 		)
 		(stroke
@@ -18914,6 +18936,16 @@
 			(type default)
 		)
 		(uuid "fe446644-8c43-42c8-bc39-bc5661f2353a")
+	)
+	(wire
+		(pts
+			(xy 548.64 24.13) (xy 553.72 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2f70c2-baf9-4af0-a5ca-6f8eb38da497")
 	)
 	(wire
 		(pts
@@ -20242,7 +20274,7 @@
 	)
 	(global_label "SD_DETECT"
 		(shape input)
-		(at 236.22 227.33 0)
+		(at 142.24 200.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20252,7 +20284,7 @@
 		)
 		(uuid "270f82b1-9857-44dc-b0f9-179413f535c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.4255 227.33 0)
+			(at 155.4455 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32623,6 +32655,84 @@
 			(project "chipsat"
 				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 553.72 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e10cbb3-95a7-4ae3-8b04-fd04d6a80bf5")
+		(property "Reference" "C72"
+			(at 552.45 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 550.926 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 553.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 553.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 553.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM188L81H104KA57D"
+			(at 553.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf83051a-37d7-4975-8f74-760eb81c78f0")
+		)
+		(pin "2"
+			(uuid "cd6e13bf-0302-495a-85f7-a89ff45441c4")
+		)
+		(instances
+			(project "chipsat"
+				(path "/84e3b933-815e-427c-8495-a0670a0eaec2/0750e8c0-8a93-40cf-9c98-097cb48d20ee"
+					(reference "C72")
 					(unit 1)
 				)
 			)
